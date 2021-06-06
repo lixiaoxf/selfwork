@@ -1,0 +1,54 @@
+@import 'common/style/rem';
+@import 'common/style/var';
+.login-warp{
+    width: 100%;
+    min-height: 100%;
+    background: $site-base-color;
+    box-sizing: border-box;
+    padding-top:rem(2);
+    padding-bottom:rem(2);
+    .login-content{
+        width: rem(400);
+        min-height: rem(100);
+        margin: rem(100) auto rem(50);
+        padding: rem(30);
+        background: #fff; 
+        border-radius: rem(12);
+        .input-item{
+            margin-bottom:rem(25);
+            .btn{
+                width: 100%;
+                padding: rem(24) 0;
+                color:#fff;
+                background: $site-base-color;
+                text-align: center;
+                line-height:rem(0);
+                font-size: rem(14);
+                box-sizing: border-box;
+                cursor: pointer;
+                height: rem(50);
+                &:hover{
+                    background: #0e1852;
+                }
+            }
+            input {
+                box-sizing: border-box;
+                outline:none;
+                width: 100%;
+                height: rem(50);
+                padding-left: rem(18);
+                background: 0 0;
+                border-radius: 0;
+                font-size: rem(14);
+                border: rem(2) solid transparent;
+                background: #f4f4f4; 
+                transition: all .2s ease; 
+                &:focus{
+                    background: #fff;
+                    border:rem(2) solid rgba($site-base-color, .8);
+                }     
+            }
+            
+        }   
+    }
+}

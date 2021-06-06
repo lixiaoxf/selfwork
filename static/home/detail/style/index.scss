@@ -1,0 +1,7 @@
+@import 'common/style/rem';
+@import 'component/editor/style/siteText';
+.edit-wrap{
+    .edit{
+        padding: rem(30) 0;
+    }
+}

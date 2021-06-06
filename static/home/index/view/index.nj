@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       {% include 'common/base.nj' %}
+    </head>
+    <body>
+        <div class='page-wrap'>
+            <div class='page-left'>
+                {% include 'component/header/index.nj' %}
+            </div>
+            <div class='page-content'>
+                {% include 'home/index/content.nj' %}
+            </div>
+        </div>
+    </body>
+</html>

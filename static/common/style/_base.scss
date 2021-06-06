@@ -1,0 +1,13 @@
+@import "./reset";
+@import './var';
+@import './layout';
+@import './rem';
+html,html body {
+    width: 100%;
+    height:100%;
+    font-size: $base+px;
+}
+::selection {
+    color: #fff;
+    background: rgba(247,65,65,0.761);
+}

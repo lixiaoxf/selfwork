@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       {% include 'common/base.nj' %}
+    </head>
+    <body>
+        {% include 'component/header/index.nj' %}
+        {% include './content.nj' %}
+        {% include 'component/bottom/index.nj' %}
+    </body>
+</html>
