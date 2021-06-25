@@ -65,7 +65,7 @@
             width: 100%;
             li{
                 padding: 0 var(--section-padding);
-                margin-bottom: 64px;
+                margin-bottom: 2%;
                 display: flex;
                 justify-content: space-between;
                 .item{
@@ -150,7 +150,7 @@
         padding-top: 120px;
         .page-content{
             display: none;
-            overflow: scroll;
+
         }
         .title{
             margin-bottom: 56px;
