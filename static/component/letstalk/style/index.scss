@@ -1,0 +1,74 @@
+.letstalk{
+    div.page-content{
+        display: none;
+    }
+    .right{
+        height: auto;
+        .page-p{
+            width: 500px;
+        }
+    }
+    .marginb{
+        margin-bottom: 20px;
+    }
+    .bottom-section{
+        color:#556277;
+        font-size: 14px;
+        height: auto;
+        margin-top: 140px;
+        position: absolute;
+        bottom: 60px;
+    }
+    .in-section{
+        display: flex;
+        border-bottom: 1px solid #8EA4B9;
+        padding-bottom: 56px;
+    }
+    .msg-section{
+        display: flex;
+        padding-top: 48px;
+        width: 100%;
+        .left{
+            height: auto;  
+        }
+        .page-p{
+            
+            span{
+                font-size: 12px;
+                line-height: 28px;
+                color: rgba(14, 27, 59, 0.7);
+            }
+            p{
+                font-size: 18px;
+                line-height: 28px;
+            }
+            
+        }
+    }
+    .page-content{
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .btn{
+        width: 380px;
+        margin-top: 60px;
+        height: 93px;
+        background: #E0D3B8;
+        display: flex;
+        padding: 0 64px;
+        align-items: center;
+        font-size: 28px;
+        font-weight: bold;
+        justify-content: space-between;
+        margin-right: 120px;
+        cursor: pointer;
+        &:after{
+            content: '';
+            height: 18px;
+            width: 42px;
+            display: inline-block;
+            background: url(../res/arrow.png) no-repeat center;
+            background-size: 100%;
+        }
+    }
+}

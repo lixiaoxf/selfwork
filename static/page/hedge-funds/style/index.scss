@@ -1,0 +1,151 @@
+@import 'common/style/_base';
+.app-page{
+    &.step1{
+        .section1{
+            @include step-cur;
+        }
+    }
+
+    &.step2{
+        .section2{
+            @include step-cur;
+            .page-content{
+                display: block;
+            }
+            .sec-page-content,.sec-page-content2{
+                display: block;
+            }
+        }
+    }
+    &.step3{
+        .section3{
+            @include step-cur;
+        }
+    }
+
+    .section1{
+        .page-title{
+            line-height: 160px;
+        }
+    }
+    .section2{
+       
+        .sec-page-wrap{
+            overflow: scroll;
+            height: 100%;
+            width: 100%;
+        }
+        .sec-page-content{
+            padding-top: 180px;
+            background: #1E3850;
+            padding-bottom: 98px;
+            display: none;
+        }
+        .sec-page-content2{
+            background: #fff;
+            padding-top: 163px;
+            padding-bottom: 219px;
+            display: none;
+            .title{
+                width: 836px;
+                color:#0E1B3B;
+                font-size: 88px;
+                font-weight: bold;
+                line-height: 96px;
+                margin: 0 auto 128px;
+                text-align: center;
+            }
+            ul{
+                width: 1000px;
+                margin: 0 auto;
+                display: flex;
+                flex-wrap: wrap;
+                li{
+                    width: 50%;
+                    height: 30px;
+                    line-height: 28px;
+                    font-size: 28px;
+                    margin-bottom: 28px;
+                    font-weight: bold;
+                    display: flex;
+                    align-items: center;
+                    &::before{
+                        content:'';
+                        width: 16px;
+                        height: 16px;
+                        background: #0E1B3B;
+                        margin-right: 36px;
+                    }
+                    &:nth-child(2n){
+                        padding-left: 150px;
+                    }
+                }
+            }
+        }
+        .page-content{
+            display: block;
+            
+            .sec1{
+                    padding-left: var(--section-padding);
+                    display: flex;
+                    padding-bottom: 98px;
+                    align-items: center;
+                    .leftmsg{
+                        font-size: 48px;
+                        line-height: 64px;
+                        color: #fff;
+                        width: 554px;
+                        margin-right: 116px;
+                    }
+                    .right-list{
+                        width: 517px;
+                        height: 180px;
+                        .right-item{
+                            font-size: 28px;
+                            margin-bottom: 21px;
+                            line-height: 32px;
+                            color:#fff;
+                            display: flex;
+                            align-items: center;
+                            &::before{
+                                content:'';
+                                width: 26px;
+                                height: 24px;
+                                display: inline-block;
+                                background: url(../res/icon.png) no-repeat center;
+                                background-size: 100%;
+                                margin-right: 42px;
+                            }
+                        }
+                    }
+            }
+            .sec2{
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                padding-left: var(--section-padding);
+                padding-right: var(--section-padding);
+                .item{
+                    width: 380;
+                    height: 220px;
+                    border: 2px solid #8EA4B9;
+                    padding-left:34px;
+                    padding-top: 50px;
+                    p{
+                        font-size: 48px;
+                        color:#fff;
+                        margin-bottom: 20px;
+                    }
+                    span{
+                        display: block;
+                        width: 300px;
+                        font-size: 18px;
+                        color: #fff;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+    }
+
+}

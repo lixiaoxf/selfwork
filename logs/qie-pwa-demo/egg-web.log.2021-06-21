@@ -1,0 +1,278 @@
+2021-06-12 06:10:16,513 INFO 21198 [egg-logrotator] app logger reload: got log-reload message
+2021-06-12 09:50:46,853 WARN 21198 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-12 09:50:46,854 WARN 21198 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-21 10:50:54,737 INFO 7087 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"qie-pwa-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-06-21 10:50:54,753 INFO 7087 [egg-multipart] stream mode enable
+2021-06-21 10:50:54,906 INFO 7087 [egg-mongoose] connecting mongodb://lixiao:******@localhost:23000/asgdb
+2021-06-21 10:50:54,964 INFO 7087 [egg-static] starting static serve / -> /Users/lixiao/Desktop/selfwork/app/public
+2021-06-21 10:50:54,965 INFO 7087 [egg-security] use methodnoallow middleware
+2021-06-21 10:50:54,966 INFO 7087 [egg-security] use noopen middleware
+2021-06-21 10:50:54,966 INFO 7087 [egg-security] use nosniff middleware
+2021-06-21 10:50:54,966 INFO 7087 [egg-security] use xssProtection middleware
+2021-06-21 10:50:54,966 INFO 7087 [egg-security] use xframe middleware
+2021-06-21 10:50:54,967 INFO 7087 [egg-security] use dta middleware
+2021-06-21 10:50:54,967 INFO 7087 [egg-security] compose 6 middlewares into one security middleware
+2021-06-21 10:50:54,974 INFO 7087 [egg:core] dump config after load, 3ms
+2021-06-21 10:50:54,977 INFO 7087 [egg-mongoose] starting...
+2021-06-21 10:50:54,996 INFO 7087 [egg-watcher:application] watcher start success
+2021-06-21 10:50:55,007 INFO 7087 [egg-mongoose] mongodb://lixiao:******@localhost:23000/asgdb connected successfully
+2021-06-21 10:50:55,008 INFO 7087 [egg-mongoose] instance[0] start successfully
+2021-06-21 10:50:55,008 INFO 7087 [egg-view-nunjucks] loading templates from ["/Users/lixiao/Desktop/selfwork/app/view"]
+2021-06-21 10:50:55,015 INFO 7087 [egg:core] dump config after ready, 4ms
+2021-06-21 10:55:29,398 INFO 7202 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"qie-pwa-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-06-21 10:55:29,414 INFO 7202 [egg-multipart] stream mode enable
+2021-06-21 10:55:29,573 INFO 7202 [egg-mongoose] connecting mongodb://lixiao:******@localhost:23000/asgdb
+2021-06-21 10:55:29,632 INFO 7202 [egg-static] starting static serve / -> /Users/lixiao/Desktop/selfwork/app/public
+2021-06-21 10:55:29,633 INFO 7202 [egg-security] use methodnoallow middleware
+2021-06-21 10:55:29,634 INFO 7202 [egg-security] use noopen middleware
+2021-06-21 10:55:29,634 INFO 7202 [egg-security] use nosniff middleware
+2021-06-21 10:55:29,634 INFO 7202 [egg-security] use xssProtection middleware
+2021-06-21 10:55:29,634 INFO 7202 [egg-security] use xframe middleware
+2021-06-21 10:55:29,635 INFO 7202 [egg-security] use dta middleware
+2021-06-21 10:55:29,635 INFO 7202 [egg-security] compose 6 middlewares into one security middleware
+2021-06-21 10:55:29,643 INFO 7202 [egg:core] dump config after load, 4ms
+2021-06-21 10:55:29,645 INFO 7202 [egg-mongoose] starting...
+2021-06-21 10:55:29,664 INFO 7202 [egg-watcher:application] watcher start success
+2021-06-21 10:55:29,675 INFO 7202 [egg-mongoose] mongodb://lixiao:******@localhost:23000/asgdb connected successfully
+2021-06-21 10:55:29,676 INFO 7202 [egg-mongoose] instance[0] start successfully
+2021-06-21 10:55:29,676 INFO 7202 [egg-view-nunjucks] loading templates from ["/Users/lixiao/Desktop/selfwork/app/view"]
+2021-06-21 10:55:29,683 INFO 7202 [egg:core] dump config after ready, 4ms
+2021-06-21 11:05:40,085 INFO 7466 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"qie-pwa-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-06-21 11:05:40,102 INFO 7466 [egg-multipart] stream mode enable
+2021-06-21 11:05:40,263 INFO 7466 [egg-mongoose] connecting mongodb://lixiao:******@localhost:23000/asgdb
+2021-06-21 11:05:40,323 INFO 7466 [egg-static] starting static serve / -> /Users/lixiao/Desktop/selfwork/app/public
+2021-06-21 11:05:40,324 INFO 7466 [egg-security] use methodnoallow middleware
+2021-06-21 11:05:40,325 INFO 7466 [egg-security] use noopen middleware
+2021-06-21 11:05:40,325 INFO 7466 [egg-security] use nosniff middleware
+2021-06-21 11:05:40,325 INFO 7466 [egg-security] use xssProtection middleware
+2021-06-21 11:05:40,326 INFO 7466 [egg-security] use xframe middleware
+2021-06-21 11:05:40,326 INFO 7466 [egg-security] use dta middleware
+2021-06-21 11:05:40,326 INFO 7466 [egg-security] compose 6 middlewares into one security middleware
+2021-06-21 11:05:40,334 INFO 7466 [egg:core] dump config after load, 3ms
+2021-06-21 11:05:40,336 INFO 7466 [egg-mongoose] starting...
+2021-06-21 11:05:40,356 INFO 7466 [egg-watcher:application] watcher start success
+2021-06-21 11:05:40,367 INFO 7466 [egg-mongoose] mongodb://lixiao:******@localhost:23000/asgdb connected successfully
+2021-06-21 11:05:40,368 INFO 7466 [egg-mongoose] instance[0] start successfully
+2021-06-21 11:05:40,369 INFO 7466 [egg-view-nunjucks] loading templates from ["/Users/lixiao/Desktop/selfwork/app/view"]
+2021-06-21 11:05:40,375 INFO 7466 [egg:core] dump config after ready, 3ms
+2021-06-21 11:06:01,779 ERROR 7466 [egg-mongoose] mongodb://lixiao:******@localhost:23000/asgdb disconnected
+2021-06-21 11:06:44,104 INFO 7716 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"qie-pwa-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-06-21 11:06:44,121 INFO 7716 [egg-multipart] stream mode enable
+2021-06-21 11:06:44,278 INFO 7716 [egg-mongoose] connecting mongodb://lixiao:******@localhost:23000/asgdb
+2021-06-21 11:06:44,335 INFO 7716 [egg-static] starting static serve / -> /Users/lixiao/Desktop/selfwork/app/public
+2021-06-21 11:06:44,336 INFO 7716 [egg-security] use methodnoallow middleware
+2021-06-21 11:06:44,337 INFO 7716 [egg-security] use noopen middleware
+2021-06-21 11:06:44,337 INFO 7716 [egg-security] use nosniff middleware
+2021-06-21 11:06:44,337 INFO 7716 [egg-security] use xssProtection middleware
+2021-06-21 11:06:44,338 INFO 7716 [egg-security] use xframe middleware
+2021-06-21 11:06:44,338 INFO 7716 [egg-security] use dta middleware
+2021-06-21 11:06:44,338 INFO 7716 [egg-security] compose 6 middlewares into one security middleware
+2021-06-21 11:06:44,346 INFO 7716 [egg:core] dump config after load, 3ms
+2021-06-21 11:06:44,348 INFO 7716 [egg-mongoose] starting...
+2021-06-21 11:06:44,365 ERROR 7716 [egg-mongoose] mongodb://lixiao:******@localhost:23000/asgdb disconnected
+2021-06-21 11:06:44,366 ERROR 7716 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [localhost:23000] on first connect [Error: connect ECONNREFUSED 127.0.0.1:23000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at Pool.<anonymous> (/Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:376:20)
+    at /Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/connection/pool.js:562:14
+    at /Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/connection/pool.js:995:11
+    at /Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:483:26)
+    at Socket.emit (events.js:376:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+name: "MongoNetworkError"
+pid: 7716
+hostname: bogon
+
+2021-06-21 11:06:44,366 ERROR 7716 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [localhost:23000] on first connect [Error: connect ECONNREFUSED 127.0.0.1:23000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at Pool.<anonymous> (/Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:376:20)
+    at /Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/connection/pool.js:562:14
+    at /Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/connection/pool.js:995:11
+    at /Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:483:26)
+    at Socket.emit (events.js:376:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+name: "MongoNetworkError"
+pid: 7716
+hostname: bogon
+
+2021-06-21 11:06:44,372 INFO 7716 [egg:core] dump config after ready, 3ms
+2021-06-21 11:06:44,376 INFO 7716 [egg-watcher:application] watcher start success
+2021-06-21 11:07:31,165 INFO 7746 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"qie-pwa-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-06-21 11:07:31,182 INFO 7746 [egg-multipart] stream mode enable
+2021-06-21 11:07:31,395 INFO 7746 [egg-static] starting static serve / -> /Users/lixiao/Desktop/selfwork/app/public
+2021-06-21 11:07:31,396 INFO 7746 [egg-security] use methodnoallow middleware
+2021-06-21 11:07:31,396 INFO 7746 [egg-security] use noopen middleware
+2021-06-21 11:07:31,397 INFO 7746 [egg-security] use nosniff middleware
+2021-06-21 11:07:31,397 INFO 7746 [egg-security] use xssProtection middleware
+2021-06-21 11:07:31,397 INFO 7746 [egg-security] use xframe middleware
+2021-06-21 11:07:31,398 INFO 7746 [egg-security] use dta middleware
+2021-06-21 11:07:31,398 INFO 7746 [egg-security] compose 6 middlewares into one security middleware
+2021-06-21 11:07:31,406 INFO 7746 [egg:core] dump config after load, 3ms
+2021-06-21 11:07:31,421 INFO 7746 [egg:core] dump config after ready, 4ms
+2021-06-21 11:07:31,425 INFO 7746 [egg-watcher:application] watcher start success
+2021-06-21 11:08:33,139 INFO 7804 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"qie-pwa-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-06-21 11:08:33,159 INFO 7804 [egg-multipart] stream mode enable
+2021-06-21 11:08:33,417 INFO 7804 [egg-static] starting static serve / -> /Users/lixiao/Desktop/selfwork/app/public
+2021-06-21 11:08:33,419 INFO 7804 [egg-security] use methodnoallow middleware
+2021-06-21 11:08:33,419 INFO 7804 [egg-security] use noopen middleware
+2021-06-21 11:08:33,420 INFO 7804 [egg-security] use nosniff middleware
+2021-06-21 11:08:33,420 INFO 7804 [egg-security] use xssProtection middleware
+2021-06-21 11:08:33,420 INFO 7804 [egg-security] use xframe middleware
+2021-06-21 11:08:33,421 INFO 7804 [egg-security] use dta middleware
+2021-06-21 11:08:33,421 INFO 7804 [egg-security] compose 6 middlewares into one security middleware
+2021-06-21 11:08:33,430 INFO 7804 [egg:core] dump config after load, 4ms
+2021-06-21 11:08:33,438 INFO 7804 [egg-watcher:application] watcher start success
+2021-06-21 11:08:33,438 INFO 7804 [egg-view-nunjucks] loading templates from ["/Users/lixiao/Desktop/selfwork/app/view"]
+2021-06-21 11:08:33,445 INFO 7804 [egg:core] dump config after ready, 4ms
+2021-06-21 11:08:33,848 INFO 7805 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"qie-pwa-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-06-21 11:08:33,865 INFO 7805 [egg-multipart] stream mode enable
+2021-06-21 11:08:34,109 INFO 7805 [egg-static] starting static serve / -> /Users/lixiao/Desktop/selfwork/app/public
+2021-06-21 11:08:34,111 INFO 7805 [egg-security] use methodnoallow middleware
+2021-06-21 11:08:34,111 INFO 7805 [egg-security] use noopen middleware
+2021-06-21 11:08:34,112 INFO 7805 [egg-security] use nosniff middleware
+2021-06-21 11:08:34,112 INFO 7805 [egg-security] use xssProtection middleware
+2021-06-21 11:08:34,112 INFO 7805 [egg-security] use xframe middleware
+2021-06-21 11:08:34,113 INFO 7805 [egg-security] use dta middleware
+2021-06-21 11:08:34,113 INFO 7805 [egg-security] compose 6 middlewares into one security middleware
+2021-06-21 11:08:34,122 INFO 7805 [egg:core] dump config after load, 3ms
+2021-06-21 11:08:34,131 INFO 7805 [egg-watcher:application] watcher start success
+2021-06-21 11:08:34,131 INFO 7805 [egg-view-nunjucks] loading templates from ["/Users/lixiao/Desktop/selfwork/app/view"]
+2021-06-21 11:08:34,139 INFO 7805 [egg:core] dump config after ready, 5ms
+2021-06-21 11:09:54,126 INFO 7819 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"qie-pwa-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-06-21 11:09:54,148 INFO 7819 [egg-multipart] stream mode enable
+2021-06-21 11:09:54,386 INFO 7819 [egg-static] starting static serve / -> /Users/lixiao/Desktop/selfwork/app/public
+2021-06-21 11:09:54,387 INFO 7819 [egg-security] use methodnoallow middleware
+2021-06-21 11:09:54,388 INFO 7819 [egg-security] use noopen middleware
+2021-06-21 11:09:54,388 INFO 7819 [egg-security] use nosniff middleware
+2021-06-21 11:09:54,388 INFO 7819 [egg-security] use xssProtection middleware
+2021-06-21 11:09:54,389 INFO 7819 [egg-security] use xframe middleware
+2021-06-21 11:09:54,389 INFO 7819 [egg-security] use dta middleware
+2021-06-21 11:09:54,389 INFO 7819 [egg-security] compose 6 middlewares into one security middleware
+2021-06-21 11:09:54,397 INFO 7819 [egg:core] dump config after load, 3ms
+2021-06-21 11:09:54,404 INFO 7819 [egg-watcher:application] watcher start success
+2021-06-21 11:09:54,404 INFO 7819 [egg-view-nunjucks] loading templates from ["/Users/lixiao/Desktop/selfwork/app/view"]
+2021-06-21 11:09:54,411 INFO 7819 [egg:core] dump config after ready, 4ms
+2021-06-21 11:09:59,842 INFO 7838 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"qie-pwa-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-06-21 11:09:59,858 INFO 7838 [egg-multipart] stream mode enable
+2021-06-21 11:10:00,066 INFO 7838 [egg-static] starting static serve / -> /Users/lixiao/Desktop/selfwork/app/public
+2021-06-21 11:10:00,068 INFO 7838 [egg-security] use methodnoallow middleware
+2021-06-21 11:10:00,068 INFO 7838 [egg-security] use noopen middleware
+2021-06-21 11:10:00,069 INFO 7838 [egg-security] use nosniff middleware
+2021-06-21 11:10:00,069 INFO 7838 [egg-security] use xssProtection middleware
+2021-06-21 11:10:00,069 INFO 7838 [egg-security] use xframe middleware
+2021-06-21 11:10:00,070 INFO 7838 [egg-security] use dta middleware
+2021-06-21 11:10:00,070 INFO 7838 [egg-security] compose 6 middlewares into one security middleware
+2021-06-21 11:10:00,079 INFO 7838 [egg:core] dump config after load, 4ms
+2021-06-21 11:10:00,088 INFO 7838 [egg-watcher:application] watcher start success
+2021-06-21 11:10:00,088 INFO 7838 [egg-view-nunjucks] loading templates from ["/Users/lixiao/Desktop/selfwork/app/view"]
+2021-06-21 11:10:00,095 INFO 7838 [egg:core] dump config after ready, 4ms
+2021-06-21 11:11:27,174 INFO 7858 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"qie-pwa-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-06-21 11:11:27,190 INFO 7858 [egg-multipart] stream mode enable
+2021-06-21 11:11:27,408 INFO 7858 [egg-static] starting static serve / -> /Users/lixiao/Desktop/selfwork/app/public
+2021-06-21 11:11:27,409 INFO 7858 [egg-security] use methodnoallow middleware
+2021-06-21 11:11:27,410 INFO 7858 [egg-security] use noopen middleware
+2021-06-21 11:11:27,410 INFO 7858 [egg-security] use nosniff middleware
+2021-06-21 11:11:27,410 INFO 7858 [egg-security] use xssProtection middleware
+2021-06-21 11:11:27,411 INFO 7858 [egg-security] use xframe middleware
+2021-06-21 11:11:27,411 INFO 7858 [egg-security] use dta middleware
+2021-06-21 11:11:27,411 INFO 7858 [egg-security] compose 6 middlewares into one security middleware
+2021-06-21 11:11:27,423 INFO 7858 [egg:core] dump config after load, 5ms
+2021-06-21 11:11:27,431 INFO 7858 [egg-watcher:application] watcher start success
+2021-06-21 11:11:27,432 INFO 7858 [egg-view-nunjucks] loading templates from ["/Users/lixiao/Desktop/selfwork/app/view"]
+2021-06-21 11:11:27,440 INFO 7858 [egg:core] dump config after ready, 5ms
+2021-06-21 11:11:37,133 INFO 7883 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"qie-pwa-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-06-21 11:11:37,150 INFO 7883 [egg-multipart] stream mode enable
+2021-06-21 11:11:37,365 INFO 7883 [egg-static] starting static serve / -> /Users/lixiao/Desktop/selfwork/app/public
+2021-06-21 11:11:37,367 INFO 7883 [egg-security] use methodnoallow middleware
+2021-06-21 11:11:37,367 INFO 7883 [egg-security] use noopen middleware
+2021-06-21 11:11:37,367 INFO 7883 [egg-security] use nosniff middleware
+2021-06-21 11:11:37,368 INFO 7883 [egg-security] use xssProtection middleware
+2021-06-21 11:11:37,368 INFO 7883 [egg-security] use xframe middleware
+2021-06-21 11:11:37,368 INFO 7883 [egg-security] use dta middleware
+2021-06-21 11:11:37,368 INFO 7883 [egg-security] compose 6 middlewares into one security middleware
+2021-06-21 11:11:37,376 INFO 7883 [egg:core] dump config after load, 3ms
+2021-06-21 11:11:37,385 INFO 7883 [egg-watcher:application] watcher start success
+2021-06-21 11:11:37,385 INFO 7883 [egg-view-nunjucks] loading templates from ["/Users/lixiao/Desktop/selfwork/app/view"]
+2021-06-21 11:11:37,392 INFO 7883 [egg:core] dump config after ready, 4ms
+2021-06-21 11:34:35,523 INFO 8401 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"qie-pwa-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-06-21 11:34:35,543 INFO 8401 [egg-multipart] stream mode enable
+2021-06-21 11:34:35,788 INFO 8401 [egg-static] starting static serve / -> /Users/lixiao/Desktop/selfwork/app/public
+2021-06-21 11:34:35,790 INFO 8401 [egg-security] use methodnoallow middleware
+2021-06-21 11:34:35,790 INFO 8401 [egg-security] use noopen middleware
+2021-06-21 11:34:35,791 INFO 8401 [egg-security] use nosniff middleware
+2021-06-21 11:34:35,791 INFO 8401 [egg-security] use xssProtection middleware
+2021-06-21 11:34:35,791 INFO 8401 [egg-security] use xframe middleware
+2021-06-21 11:34:35,791 INFO 8401 [egg-security] use dta middleware
+2021-06-21 11:34:35,791 INFO 8401 [egg-security] compose 6 middlewares into one security middleware
+2021-06-21 11:34:35,800 INFO 8401 [egg:core] dump config after load, 3ms
+2021-06-21 11:34:35,809 INFO 8401 [egg-watcher:application] watcher start success
+2021-06-21 11:34:35,809 INFO 8401 [egg-view-nunjucks] loading templates from ["/Users/lixiao/Desktop/selfwork/app/view"]
+2021-06-21 11:34:35,816 INFO 8401 [egg:core] dump config after ready, 4ms
+2021-06-21 13:21:12,091 WARN 8401 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-21 13:21:12,092 WARN 8401 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-21 13:42:44,992 WARN 8401 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-21 13:42:44,992 WARN 8401 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-21 15:07:16,183 WARN 8401 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-21 15:07:16,184 WARN 8401 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-21 15:21:57,457 INFO 16363 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"qie-pwa-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-06-21 15:21:57,477 INFO 16363 [egg-multipart] stream mode enable
+2021-06-21 15:21:58,003 INFO 16363 [egg-static] starting static serve / -> /Users/lixiao/Desktop/selfwork/app/public
+2021-06-21 15:21:58,004 INFO 16363 [egg-security] use methodnoallow middleware
+2021-06-21 15:21:58,005 INFO 16363 [egg-security] use noopen middleware
+2021-06-21 15:21:58,006 INFO 16363 [egg-security] use nosniff middleware
+2021-06-21 15:21:58,006 INFO 16363 [egg-security] use xssProtection middleware
+2021-06-21 15:21:58,007 INFO 16363 [egg-security] use xframe middleware
+2021-06-21 15:21:58,007 INFO 16363 [egg-security] use dta middleware
+2021-06-21 15:21:58,007 INFO 16363 [egg-security] compose 6 middlewares into one security middleware
+2021-06-21 15:21:58,019 INFO 16363 [egg:core] dump config after load, 4ms
+2021-06-21 15:21:58,028 INFO 16363 [egg-watcher:application] watcher start success
+2021-06-21 15:21:58,029 INFO 16363 [egg-view-nunjucks] loading templates from ["/Users/lixiao/Desktop/selfwork/app/view"]
+2021-06-21 15:21:58,036 INFO 16363 [egg:core] dump config after ready, 4ms
+2021-06-21 16:22:58,180 WARN 16363 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-21 16:22:58,182 WARN 16363 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-21 18:36:38,764 INFO 19201 [egg:logger] init all loggers with options: {"dir":"/Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"qie-pwa-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-06-21 18:36:38,783 INFO 19201 [egg-multipart] stream mode enable
+2021-06-21 18:36:39,304 INFO 19201 [egg-static] starting static serve / -> /Users/lixiao/Desktop/selfwork/app/public
+2021-06-21 18:36:39,306 INFO 19201 [egg-security] use methodnoallow middleware
+2021-06-21 18:36:39,306 INFO 19201 [egg-security] use noopen middleware
+2021-06-21 18:36:39,307 INFO 19201 [egg-security] use nosniff middleware
+2021-06-21 18:36:39,307 INFO 19201 [egg-security] use xssProtection middleware
+2021-06-21 18:36:39,308 INFO 19201 [egg-security] use xframe middleware
+2021-06-21 18:36:39,308 INFO 19201 [egg-security] use dta middleware
+2021-06-21 18:36:39,308 INFO 19201 [egg-security] compose 6 middlewares into one security middleware
+2021-06-21 18:36:39,322 INFO 19201 [egg:core] dump config after load, 4ms
+2021-06-21 18:36:39,332 INFO 19201 [egg-watcher:application] watcher start success
+2021-06-21 18:36:39,333 INFO 19201 [egg-view-nunjucks] loading templates from ["/Users/lixiao/Desktop/selfwork/app/view"]
+2021-06-21 18:36:39,340 INFO 19201 [egg:core] dump config after ready, 4ms
+2021-06-21 19:41:28,240 WARN 19201 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-21 19:41:28,243 WARN 19201 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-21 23:22:38,247 WARN 19201 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-21 23:22:38,247 WARN 19201 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-22 05:40:56,806 WARN 19201 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-22 05:40:56,807 WARN 19201 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-22 05:40:56,829 INFO 19201 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/lixiao/Desktop/selfwork/node_modules/_egg-multipart@2.12.0@egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/dw/0cx99lw92vx1wbjx197q9rn80000gn/T/egg-multipart-tmp/qie-pwa-demo"
+2021-06-22 05:40:56,962 INFO 19201 [egg-logrotator] clean all log before 31 days
+2021-06-22 05:40:56,963 INFO 19201 [-/127.0.0.1/-/135ms SCHEDULE /__schedule?path=/Users/lixiao/Desktop/selfwork/node_modules/_egg-multipart@2.12.0@egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2021-06-22 05:40:56,964 INFO 19201 [egg-logrotator] broadcast log-reload
+2021-06-22 05:40:56,964 INFO 19201 [egg-logrotator] rotate files success by DayRotator, files ["/Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo/common-error.log -> /Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo/common-error.log.2021-06-21","/Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo/qie-pwa-demo-web.log -> /Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo/qie-pwa-demo-web.log.2021-06-21","/Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo/egg-web.log -> /Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo/egg-web.log.2021-06-21","/Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo/egg-schedule.log -> /Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo/egg-schedule.log.2021-06-21","/Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo/egg-agent.log -> /Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo/egg-agent.log.2021-06-21"]

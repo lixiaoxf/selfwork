@@ -1,0 +1,617 @@
+{
+  "config": {
+    "session": {
+      "maxAge": 86400000,
+      "key": "EGG_SESS",
+      "httpOnly": true,
+      "encrypt": true,
+      "logValue": true,
+      "overwrite": true,
+      "signed": true,
+      "autoCommit": true,
+      "encode": "<Function encode>",
+      "decode": "<Function decode>",
+      "genid": "<Function v4>"
+    },
+    "security": {
+      "domainWhiteList": [],
+      "protocolWhiteList": [],
+      "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
+      "csrf": {
+        "enable": false,
+        "type": "ctoken",
+        "ignoreJSON": false,
+        "useSession": false,
+        "cookieName": "csrfToken",
+        "sessionName": "csrfToken",
+        "headerName": "x-csrf-token",
+        "bodyName": "_csrf",
+        "queryName": "_csrf",
+        "refererWhiteList": []
+      },
+      "xframe": {
+        "enable": true,
+        "value": "SAMEORIGIN",
+        "matching": "<Function anonymous>"
+      },
+      "hsts": {
+        "enable": false,
+        "maxAge": 31536000,
+        "includeSubdomains": false
+      },
+      "dta": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "methodnoallow": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "noopen": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "nosniff": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "referrerPolicy": {
+        "enable": false,
+        "value": "no-referrer-when-downgrade"
+      },
+      "xssProtection": {
+        "enable": true,
+        "value": "1; mode=block",
+        "matching": "<Function anonymous>"
+      },
+      "csp": {
+        "enable": false,
+        "policy": {}
+      },
+      "ssrf": {
+        "ipBlackList": null,
+        "ipExceptionList": null,
+        "checkAddress": null
+      },
+      "_protocolWhiteListSet": "<Set>"
+    },
+    "helper": {
+      "shtml": {}
+    },
+    "jsonp": {
+      "limit": 50,
+      "callback": [
+        "_callback",
+        "callback"
+      ],
+      "csrf": false
+    },
+    "onerror": {
+      "errorPageUrl": "",
+      "appErrorFilter": null,
+      "templatePath": "/Users/lixiao/Desktop/selfwork/node_modules/_egg-onerror@2.1.0@egg-onerror/lib/onerror_page.mustache"
+    },
+    "i18n": {
+      "defaultLocale": "en_US",
+      "dirs": [
+        "/Users/lixiao/Desktop/selfwork/node_modules/_egg-session@3.3.0@egg-session/config/locales",
+        "/Users/lixiao/Desktop/selfwork/node_modules/_egg-security@2.9.0@egg-security/config/locales",
+        "/Users/lixiao/Desktop/selfwork/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/locales",
+        "/Users/lixiao/Desktop/selfwork/node_modules/_egg-onerror@2.1.0@egg-onerror/config/locales",
+        "/Users/lixiao/Desktop/selfwork/node_modules/_egg-i18n@2.1.1@egg-i18n/config/locales",
+        "/Users/lixiao/Desktop/selfwork/node_modules/_egg-watcher@3.1.1@egg-watcher/config/locales",
+        "/Users/lixiao/Desktop/selfwork/node_modules/_egg-schedule@3.6.6@egg-schedule/config/locales",
+        "/Users/lixiao/Desktop/selfwork/node_modules/_egg-multipart@2.12.0@egg-multipart/config/locales",
+        "/Users/lixiao/Desktop/selfwork/node_modules/_egg-development@2.7.0@egg-development/config/locales",
+        "/Users/lixiao/Desktop/selfwork/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/locales",
+        "/Users/lixiao/Desktop/selfwork/node_modules/_egg-static@2.2.0@egg-static/config/locales",
+        "/Users/lixiao/Desktop/selfwork/node_modules/_egg-view@2.1.3@egg-view/config/locales",
+        "/Users/lixiao/Desktop/selfwork/node_modules/_egg-view-nunjucks@2.3.0@egg-view-nunjucks/config/locales",
+        "/Users/lixiao/Desktop/selfwork/node_modules/_egg-mongoose@3.3.1@egg-mongoose/config/locales",
+        "/Users/lixiao/Desktop/selfwork/node_modules/_egg@2.29.4@egg/config/locales",
+        "/Users/lixiao/Desktop/selfwork/config/locales"
+      ],
+      "queryField": "locale",
+      "cookieField": "locale",
+      "cookieDomain": "",
+      "cookieMaxAge": "1y",
+      "functionName": "__"
+    },
+    "watcher": {
+      "type": "development",
+      "eventSources": {
+        "default": "/Users/lixiao/Desktop/selfwork/node_modules/_egg-watcher@3.1.1@egg-watcher/lib/event-sources/default",
+        "development": "/Users/lixiao/Desktop/selfwork/node_modules/_egg-watcher@3.1.1@egg-watcher/lib/event-sources/development"
+      }
+    },
+    "customLogger": {
+      "scheduleLogger": {
+        "consoleLevel": "NONE",
+        "file": "egg-schedule.log"
+      }
+    },
+    "schedule": {
+      "directory": []
+    },
+    "multipart": {
+      "mode": "stream",
+      "autoFields": false,
+      "defaultCharset": "utf8",
+      "fieldNameSize": 100,
+      "fieldSize": 102400,
+      "fields": 10,
+      "fileSize": 10485760,
+      "files": 10,
+      "fileExtensions": [],
+      "whitelist": null,
+      "allowArrayField": false,
+      "tmpdir": "/var/folders/dw/0cx99lw92vx1wbjx197q9rn80000gn/T/egg-multipart-tmp/qie-pwa-demo",
+      "cleanSchedule": {
+        "cron": "0 30 4 * * *",
+        "disable": false
+      }
+    },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false,
+      "overrideIgnore": false
+    },
+    "logrotator": {
+      "filesRotateByHour": null,
+      "hourDelimiter": "-",
+      "filesRotateBySize": null,
+      "maxFileSize": 52428800,
+      "maxFiles": 10,
+      "rotateDuration": 60000,
+      "maxDays": 31
+    },
+    "static": {
+      "prefix": "/",
+      "dir": "/Users/lixiao/Desktop/selfwork/app/public",
+      "dynamic": true,
+      "preload": false,
+      "buffer": false,
+      "maxFiles": 1000
+    },
+    "view": {
+      "root": [
+        "/Users/lixiao/Desktop/selfwork/app/view"
+      ],
+      "cache": false,
+      "defaultExtension": ".html",
+      "defaultViewEngine": "nunjucks",
+      "mapping": {
+        ".nj": "nunjucks"
+      }
+    },
+    "nunjucks": {
+      "autoescape": true,
+      "throwOnUndefined": false,
+      "trimBlocks": false,
+      "lstripBlocks": false,
+      "noCache": true,
+      "dev": false
+    },
+    "mongoose": {
+      "url": "",
+      "options": {},
+      "plugins": [],
+      "loadModel": true,
+      "app": true,
+      "agent": false
+    },
+    "env": "local",
+    "name": "qie-pwa-demo",
+    "keys": "<String len: 96>",
+    "cookies": {},
+    "proxy": false,
+    "maxIpsCount": 0,
+    "maxProxyCount": 0,
+    "protocolHeaders": "x-forwarded-proto",
+    "ipHeaders": "x-forwarded-for",
+    "hostHeaders": "",
+    "pkg": {
+      "name": "qie-pwa-demo",
+      "version": "1.0.0",
+      "description": "",
+      "private": false,
+      "egg": {
+        "declarations": true
+      },
+      "dependencies": {
+        "@ckeditor/ckeditor5-build-classic": "^15.0.0",
+        "@ckeditor/ckeditor5-build-decoupled-document": "^15.0.0",
+        "@ckeditor/ckeditor5-editor-decoupled": "^15.0.0",
+        "@ckeditor/ckeditor5-engine": "^15.0.0",
+        "animate.css": "^4.1.1",
+        "bootstrap": "^4.3.1",
+        "egg": "^2.15.1",
+        "egg-mongoose": "^3.1.1",
+        "egg-scripts": "^2.11.0",
+        "egg-view-ejs": "^2.0.0",
+        "egg-view-nunjucks": "^2.2.0",
+        "fast-css-loader": "^1.0.2",
+        "fast-sass-loader": "^1.5.0",
+        "jquery": "^3.3.1",
+        "jsonwebtoken": "^8.5.1",
+        "lodash": "^4.17.11",
+        "nunjucks-webpack-plugin": "^5.0.0",
+        "pell": "^1.0.6",
+        "popper.js": "^1.15.0",
+        "quill": "^1.3.7",
+        "simditor": "^2.3.28",
+        "summernote": "^0.8.12",
+        "wangeditor": "^3.1.1"
+      },
+      "devDependencies": {
+        "autod": "^3.0.1",
+        "autod-egg": "^1.1.0",
+        "autoprefixer": "^9.4.10",
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.5",
+        "babel-preset-env": "^1.7.0",
+        "clean-webpack-plugin": "^1.0.1",
+        "copy-webpack-plugin": "^5.0.0",
+        "cross-env": "^5.2.0",
+        "css-loader": "^2.1.0",
+        "dart-sass": "^1.25.0",
+        "egg-bin": "^4.11.0",
+        "egg-ci": "^1.11.0",
+        "egg-mock": "^3.21.0",
+        "eslint": "^5.13.0",
+        "eslint-config-egg": "^7.1.0",
+        "exports-loader": "^0.7.0",
+        "extract-text-webpack-plugin": "^4.0.0-beta.0",
+        "file-loader": "^3.0.1",
+        "html-loader": "^0.5.5",
+        "html-webpack-plugin": "^3.2.0",
+        "img-loader": "^3.0.1",
+        "imports-loader": "^0.8.0",
+        "postcss-loader": "^3.0.0",
+        "sass": "^1.17.2",
+        "sass-loader": "^7.1.0",
+        "script-loader": "^0.7.2",
+        "style-loader": "^0.23.1",
+        "svg-sprite-loader": "^6.0.9",
+        "uglifyjs-webpack-plugin": "^2.1.2",
+        "url-loader": "^1.1.2",
+        "webpack": "^4.29.6",
+        "webpack-cli": "^3.3.1",
+        "webpack-manifest-plugin": "^2.0.4",
+        "webpack-merge": "^4.2.1",
+        "webstorm-disable-index": "^1.2.0"
+      },
+      "engines": {
+        "node": ">=8.9.0"
+      },
+      "scripts": {
+        "start": "npm run stop && webpack --config webpack-config/webpack.prod.js && egg-scripts start --daemon --title=egg-server-pwa-new",
+        "stop": "egg-scripts stop --title=egg-server-pwa-new",
+        "dev": "egg-bin dev",
+        "watch": "webpack --config webpack-config/webpack.dev.js",
+        "debug": "egg-bin debug",
+        "test": "npm run lint -- --fix && npm run test-local",
+        "test-local": "egg-bin test",
+        "cov": "egg-bin cov",
+        "lint": "eslint .",
+        "ci": "npm run lint && npm run cov",
+        "autod": "autod",
+        "build": "webpack --config webpack-config/webpack.prod.js"
+      },
+      "ci": {
+        "version": "8"
+      },
+      "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not ie <= 8"
+      ],
+      "repository": {
+        "type": "git",
+        "url": ""
+      },
+      "author": "",
+      "license": "MIT"
+    },
+    "baseDir": "/Users/lixiao/Desktop/selfwork",
+    "HOME": "/Users/lixiao",
+    "rundir": "/Users/lixiao/Desktop/selfwork/run",
+    "dump": {
+      "ignore": "<Set>"
+    },
+    "confusedConfigurations": {
+      "bodyparser": "bodyParser",
+      "notFound": "notfound",
+      "sitefile": "siteFile",
+      "middlewares": "middleware",
+      "httpClient": "httpclient"
+    },
+    "notfound": {
+      "pageUrl": ""
+    },
+    "siteFile": {
+      "/favicon.ico": "<Buffer len: 6463>"
+    },
+    "bodyParser": {
+      "enable": true,
+      "encoding": "utf8",
+      "formLimit": "1mb",
+      "jsonLimit": "1mb",
+      "textLimit": "1mb",
+      "strict": true,
+      "queryString": {
+        "arrayLimit": 100,
+        "depth": 5,
+        "parameterLimit": 1000
+      },
+      "returnRawBody": true
+    },
+    "logger": {
+      "dir": "/Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo",
+      "encoding": "utf8",
+      "env": "local",
+      "level": "INFO",
+      "consoleLevel": "INFO",
+      "disableConsoleAfterReady": false,
+      "outputJSON": false,
+      "buffer": true,
+      "appLogName": "qie-pwa-demo-web.log",
+      "coreLogName": "egg-web.log",
+      "agentLogName": "egg-agent.log",
+      "errorLogName": "common-error.log",
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
+      "allowDebugAtProd": false,
+      "type": "application"
+    },
+    "httpclient": {
+      "enableDNSCache": false,
+      "dnsCacheLookupInterval": 10000,
+      "dnsCacheMaxLength": 1000,
+      "request": {
+        "timeout": 5000
+      },
+      "httpAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      },
+      "httpsAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      }
+    },
+    "meta": {
+      "enable": true,
+      "logging": false
+    },
+    "coreMiddleware": [
+      "meta",
+      "siteFile",
+      "notfound",
+      "static",
+      "bodyParser",
+      "overrideMethod",
+      "session",
+      "securities",
+      "i18n",
+      "eggLoaderTrace"
+    ],
+    "workerStartTimeout": 600000,
+    "serverTimeout": null,
+    "cluster": {
+      "listen": {
+        "path": "",
+        "port": 7001,
+        "hostname": "127.0.0.1"
+      }
+    },
+    "clusterClient": {
+      "maxWaitTime": 60000,
+      "responseTimeout": 60000
+    },
+    "onClientError": null,
+    "tokenKey": "@ms-webkit-lixiaoblog-mumu-random-sf3kljsdf9324jklsdfsd324jlkjsdzvcmn!@#L:J@#!@#LK!@#LJK%$KLFS_()$#LKJ",
+    "middleware": [
+      "checkToken"
+    ],
+    "siteconfig": {
+      "cdn": "/"
+    },
+    "coreMiddlewares": "~config~coreMiddleware",
+    "appMiddlewares": "~config~middleware",
+    "appMiddleware": "~config~middleware",
+    "multipartParseOptions": {
+      "autoFields": false,
+      "defCharset": "utf8",
+      "limits": {
+        "fieldNameSize": 100,
+        "fieldSize": 102400,
+        "fields": 10,
+        "fileSize": 10485760,
+        "files": 10
+      },
+      "checkFile": "<Function checkFile>"
+    }
+  },
+  "plugins": {
+    "onerror": {
+      "enable": true,
+      "package": "egg-onerror",
+      "name": "onerror",
+      "dependencies": [],
+      "optionalDependencies": [
+        "jsonp"
+      ],
+      "env": [],
+      "from": "/Users/lixiao/Desktop/selfwork/node_modules/_egg@2.29.4@egg/config/plugin.js",
+      "path": "/Users/lixiao/Desktop/selfwork/node_modules/_egg-onerror@2.1.0@egg-onerror",
+      "version": "2.1.0"
+    },
+    "session": {
+      "enable": true,
+      "package": "egg-session",
+      "name": "session",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/lixiao/Desktop/selfwork/node_modules/_egg@2.29.4@egg/config/plugin.js",
+      "path": "/Users/lixiao/Desktop/selfwork/node_modules/_egg-session@3.3.0@egg-session",
+      "version": "3.3.0"
+    },
+    "i18n": {
+      "enable": true,
+      "package": "egg-i18n",
+      "name": "i18n",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/lixiao/Desktop/selfwork/node_modules/_egg@2.29.4@egg/config/plugin.js",
+      "path": "/Users/lixiao/Desktop/selfwork/node_modules/_egg-i18n@2.1.1@egg-i18n",
+      "version": "2.1.1"
+    },
+    "watcher": {
+      "enable": true,
+      "package": "egg-watcher",
+      "name": "watcher",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/lixiao/Desktop/selfwork/node_modules/_egg@2.29.4@egg/config/plugin.js",
+      "path": "/Users/lixiao/Desktop/selfwork/node_modules/_egg-watcher@3.1.1@egg-watcher",
+      "version": "3.1.1"
+    },
+    "multipart": {
+      "enable": true,
+      "package": "egg-multipart",
+      "name": "multipart",
+      "dependencies": [],
+      "optionalDependencies": [
+        "schedule"
+      ],
+      "env": [],
+      "from": "/Users/lixiao/Desktop/selfwork/node_modules/_egg@2.29.4@egg/config/plugin.js",
+      "path": "/Users/lixiao/Desktop/selfwork/node_modules/_egg-multipart@2.12.0@egg-multipart",
+      "version": "2.12.0"
+    },
+    "security": {
+      "enable": true,
+      "package": "egg-security",
+      "name": "security",
+      "dependencies": [],
+      "optionalDependencies": [
+        "session"
+      ],
+      "env": [],
+      "from": "/Users/lixiao/Desktop/selfwork/node_modules/_egg@2.29.4@egg/config/plugin.js",
+      "path": "/Users/lixiao/Desktop/selfwork/node_modules/_egg-security@2.9.0@egg-security",
+      "version": "2.9.0"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/lixiao/Desktop/selfwork/node_modules/_egg@2.29.4@egg/config/plugin.js",
+      "path": "/Users/lixiao/Desktop/selfwork/node_modules/_egg-development@2.7.0@egg-development",
+      "version": "2.7.0"
+    },
+    "logrotator": {
+      "enable": true,
+      "package": "egg-logrotator",
+      "name": "logrotator",
+      "dependencies": [
+        "schedule"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/lixiao/Desktop/selfwork/node_modules/_egg@2.29.4@egg/config/plugin.js",
+      "path": "/Users/lixiao/Desktop/selfwork/node_modules/_egg-logrotator@3.1.0@egg-logrotator",
+      "version": "3.1.0"
+    },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/lixiao/Desktop/selfwork/node_modules/_egg@2.29.4@egg/config/plugin.js",
+      "path": "/Users/lixiao/Desktop/selfwork/node_modules/_egg-schedule@3.6.6@egg-schedule",
+      "version": "3.6.6"
+    },
+    "static": {
+      "enable": true,
+      "package": "egg-static",
+      "name": "static",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/lixiao/Desktop/selfwork/node_modules/_egg@2.29.4@egg/config/plugin.js",
+      "path": "/Users/lixiao/Desktop/selfwork/node_modules/_egg-static@2.2.0@egg-static",
+      "version": "2.2.0"
+    },
+    "jsonp": {
+      "enable": true,
+      "package": "egg-jsonp",
+      "name": "jsonp",
+      "dependencies": [],
+      "optionalDependencies": [
+        "security"
+      ],
+      "env": [],
+      "from": "/Users/lixiao/Desktop/selfwork/node_modules/_egg@2.29.4@egg/config/plugin.js",
+      "path": "/Users/lixiao/Desktop/selfwork/node_modules/_egg-jsonp@2.0.0@egg-jsonp",
+      "version": "2.0.0"
+    },
+    "view": {
+      "enable": true,
+      "package": "egg-view",
+      "name": "view",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/lixiao/Desktop/selfwork/node_modules/_egg@2.29.4@egg/config/plugin.js",
+      "path": "/Users/lixiao/Desktop/selfwork/node_modules/_egg-view@2.1.3@egg-view",
+      "version": "2.1.3"
+    },
+    "nunjucks": {
+      "enable": true,
+      "package": "egg-view-nunjucks",
+      "name": "nunjucks",
+      "dependencies": [
+        "security",
+        "view"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/lixiao/Desktop/selfwork/config/plugin.js",
+      "path": "/Users/lixiao/Desktop/selfwork/node_modules/_egg-view-nunjucks@2.3.0@egg-view-nunjucks",
+      "version": "2.3.0"
+    },
+    "mongoose": {
+      "enable": true,
+      "package": "egg-mongoose",
+      "name": "mongoose",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/lixiao/Desktop/selfwork/config/plugin.js",
+      "path": "/Users/lixiao/Desktop/selfwork/node_modules/_egg-mongoose@3.3.1@egg-mongoose",
+      "version": "3.3.1"
+    }
+  }
+}

@@ -1,19 +1,32 @@
-'use strict';
-const jwt = require('jsonwebtoken')
 const Controller = require('egg').Controller;
 class HomeController extends Controller {
   async index() {
-    let blogs = await this.ctx.model.Blog.find()
-    const { ctx } = this;
-    let formatBlogs = blogs.map(item => {
-      let createData = item.created
-      item.createTime = `${createData.getFullYear()}年${createData.getMonth()+1}月${createData.getDate()}日`;
-    })
-    // let tagsBlog = await this.ctx.model.Blog.find({labels:{'$all':['vue']}})
-    let { error, data } = await ctx.service.auth.checkToken();
+
     
-    await this.ctx.render('home/index/index.nj',{list:blogs,isLogin:error == 0 ? true:false},{ expiresIn: 3600});
+    await this.ctx.render('page/home/index.nj');
   }
+  async aboutUs() {
+
+    
+    await this.ctx.render('page/about-us/index.nj');
+  }
+  async growthVebtures() {
+
+    
+    await this.ctx.render('page/growth-vebtures/index.nj');
+  }
+  async hedgeFunds() {
+
+    
+    await this.ctx.render('page/hedge-funds/index.nj');
+  }
+
+  async news() {
+
+    
+    await this.ctx.render('page/news/index.nj');
+  }
+
   async addBlog() {
 
     // let a = await this.ctx.model.Test.find({},res=>{})
@@ -24,32 +37,7 @@ class HomeController extends Controller {
     
     await this.ctx.render('home/edit/index.nj');
   }
-  async edit() {
-
-    // let a = await this.ctx.model.Test.find({},res=>{})
-
-    // console.log(a)
-    
-
-    // let blog = await this.ctx.model.Blog.update({ _id: id },{title:'vuehahahah'})
-    await this.ctx.render('home/edit/index.nj');
-  }
-  async detail() {
-
-    // let a = await this.ctx.model.Test.find({},res=>{})
-
-    // console.log(a)
-    
-    const { ctx } = this;
-    let id = ctx.params.id;
-    let blog = await this.ctx.model.Blog.findOne({ _id: id })
-    await this.ctx.render('home/detail/index.nj',{ blog });
-  }
-  async createBlog() {
-
-    
-    await this.ctx.render('home/edit/index.nj');
-  }
+  
 }
 
 module.exports = HomeController;

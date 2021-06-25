@@ -1,0 +1,39 @@
+<div class='page-section show letstalk'>
+  <div class='page-content'>
+    <div class='in-section'>
+      <div class='left'>
+        <div class='page-title'>
+          <p>Let's </p>
+          <p>talk</p>
+        </div>
+      </div>
+      <div class='right'>
+        <div class='page-p'>
+          <p>Drop us a line, and we'll get in touch. </p>
+          <p>We'll see if we're a match and how </p>
+          <p>we can help each other.</p>
+        </div>
+        <a class='btn'>Contact Us</a>
+      </div>
+    </div>
+    
+    <div class='msg-section'>
+      <div class='left'>
+        <div class='page-p'>
+          <span>TEL</span>
+          <p class='marginb'>+1 (646) - 503 - 6625 </p>
+          <span>E-MAIL</span>
+          <p> info@alphasquaregroup.com</p>
+        </div>
+      </div>
+      <div class='right'>
+        <div class='page-p'>
+          <span>OFFICE</span>
+          <p>OFFICE 350 Fifth Avenue, Suite 3910, </p>
+          <p>New York, NY 10118 </p>
+        </div>
+      </div>
+    </div>
+    <div class='bottom-section left'>© 2020, Alpha Square Group. All Rights Reserved.</div>
+  </div>
+</div>

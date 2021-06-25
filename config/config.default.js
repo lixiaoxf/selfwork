@@ -52,17 +52,18 @@ module.exports = appInfo => {
     }
   };
 
-  config.mongoose = {
-    clients: {
-      db: {
-        url: 'mongodb://root:lixiao@localhost:27017/blogs',
-        options: {
-          poolSize: 40,
-          useNewUrlParser:true
-        },
-      },
-    }
-  };
+  // config.mongoose = {
+  //   clients: {
+  //     db: {
+  //       url: 'mongodb://lixiao:lixiao@localhost:23000/asgdb',
+  //       options: {
+  //         poolSize: 40,
+  //         useNewUrlParser:true,
+  //         authSource:'admin'
+  //       },
+  //     },
+  //   }
+  // };
 
   config.siteconfig = {
     cdn:'/'

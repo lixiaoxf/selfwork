@@ -1,2 +1,1 @@
-
-import '@/component/header/index'
+import './style/_base.scss';

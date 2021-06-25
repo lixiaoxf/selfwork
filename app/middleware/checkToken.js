@@ -19,7 +19,8 @@ function isAuthUrl(url){
 module.exports = options => {
 
     return async function checkToken(ctx, next) {
-       
+        await next()
+        return ;
         if(!isAuthUrl(ctx.request.url)){
 
             await next()

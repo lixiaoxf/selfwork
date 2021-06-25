@@ -1,0 +1,342 @@
+2021-06-06 14:10:33,612 ERROR 4470 [egg-mongoose] mongodb://root:lixiao@localhost:27017/blogs disconnected
+2021-06-06 14:10:33,613 ERROR 4470 nodejs.ECONNREFUSEDError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1128:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 27017
+name: "ECONNREFUSEDError"
+pid: 4470
+hostname: localhost
+
+2021-06-06 14:10:33,614 ERROR 4470 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1128:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 27017
+name: "ECONNREFUSEDError"
+pid: 4470
+hostname: localhost
+
+2021-06-10 14:53:27,947 ERROR 8249 [egg-mongoose] mongodb://root:lixiao@localhost:27017/blogs disconnected
+2021-06-10 14:53:27,948 ERROR 8249 nodejs.ECONNREFUSEDError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1128:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 27017
+name: "ECONNREFUSEDError"
+pid: 8249
+hostname: bogon
+
+2021-06-10 14:53:27,949 ERROR 8249 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1128:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 27017
+name: "ECONNREFUSEDError"
+pid: 8249
+hostname: bogon
+
+2021-06-10 15:07:56,145 ERROR 11421 [egg-mongoose] mongodb://root:lixiao@localhost:27017/blogs disconnected
+2021-06-10 15:07:56,146 ERROR 11421 nodejs.ECONNREFUSEDError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 27017
+name: "ECONNREFUSEDError"
+pid: 11421
+hostname: bogon
+
+2021-06-10 15:07:56,147 ERROR 11421 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: [egg-mongoose]connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 27017
+name: "ECONNREFUSEDError"
+pid: 11421
+hostname: bogon
+
+2021-06-10 15:11:19,684 ERROR 11460 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'model' of undefined
+    at module.exports (/Users/lixiao/Desktop/selfwork/app/model/blog.js:13:17)
+    at getExports (/Users/lixiao/Desktop/selfwork/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/lixiao/Desktop/selfwork/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/lixiao/Desktop/selfwork/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/lixiao/Desktop/selfwork/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/lixiao/Desktop/selfwork/node_modules/egg-mongoose/lib/mongoose.js:103:14)
+    at /Users/lixiao/Desktop/selfwork/node_modules/egg-mongoose/lib/mongoose.js:43:7
+    at Object.callFn (/Users/lixiao/Desktop/selfwork/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/lixiao/Desktop/selfwork/node_modules/egg-core/lib/lifecycle.js:248:13
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+pid: 11460
+hostname: bogon
+
+2021-06-10 17:20:51,831 ERROR 19941 [egg-mongoose] mongodb://lixiao:lixiao@localhost:23000/asgdb disconnected
+2021-06-10 17:20:51,831 ERROR 19941 nodejs.MongoError: [egg-mongoose]Authentication failed.
+    at Function._getError (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:125:14)
+    at /Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:175:31
+    at Connection.messageHandler (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/connection/connect.js:334:5)
+    at Connection.emit (node:events:327:20)
+    at processMessage (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/connection/connection.js:364:10)
+    at Socket.<anonymous> (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/connection/connection.js:533:15)
+    at Socket.emit (node:events:327:20)
+    at addChunk (node:internal/streams/readable:304:12)
+    at readableAddChunk (node:internal/streams/readable:279:9)
+    at Socket.Readable.push (node:internal/streams/readable:218:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:192:23)
+name: "MongoError"
+pid: 19941
+hostname: bogon
+
+2021-06-10 17:20:51,833 ERROR 19941 [-/127.0.0.1/-/0ms GET /] nodejs.MongoError: [egg-mongoose]Authentication failed.
+    at Function._getError (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:125:14)
+    at /Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:175:31
+    at Connection.messageHandler (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/connection/connect.js:334:5)
+    at Connection.emit (node:events:327:20)
+    at processMessage (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/connection/connection.js:364:10)
+    at Socket.<anonymous> (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/connection/connection.js:533:15)
+    at Socket.emit (node:events:327:20)
+    at addChunk (node:internal/streams/readable:304:12)
+    at readableAddChunk (node:internal/streams/readable:279:9)
+    at Socket.Readable.push (node:internal/streams/readable:218:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:192:23)
+name: "MongoError"
+pid: 19941
+hostname: bogon
+
+2021-06-10 17:26:26,005 ERROR 20021 [-/127.0.0.1/-/9ms GET /index] nodejs.MongoError: command find requires authentication
+    at Connection.<anonymous> (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/connection/pool.js:443:61)
+    at Connection.emit (node:events:327:20)
+    at processMessage (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/connection/connection.js:364:10)
+    at Socket.<anonymous> (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/connection/connection.js:533:15)
+    at Socket.emit (node:events:327:20)
+    at addChunk (node:internal/streams/readable:304:12)
+    at readableAddChunk (node:internal/streams/readable:279:9)
+    at Socket.Readable.push (node:internal/streams/readable:218:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:192:23)
+ok: 0
+errmsg: "command find requires authentication"
+code: 13
+codeName: "Unauthorized"
+name: "MongoError"
+pid: 20021
+hostname: bogon
+
+2021-06-10 17:30:46,692 ERROR 20065 [-/127.0.0.1/-/12ms GET /index] nodejs.MongoError: command find requires authentication
+    at Connection.<anonymous> (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/connection/pool.js:443:61)
+    at Connection.emit (node:events:327:20)
+    at processMessage (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/connection/connection.js:364:10)
+    at Socket.<anonymous> (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/connection/connection.js:533:15)
+    at Socket.emit (node:events:327:20)
+    at addChunk (node:internal/streams/readable:304:12)
+    at readableAddChunk (node:internal/streams/readable:279:9)
+    at Socket.Readable.push (node:internal/streams/readable:218:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:192:23)
+ok: 0
+errmsg: "command find requires authentication"
+code: 13
+codeName: "Unauthorized"
+name: "MongoError"
+pid: 20065
+hostname: bogon
+
+2021-06-10 17:31:09,610 ERROR 20083 [egg-mongoose] mongodb://localhost:23000/asgdb disconnected
+2021-06-10 17:31:09,611 ERROR 20083 nodejs.MongoError: [egg-mongoose]password must be a string
+    at passwordDigest (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:33:43)
+    at ScramSHA1._executeScram (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:147:29)
+    at RandomBytesJob.<anonymous> (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:239:19)
+    at node:internal/per_context/primordials:23:32
+    at RandomBytesJob.<anonymous> (node:internal/crypto/random:89:5)
+    at node:internal/per_context/primordials:23:32
+    at RandomBytesJob.onJobDone (node:internal/crypto/random:252:3)
+name: "MongoError"
+pid: 20083
+hostname: bogon
+
+2021-06-10 17:31:09,612 ERROR 20083 [-/127.0.0.1/-/0ms GET /] nodejs.MongoError: [egg-mongoose]password must be a string
+    at passwordDigest (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:33:43)
+    at ScramSHA1._executeScram (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:147:29)
+    at RandomBytesJob.<anonymous> (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:239:19)
+    at node:internal/per_context/primordials:23:32
+    at RandomBytesJob.<anonymous> (node:internal/crypto/random:89:5)
+    at node:internal/per_context/primordials:23:32
+    at RandomBytesJob.onJobDone (node:internal/crypto/random:252:3)
+name: "MongoError"
+pid: 20083
+hostname: bogon
+
+2021-06-10 17:31:18,890 ERROR 20095 [egg-mongoose] mongodb://localhost:23000/asgdb disconnected
+2021-06-10 17:31:18,891 ERROR 20095 nodejs.MongoError: [egg-mongoose]password must be a string
+    at passwordDigest (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:33:43)
+    at ScramSHA1._executeScram (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:147:29)
+    at RandomBytesJob.<anonymous> (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:239:19)
+    at node:internal/per_context/primordials:23:32
+    at RandomBytesJob.<anonymous> (node:internal/crypto/random:89:5)
+    at node:internal/per_context/primordials:23:32
+    at RandomBytesJob.onJobDone (node:internal/crypto/random:252:3)
+name: "MongoError"
+pid: 20095
+hostname: bogon
+
+2021-06-10 17:31:18,892 ERROR 20095 [-/127.0.0.1/-/0ms GET /] nodejs.MongoError: [egg-mongoose]password must be a string
+    at passwordDigest (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:33:43)
+    at ScramSHA1._executeScram (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:147:29)
+    at RandomBytesJob.<anonymous> (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:239:19)
+    at node:internal/per_context/primordials:23:32
+    at RandomBytesJob.<anonymous> (node:internal/crypto/random:89:5)
+    at node:internal/per_context/primordials:23:32
+    at RandomBytesJob.onJobDone (node:internal/crypto/random:252:3)
+name: "MongoError"
+pid: 20095
+hostname: bogon
+
+2021-06-10 17:32:00,687 ERROR 20119 [egg-mongoose] mongodb://localhost:23000/asgdb disconnected
+2021-06-10 17:32:00,687 ERROR 20119 nodejs.MongoError: [egg-mongoose]password must be a string
+    at passwordDigest (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:33:43)
+    at ScramSHA1._executeScram (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:147:29)
+    at RandomBytesJob.<anonymous> (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:239:19)
+    at node:internal/per_context/primordials:23:32
+    at RandomBytesJob.<anonymous> (node:internal/crypto/random:89:5)
+    at node:internal/per_context/primordials:23:32
+    at RandomBytesJob.onJobDone (node:internal/crypto/random:252:3)
+name: "MongoError"
+pid: 20119
+hostname: bogon
+
+2021-06-10 17:32:00,688 ERROR 20119 [-/127.0.0.1/-/0ms GET /] nodejs.MongoError: [egg-mongoose]password must be a string
+    at passwordDigest (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:33:43)
+    at ScramSHA1._executeScram (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:147:29)
+    at RandomBytesJob.<anonymous> (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:239:19)
+    at node:internal/per_context/primordials:23:32
+    at RandomBytesJob.<anonymous> (node:internal/crypto/random:89:5)
+    at node:internal/per_context/primordials:23:32
+    at RandomBytesJob.onJobDone (node:internal/crypto/random:252:3)
+name: "MongoError"
+pid: 20119
+hostname: bogon
+
+2021-06-10 17:32:57,402 ERROR 20157 [egg-mongoose] mongodb://localhost:23000/asgdb disconnected
+2021-06-10 17:32:57,403 ERROR 20157 nodejs.MongoError: [egg-mongoose]password must be a string
+    at passwordDigest (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:33:43)
+    at ScramSHA1._executeScram (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:147:29)
+    at RandomBytesJob.<anonymous> (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:239:19)
+    at node:internal/per_context/primordials:23:32
+    at RandomBytesJob.<anonymous> (node:internal/crypto/random:89:5)
+    at node:internal/per_context/primordials:23:32
+    at RandomBytesJob.onJobDone (node:internal/crypto/random:252:3)
+name: "MongoError"
+pid: 20157
+hostname: bogon
+
+2021-06-10 17:32:57,404 ERROR 20157 [-/127.0.0.1/-/0ms GET /] nodejs.MongoError: [egg-mongoose]password must be a string
+    at passwordDigest (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:33:43)
+    at ScramSHA1._executeScram (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:147:29)
+    at RandomBytesJob.<anonymous> (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:239:19)
+    at node:internal/per_context/primordials:23:32
+    at RandomBytesJob.<anonymous> (node:internal/crypto/random:89:5)
+    at node:internal/per_context/primordials:23:32
+    at RandomBytesJob.onJobDone (node:internal/crypto/random:252:3)
+name: "MongoError"
+pid: 20157
+hostname: bogon
+
+2021-06-10 17:34:58,787 ERROR 20213 [egg-mongoose] mongodb://lixiao:lixiao@localhost:23000/asgdb disconnected
+2021-06-10 17:34:58,788 ERROR 20213 nodejs.MongoError: [egg-mongoose]Authentication failed.
+    at Function._getError (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:125:14)
+    at /Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:175:31
+    at Connection.messageHandler (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/connection/connect.js:334:5)
+    at Connection.emit (node:events:327:20)
+    at processMessage (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/connection/connection.js:364:10)
+    at Socket.<anonymous> (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/connection/connection.js:533:15)
+    at Socket.emit (node:events:327:20)
+    at addChunk (node:internal/streams/readable:304:12)
+    at readableAddChunk (node:internal/streams/readable:279:9)
+    at Socket.Readable.push (node:internal/streams/readable:218:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:192:23)
+name: "MongoError"
+pid: 20213
+hostname: bogon
+
+2021-06-10 17:34:58,790 ERROR 20213 [-/127.0.0.1/-/0ms GET /] nodejs.MongoError: [egg-mongoose]Authentication failed.
+    at Function._getError (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:125:14)
+    at /Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/auth/scram.js:175:31
+    at Connection.messageHandler (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/connection/connect.js:334:5)
+    at Connection.emit (node:events:327:20)
+    at processMessage (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/connection/connection.js:364:10)
+    at Socket.<anonymous> (/Users/lixiao/Desktop/selfwork/node_modules/mongodb-core/lib/connection/connection.js:533:15)
+    at Socket.emit (node:events:327:20)
+    at addChunk (node:internal/streams/readable:304:12)
+    at readableAddChunk (node:internal/streams/readable:279:9)
+    at Socket.Readable.push (node:internal/streams/readable:218:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:192:23)
+name: "MongoError"
+pid: 20213
+hostname: bogon
+
+2021-06-10 18:38:39,200 ERROR 21197 nodejs.ClusterClientNoResponseError: client no response in 173203ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lixiao/Desktop/selfwork/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (node:internal/timers:555:17)
+    at processTimers (node:internal/timers:498:7)
+name: "ClusterClientNoResponseError"
+pid: 21197
+hostname: bogon
+
+2021-06-10 19:06:11,460 ERROR 21197 nodejs.ClusterClientNoResponseError: client no response in 1512250ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lixiao/Desktop/selfwork/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (node:internal/timers:555:17)
+    at processTimers (node:internal/timers:498:7)
+name: "ClusterClientNoResponseError"
+pid: 21197
+hostname: bogon
+
+2021-06-10 19:19:36,633 ERROR 21197 nodejs.ClusterClientNoResponseError: client no response in 805157ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lixiao/Desktop/selfwork/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (node:internal/timers:555:17)
+    at processTimers (node:internal/timers:498:7)
+name: "ClusterClientNoResponseError"
+pid: 21197
+hostname: bogon
+
+2021-06-10 19:56:31,443 ERROR 21197 nodejs.ClusterClientNoResponseError: client no response in 2114763ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lixiao/Desktop/selfwork/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (node:internal/timers:555:17)
+    at processTimers (node:internal/timers:498:7)
+name: "ClusterClientNoResponseError"
+pid: 21197
+hostname: bogon
+
+2021-06-10 20:39:14,463 ERROR 21197 nodejs.ClusterClientNoResponseError: client no response in 2382927ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lixiao/Desktop/selfwork/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (node:internal/timers:555:17)
+    at processTimers (node:internal/timers:498:7)
+name: "ClusterClientNoResponseError"
+pid: 21197
+hostname: bogon
+
+2021-06-10 21:13:58,440 ERROR 21197 nodejs.ClusterClientNoResponseError: client no response in 1983934ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lixiao/Desktop/selfwork/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (node:internal/timers:555:17)
+    at processTimers (node:internal/timers:498:7)
+name: "ClusterClientNoResponseError"
+pid: 21197
+hostname: bogon
+
+2021-06-11 02:45:57,463 ERROR 21197 nodejs.ClusterClientNoResponseError: client no response in 19878992ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lixiao/Desktop/selfwork/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (node:internal/timers:555:17)
+    at processTimers (node:internal/timers:498:7)
+name: "ClusterClientNoResponseError"
+pid: 21197
+hostname: bogon
+

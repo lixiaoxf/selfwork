@@ -1,0 +1,288 @@
+2021-06-12 09:50:46,856 ERROR 21197 nodejs.ClusterClientNoResponseError: client no response in 13230378ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lixiao/Desktop/selfwork/node_modules/cluster-client/lib/leader.js:74:23)
+    at listOnTimeout (node:internal/timers:555:17)
+    at processTimers (node:internal/timers:498:7)
+name: "ClusterClientNoResponseError"
+pid: 21197
+hostname: bogon
+
+2021-06-21 11:05:44,151 ERROR 7466 [-/127.0.0.1/-/6ms GET /index] nodejs.AssertionError: Can't find page/home/index/index.nj from /Users/lixiao/Desktop/selfwork/app/view
+    at Map.resolve (/Users/lixiao/Desktop/selfwork/node_modules/_egg-view@2.1.3@egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/lixiao/Desktop/selfwork/node_modules/_egg-view@2.1.3@egg-view/lib/context_view.js:50:22)
+    at async HomeController.index (/Users/lixiao/Desktop/selfwork/app/controller/page/home.js:6:5)
+    at async checkToken (/Users/lixiao/Desktop/selfwork/app/middleware/checkToken.js:25:13)
+    at async /Users/lixiao/Desktop/selfwork/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lixiao/Desktop/selfwork/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lixiao/Desktop/selfwork/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lixiao/Desktop/selfwork/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lixiao/Desktop/selfwork/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lixiao/Desktop/selfwork/node_modules/_koa-session@6.2.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/lixiao/Desktop/selfwork/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/lixiao/Desktop/selfwork/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:73:16
+    at async notfound (/Users/lixiao/Desktop/selfwork/node_modules/_egg@2.29.4@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/lixiao/Desktop/selfwork/node_modules/_egg@2.29.4@egg/app/middleware/meta.js:17:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 7466
+hostname: bogon
+
+2021-06-21 11:06:01,778 ERROR 7466 [egg-mongoose] mongodb://lixiao:******@localhost:23000/asgdb disconnected
+2021-06-21 11:06:06,219 ERROR 7466 [-/127.0.0.1/-/1ms GET /index] nodejs.AssertionError: Can't find page/home/index/index.nj from /Users/lixiao/Desktop/selfwork/app/view
+    at Map.resolve (/Users/lixiao/Desktop/selfwork/node_modules/_egg-view@2.1.3@egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/lixiao/Desktop/selfwork/node_modules/_egg-view@2.1.3@egg-view/lib/context_view.js:50:22)
+    at async HomeController.index (/Users/lixiao/Desktop/selfwork/app/controller/page/home.js:6:5)
+    at async checkToken (/Users/lixiao/Desktop/selfwork/app/middleware/checkToken.js:25:13)
+    at async /Users/lixiao/Desktop/selfwork/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lixiao/Desktop/selfwork/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lixiao/Desktop/selfwork/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lixiao/Desktop/selfwork/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lixiao/Desktop/selfwork/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lixiao/Desktop/selfwork/node_modules/_koa-session@6.2.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/lixiao/Desktop/selfwork/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/lixiao/Desktop/selfwork/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:73:16
+    at async notfound (/Users/lixiao/Desktop/selfwork/node_modules/_egg@2.29.4@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/lixiao/Desktop/selfwork/node_modules/_egg@2.29.4@egg/app/middleware/meta.js:17:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 7466
+hostname: bogon
+
+2021-06-21 11:06:29,967 ERROR 7466 [-/127.0.0.1/-/1ms GET /index] nodejs.AssertionError: Can't find page/home/index/index.nj from /Users/lixiao/Desktop/selfwork/app/view
+    at Map.resolve (/Users/lixiao/Desktop/selfwork/node_modules/_egg-view@2.1.3@egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/lixiao/Desktop/selfwork/node_modules/_egg-view@2.1.3@egg-view/lib/context_view.js:50:22)
+    at async HomeController.index (/Users/lixiao/Desktop/selfwork/app/controller/page/home.js:6:5)
+    at async checkToken (/Users/lixiao/Desktop/selfwork/app/middleware/checkToken.js:25:13)
+    at async /Users/lixiao/Desktop/selfwork/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lixiao/Desktop/selfwork/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lixiao/Desktop/selfwork/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lixiao/Desktop/selfwork/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lixiao/Desktop/selfwork/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lixiao/Desktop/selfwork/node_modules/_koa-session@6.2.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/lixiao/Desktop/selfwork/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/lixiao/Desktop/selfwork/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:73:16
+    at async notfound (/Users/lixiao/Desktop/selfwork/node_modules/_egg@2.29.4@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/lixiao/Desktop/selfwork/node_modules/_egg@2.29.4@egg/app/middleware/meta.js:17:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 7466
+hostname: bogon
+
+2021-06-21 11:06:44,365 ERROR 7716 [egg-mongoose] mongodb://lixiao:******@localhost:23000/asgdb disconnected
+2021-06-21 11:06:44,365 ERROR 7716 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [localhost:23000] on first connect [Error: connect ECONNREFUSED 127.0.0.1:23000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at Pool.<anonymous> (/Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:376:20)
+    at /Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/connection/pool.js:562:14
+    at /Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/connection/pool.js:995:11
+    at /Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:483:26)
+    at Socket.emit (events.js:376:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+name: "MongoNetworkError"
+pid: 7716
+hostname: bogon
+
+2021-06-21 11:06:44,366 ERROR 7716 nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [localhost:23000] on first connect [Error: connect ECONNREFUSED 127.0.0.1:23000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at Pool.<anonymous> (/Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:376:20)
+    at /Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/connection/pool.js:562:14
+    at /Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/connection/pool.js:995:11
+    at /Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:483:26)
+    at Socket.emit (events.js:376:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+name: "MongoNetworkError"
+pid: 7716
+hostname: bogon
+
+2021-06-21 11:06:44,367 ERROR 7716 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [localhost:23000] on first connect [Error: connect ECONNREFUSED 127.0.0.1:23000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at Pool.<anonymous> (/Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:376:20)
+    at /Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/connection/pool.js:562:14
+    at /Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/connection/pool.js:995:11
+    at /Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/lixiao/Desktop/selfwork/node_modules/_mongodb@3.6.8@mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:483:26)
+    at Socket.emit (events.js:376:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+name: "MongoNetworkError"
+pid: 7716
+hostname: bogon
+
+2021-06-21 11:07:31,415 ERROR 7746 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'model' of undefined
+    at module.exports (/Users/lixiao/Desktop/selfwork/app/model/blog.js:13:17)
+    at getExports (/Users/lixiao/Desktop/selfwork/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/lixiao/Desktop/selfwork/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/lixiao/Desktop/selfwork/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/lixiao/Desktop/selfwork/node_modules/_egg-core@4.20.0@egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/lixiao/Desktop/selfwork/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/lixiao/Desktop/selfwork/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/lixiao/Desktop/selfwork/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:42)
+    at /Users/lixiao/Desktop/selfwork/node_modules/_egg-core@4.20.0@egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+pid: 7746
+hostname: bogon
+
+2021-06-21 11:08:46,659 ERROR 7805 [-/127.0.0.1/-/6ms GET /index] nodejs.AssertionError: Can't find page/home/index/index.nj from /Users/lixiao/Desktop/selfwork/app/view
+    at Map.resolve (/Users/lixiao/Desktop/selfwork/node_modules/_egg-view@2.1.3@egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/lixiao/Desktop/selfwork/node_modules/_egg-view@2.1.3@egg-view/lib/context_view.js:50:22)
+    at async HomeController.index (/Users/lixiao/Desktop/selfwork/app/controller/page/home.js:6:5)
+    at async checkToken (/Users/lixiao/Desktop/selfwork/app/middleware/checkToken.js:25:13)
+    at async /Users/lixiao/Desktop/selfwork/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lixiao/Desktop/selfwork/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lixiao/Desktop/selfwork/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lixiao/Desktop/selfwork/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lixiao/Desktop/selfwork/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lixiao/Desktop/selfwork/node_modules/_koa-session@6.2.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/lixiao/Desktop/selfwork/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/lixiao/Desktop/selfwork/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:73:16
+    at async notfound (/Users/lixiao/Desktop/selfwork/node_modules/_egg@2.29.4@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/lixiao/Desktop/selfwork/node_modules/_egg@2.29.4@egg/app/middleware/meta.js:17:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 7805
+hostname: bogon
+
+2021-06-21 11:10:05,347 ERROR 7838 [-/127.0.0.1/-/6ms GET /index] nodejs.AssertionError: Can't find page/home/index/index.nj from /Users/lixiao/Desktop/selfwork/app/view
+    at Map.resolve (/Users/lixiao/Desktop/selfwork/node_modules/_egg-view@2.1.3@egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/lixiao/Desktop/selfwork/node_modules/_egg-view@2.1.3@egg-view/lib/context_view.js:50:22)
+    at async HomeController.index (/Users/lixiao/Desktop/selfwork/app/controller/page/home.js:6:5)
+    at async checkToken (/Users/lixiao/Desktop/selfwork/app/middleware/checkToken.js:22:9)
+    at async /Users/lixiao/Desktop/selfwork/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lixiao/Desktop/selfwork/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lixiao/Desktop/selfwork/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lixiao/Desktop/selfwork/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lixiao/Desktop/selfwork/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lixiao/Desktop/selfwork/node_modules/_koa-session@6.2.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/lixiao/Desktop/selfwork/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/lixiao/Desktop/selfwork/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:73:16
+    at async notfound (/Users/lixiao/Desktop/selfwork/node_modules/_egg@2.29.4@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/lixiao/Desktop/selfwork/node_modules/_egg@2.29.4@egg/app/middleware/meta.js:17:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 7838
+hostname: bogon
+
+2021-06-21 11:11:41,014 ERROR 7883 [-/127.0.0.1/-/14ms GET /index] nodejs.Template render error: (/Users/lixiao/Desktop/selfwork/app/view/page/home/index.nj)
+  Error: template not found: page/home/index/content.nj
+  Error: template not found: page/home/index/content.nj
+    at Object._prettifyError (/Users/lixiao/Desktop/selfwork/node_modules/_nunjucks@3.2.3@nunjucks/src/lib.js:36:11)
+    at /Users/lixiao/Desktop/selfwork/node_modules/_nunjucks@3.2.3@nunjucks/src/environment.js:563:19
+    at eval (eval at _compile (/Users/lixiao/Desktop/selfwork/node_modules/_nunjucks@3.2.3@nunjucks/src/environment.js:633:18), <anonymous>:54:12)
+    at createTemplate (/Users/lixiao/Desktop/selfwork/node_modules/_nunjucks@3.2.3@nunjucks/src/environment.js:295:11)
+    at next (/Users/lixiao/Desktop/selfwork/node_modules/_nunjucks@3.2.3@nunjucks/src/lib.js:330:7)
+    at handle (/Users/lixiao/Desktop/selfwork/node_modules/_nunjucks@3.2.3@nunjucks/src/environment.js:329:11)
+    at /Users/lixiao/Desktop/selfwork/node_modules/_nunjucks@3.2.3@nunjucks/src/environment.js:339:9
+    at next (/Users/lixiao/Desktop/selfwork/node_modules/_nunjucks@3.2.3@nunjucks/src/lib.js:328:7)
+    at Object.asyncIter (/Users/lixiao/Desktop/selfwork/node_modules/_nunjucks@3.2.3@nunjucks/src/lib.js:334:3)
+    at NunjucksEnvironment.getTemplate (/Users/lixiao/Desktop/selfwork/node_modules/_nunjucks@3.2.3@nunjucks/src/environment.js:321:9)
+    at eval (eval at _compile (/Users/lixiao/Desktop/selfwork/node_modules/_nunjucks@3.2.3@nunjucks/src/environment.js:633:18), <anonymous>:53:5)
+    at fn (/Users/lixiao/Desktop/selfwork/node_modules/_a-sync-waterfall@1.0.1@a-sync-waterfall/index.js:26:24)
+    at /Users/lixiao/Desktop/selfwork/node_modules/_a-sync-waterfall@1.0.1@a-sync-waterfall/index.js:66:22
+    at executeSync (/Users/lixiao/Desktop/selfwork/node_modules/_a-sync-waterfall@1.0.1@a-sync-waterfall/index.js:8:15)
+    at /Users/lixiao/Desktop/selfwork/node_modules/_a-sync-waterfall@1.0.1@a-sync-waterfall/index.js:65:11
+    at waterfall (/Users/lixiao/Desktop/selfwork/node_modules/_a-sync-waterfall@1.0.1@a-sync-waterfall/index.js:71:38)
+name: "Template render error"
+pid: 7883
+hostname: bogon
+
+2021-06-21 13:21:12,092 ERROR 8400 nodejs.ClusterClientNoResponseError: client no response in 2395210ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lixiao/Desktop/selfwork/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 8400
+hostname: bogon
+
+2021-06-21 13:42:44,992 ERROR 8400 nodejs.ClusterClientNoResponseError: client no response in 1252906ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lixiao/Desktop/selfwork/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 8400
+hostname: bogon
+
+2021-06-21 15:07:16,184 ERROR 8400 nodejs.ClusterClientNoResponseError: client no response in 90389ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lixiao/Desktop/selfwork/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 8400
+hostname: bogon
+
+2021-06-21 16:22:58,181 ERROR 16358 nodejs.ClusterClientNoResponseError: client no response in 959654ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lixiao/Desktop/selfwork/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 16358
+hostname: bogon
+
+2021-06-21 19:41:28,241 ERROR 19200 nodejs.ClusterClientNoResponseError: client no response in 1948616ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lixiao/Desktop/selfwork/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 19200
+hostname: bogon
+
+2021-06-21 23:22:38,247 ERROR 19200 nodejs.ClusterClientNoResponseError: client no response in 13229964ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lixiao/Desktop/selfwork/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 19200
+hostname: bogon
+
+2021-06-22 05:40:56,830 ERROR 19200 nodejs.ClusterClientNoResponseError: client no response in 22658575ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/lixiao/Desktop/selfwork/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 19200
+hostname: bogon
+

@@ -1,0 +1,192 @@
+@import 'common/style/_base';
+.app-page{
+    &.step1{
+        .section1{
+            @include step-cur;
+            .right{
+                display: flex;;
+                height: 240px;
+                align-items: flex-end;
+            }
+        }
+    }
+
+    &.step2{
+        .section2{
+            @include step-cur;
+        }
+    }
+
+    &.step3{
+        .section3{
+            @include step-cur;
+        }
+    }
+
+    &.step4{
+        .section4{
+            @include step-cur;
+            .page-content{
+                display: block;
+            }
+        }
+    }
+
+    &.step5{
+        .section5{
+            @include step-cur;
+        }
+    }
+    .title{
+        font-size: 88px;
+        color: #0E1B3B;
+        font-weight: bold;
+        width: 932px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 96px;
+    }
+    .section1{
+        .right{
+            display: none;
+        }
+    }
+    .section2{
+        background: #E0D3B8;
+        .page-content{
+            flex-wrap: wrap;
+            align-content: center;
+        }
+        .title{
+
+            margin-bottom: 96px;
+        }
+        ul{
+            width: 100%;
+            li{
+                padding: 0 var(--section-padding);
+                margin-bottom: 64px;
+                display: flex;
+                justify-content: space-between;
+                .item{
+                    width: 440px;
+                    font-size:18px;
+                    line-height: 32px;
+                    color:#0E1B3B;
+                    padding-left: 75px;
+                    box-sizing: content-box;
+                    position: relative;
+                    &::before{
+                        content: '';
+                        display: block;
+                        width: 43px;
+                        height: 40px;
+                        background: url(../res/listicon.png) no-repeat center;
+                        background-size: 100%;
+                        position: absolute;
+                        left: 0px;
+                        top:10px;
+                    }
+                }
+            }
+            
+        }
+    }
+    .section3{
+        .title{
+            margin-bottom: 24px;
+        }
+        .page-content{
+            flex-wrap: wrap;
+            align-content: center;
+        }
+        .msg{
+            width: 566px;
+            margin: 0 auto;
+            font-size: 16px;
+            line-height: 22px;
+            text-align: center;
+            margin-bottom: 64px;
+        }
+        ul{
+            width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            height: 480px;
+            overflow: scroll;
+
+            li{
+                width: 138px;
+                height: 138px;
+                padding: 18px;
+                background: #F4F4F4;
+                flex-shrink: 0;
+                margin-bottom: 32px;
+                margin-right: 32px;
+                &:nth-child(6n){
+                    margin-right: 0;
+                }
+                &:nth-last-child(-n+6){
+                    margin-bottom: 0;
+                }
+                div{
+                    width: 100%;
+                    height: 100%;
+                    background: center no-repeat;
+                    background-size: contain;
+                }
+            }
+        }
+
+    }
+    .section4{
+        overflow: hidden;
+
+        padding-top: 120px;
+        .page-content{
+            display: none;
+            overflow: scroll;
+        }
+        .title{
+            margin-bottom: 56px;
+        }
+        .videos{
+            width: 1032px;
+            margin: 0 auto;
+            padding-bottom: 1px;
+            .video-card{
+                margin-bottom: 108px;
+                .video-wrap{
+                    width: 100%;
+                    height: 583px;
+                    background: #F4F4F4;
+                    position: relative;
+                    &:hover{
+                        .play-btn{
+                            display: block;
+                        }
+
+                    }
+                    .play-btn{
+                        display: none;
+                    }
+                    video{
+                        width: 100%;
+                        height: 583px;
+                        background: #F4F4F4;
+                    }
+                }
+                p{
+                    font-size: 28px;
+                    color:#0E1B3B;
+                    height: 56px;
+                    line-height: 56px;
+                    margin-bottom: 16px;
+                }
+            }
+        }
+    }
+
+}

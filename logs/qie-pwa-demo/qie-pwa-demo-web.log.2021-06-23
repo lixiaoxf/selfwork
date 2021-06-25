@@ -1,0 +1,46 @@
+2021-06-23 09:38:07,859 ERROR 30420 [-/127.0.0.1/-/3ms GET /growthvebtures] nodejs.Template render error: (/Users/lixiao/Desktop/selfwork/app/view/page/growth-vebtures/index.nj)
+  Error: template not found: page/growth-ventures/content.nj
+  Error: template not found: page/growth-ventures/content.nj
+    at Object._prettifyError (/Users/lixiao/Desktop/selfwork/node_modules/_nunjucks@3.2.3@nunjucks/src/lib.js:36:11)
+    at /Users/lixiao/Desktop/selfwork/node_modules/_nunjucks@3.2.3@nunjucks/src/environment.js:563:19
+    at eval (eval at _compile (/Users/lixiao/Desktop/selfwork/node_modules/_nunjucks@3.2.3@nunjucks/src/environment.js:633:18), <anonymous>:54:12)
+    at createTemplate (/Users/lixiao/Desktop/selfwork/node_modules/_nunjucks@3.2.3@nunjucks/src/environment.js:295:11)
+    at next (/Users/lixiao/Desktop/selfwork/node_modules/_nunjucks@3.2.3@nunjucks/src/lib.js:330:7)
+    at handle (/Users/lixiao/Desktop/selfwork/node_modules/_nunjucks@3.2.3@nunjucks/src/environment.js:329:11)
+    at /Users/lixiao/Desktop/selfwork/node_modules/_nunjucks@3.2.3@nunjucks/src/environment.js:339:9
+    at next (/Users/lixiao/Desktop/selfwork/node_modules/_nunjucks@3.2.3@nunjucks/src/lib.js:328:7)
+    at Object.asyncIter (/Users/lixiao/Desktop/selfwork/node_modules/_nunjucks@3.2.3@nunjucks/src/lib.js:334:3)
+    at NunjucksEnvironment.getTemplate (/Users/lixiao/Desktop/selfwork/node_modules/_nunjucks@3.2.3@nunjucks/src/environment.js:321:9)
+    at eval (eval at _compile (/Users/lixiao/Desktop/selfwork/node_modules/_nunjucks@3.2.3@nunjucks/src/environment.js:633:18), <anonymous>:53:5)
+    at fn (/Users/lixiao/Desktop/selfwork/node_modules/_a-sync-waterfall@1.0.1@a-sync-waterfall/index.js:26:24)
+    at /Users/lixiao/Desktop/selfwork/node_modules/_a-sync-waterfall@1.0.1@a-sync-waterfall/index.js:66:22
+    at executeSync (/Users/lixiao/Desktop/selfwork/node_modules/_a-sync-waterfall@1.0.1@a-sync-waterfall/index.js:8:15)
+    at /Users/lixiao/Desktop/selfwork/node_modules/_a-sync-waterfall@1.0.1@a-sync-waterfall/index.js:65:11
+    at waterfall (/Users/lixiao/Desktop/selfwork/node_modules/_a-sync-waterfall@1.0.1@a-sync-waterfall/index.js:71:38)
+name: "Template render error"
+pid: 30420
+hostname: bogon
+
+2021-06-23 14:00:32,985 ERROR 33377 [-/127.0.0.1/-/7ms GET /hedgefunds] nodejs.AssertionError: Can't find page/hedge-funds/index.nj from /Users/lixiao/Desktop/selfwork/app/view
+    at Map.resolve (/Users/lixiao/Desktop/selfwork/node_modules/_egg-view@2.1.3@egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/lixiao/Desktop/selfwork/node_modules/_egg-view@2.1.3@egg-view/lib/context_view.js:50:22)
+    at async HomeController.hedgeFunds (/Users/lixiao/Desktop/selfwork/app/controller/page/home.js:21:5)
+    at async checkToken (/Users/lixiao/Desktop/selfwork/app/middleware/checkToken.js:22:9)
+    at async /Users/lixiao/Desktop/selfwork/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/lixiao/Desktop/selfwork/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/lixiao/Desktop/selfwork/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/lixiao/Desktop/selfwork/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/lixiao/Desktop/selfwork/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/lixiao/Desktop/selfwork/node_modules/_koa-session@6.2.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/lixiao/Desktop/selfwork/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/lixiao/Desktop/selfwork/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:73:16
+    at async notfound (/Users/lixiao/Desktop/selfwork/node_modules/_egg@2.29.4@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/lixiao/Desktop/selfwork/node_modules/_egg@2.29.4@egg/app/middleware/meta.js:17:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 33377
+hostname: bogon
+

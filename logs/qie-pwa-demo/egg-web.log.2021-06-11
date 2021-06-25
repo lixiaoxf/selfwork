@@ -1,0 +1,20 @@
+2021-06-11 02:45:57,501 INFO 21198 [egg-logrotator] app logger reload: got log-reload message
+2021-06-11 05:40:48,276 WARN 21198 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-11 07:25:38,347 WARN 21198 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-11 07:25:38,347 WARN 21198 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-11 09:16:15,092 WARN 21198 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-11 09:57:52,320 WARN 21198 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-11 10:05:26,525 WARN 21198 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-11 10:05:26,526 WARN 21198 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-11 10:48:24,037 WARN 21198 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-11 10:48:24,037 WARN 21198 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-11 12:59:22,318 WARN 21198 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-11 13:12:40,553 WARN 21198 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-11 13:12:40,554 WARN 21198 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-11 14:36:56,132 WARN 21198 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-06-11 14:36:56,132 WARN 21198 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-11 17:22:14,977 WARN 21198 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-12 06:10:16,461 WARN 21198 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-06-12 06:10:16,478 INFO 21198 [egg-logrotator] clean all log before 31 days
+2021-06-12 06:10:16,511 INFO 21198 [egg-logrotator] broadcast log-reload
+2021-06-12 06:10:16,511 INFO 21198 [egg-logrotator] rotate files success by DayRotator, files ["/Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo/common-error.log -> /Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo/common-error.log.2021-06-11","/Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo/qie-pwa-demo-web.log -> /Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo/qie-pwa-demo-web.log.2021-06-11","/Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo/egg-web.log -> /Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo/egg-web.log.2021-06-11","/Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo/egg-schedule.log -> /Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo/egg-schedule.log.2021-06-11","/Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo/egg-agent.log -> /Users/lixiao/Desktop/selfwork/logs/qie-pwa-demo/egg-agent.log.2021-06-11"]

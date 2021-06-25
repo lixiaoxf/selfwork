@@ -1,0 +1,66 @@
+2021-06-06 14:10:33,173 INFO 4470 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-06-06 14:10:33,173 INFO 4470 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-10 14:53:27,511 INFO 8249 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-06-10 14:53:27,511 INFO 8249 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-10 15:07:55,927 INFO 11421 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-06-10 15:07:55,927 INFO 11421 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-10 15:11:19,494 INFO 11460 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-06-10 15:11:19,494 INFO 11460 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-10 17:20:51,611 INFO 19941 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-06-10 17:20:51,611 INFO 19941 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-10 17:26:04,875 INFO 20020 [Timer] /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 23635128ms at 2021-06-11 00:00:00.003
+2021-06-10 17:26:04,875 INFO 20020 [Timer] /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 23636125ms at 2021-06-11 00:00:01.000
+2021-06-10 17:26:04,642 INFO 20021 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-06-10 17:26:04,642 INFO 20021 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-10 17:30:18,168 INFO 20053 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-06-10 17:30:18,168 INFO 20053 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-10 17:30:26,440 INFO 20064 [Timer] /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 23373561ms at 2021-06-11 00:00:00.001
+2021-06-10 17:30:26,441 INFO 20064 [Timer] /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 23374560ms at 2021-06-11 00:00:01.001
+2021-06-10 17:30:26,210 INFO 20065 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-06-10 17:30:26,210 INFO 20065 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-10 17:31:09,132 INFO 20083 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-06-10 17:31:09,132 INFO 20083 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-10 17:31:18,658 INFO 20095 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-06-10 17:31:18,658 INFO 20095 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-10 17:32:00,469 INFO 20119 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-06-10 17:32:00,469 INFO 20119 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-10 17:32:57,185 INFO 20157 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-06-10 17:32:57,185 INFO 20157 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-10 17:34:58,281 INFO 20213 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-06-10 17:34:58,281 INFO 20213 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-10 17:36:13,278 INFO 20253 [Timer] /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 23026724ms at 2021-06-11 00:00:00.002
+2021-06-10 17:36:13,278 INFO 20253 [Timer] /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 23027722ms at 2021-06-11 00:00:01.000
+2021-06-10 17:36:13,034 INFO 20254 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-06-10 17:36:13,034 INFO 20254 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-10 17:38:17,742 INFO 20276 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-06-10 17:38:17,742 INFO 20276 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-10 17:41:05,087 INFO 20706 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-06-10 17:41:05,087 INFO 20706 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-10 17:41:05,496 INFO 20705 [Timer] /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22734505ms at 2021-06-11 00:00:00.001
+2021-06-10 17:41:05,497 INFO 20705 [Timer] /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22735504ms at 2021-06-11 00:00:01.000
+2021-06-10 17:44:19,181 INFO 20780 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-06-10 17:44:19,181 INFO 20780 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-10 17:44:40,404 INFO 20805 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-06-10 17:44:40,404 INFO 20805 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-10 17:44:43,644 INFO 20813 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-06-10 17:44:43,644 INFO 20813 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-10 17:45:05,411 INFO 20820 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-06-10 17:45:05,411 INFO 20820 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-10 17:45:14,494 INFO 20824 [Timer] /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22485508ms at 2021-06-11 00:00:00.002
+2021-06-10 17:45:14,494 INFO 20824 [Timer] /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22486506ms at 2021-06-11 00:00:01.000
+2021-06-10 17:45:14,242 INFO 20825 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-06-10 17:45:14,242 INFO 20825 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-10 17:46:36,153 INFO 20861 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-06-10 17:46:36,153 INFO 20861 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-10 17:46:36,620 INFO 20860 [Timer] /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22403381ms at 2021-06-11 00:00:00.001
+2021-06-10 17:46:36,621 INFO 20860 [Timer] /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22404379ms at 2021-06-11 00:00:01.000
+2021-06-10 17:57:05,616 INFO 21197 [Timer] /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 21774385ms at 2021-06-11 00:00:00.001
+2021-06-10 17:57:05,616 INFO 21197 [Timer] /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 21775384ms at 2021-06-11 00:00:01.000
+2021-06-10 17:57:05,354 INFO 21198 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-06-10 17:57:05,355 INFO 21198 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-11 02:45:57,458 INFO 21198 [Job#16233507574554493177604707911] /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2021-06-11 02:45:57,460 INFO 21198 [Job#16233507574594493177647898401] /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2021-06-11 02:45:57,497 INFO 21198 [Job#16233507574554493177604707911] /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 38ms
+2021-06-11 02:45:57,499 INFO 21198 [Job#16233507574594493177647898401] /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 39ms
+2021-06-11 02:45:57,459 INFO 21197 [Timer] /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 76442545ms at 2021-06-12 00:00:00.004
+2021-06-11 02:45:57,462 INFO 21197 [Timer] /Users/lixiao/Desktop/selfwork/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 76443541ms at 2021-06-12 00:00:01.003

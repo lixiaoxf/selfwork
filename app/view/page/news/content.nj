@@ -1,0 +1,80 @@
+<div class='page-wrap'>
+    <div class='page-section section1'>
+        <div class='page-content'>
+            <div class='left page-title'>
+                <p class='animate__animated animate__flipInX'>Stay </p>  
+                <p class='animate__animated animate__flipInX animate__delay-1s'>Tuned</p>
+                <p class='animate__animated animate__flipInX animate__delay-2s'>For</p>
+                <p class='animate__animated animate__flipInX animate__delay-3s'>Updates</p>
+            </div>
+            <div class='right'>
+                <div class='title animate__animated animate__fadeInRight'>news</div>
+                <div class='search'>
+                    <input type='text' placeholder='Search'>
+                    <div class='search-icon'></div>
+                </div>
+                <div class='newswrap'>
+                    <a class='news-card'>
+                        <div class='news-top'> 
+                            <p>Bankingdive</p>
+                            <span>Nov 9, 2020</span>
+                        </div>
+                        <div class='news-content'>
+                            Ex-SoFi CEO's company Figure seeks national bank charter
+                        </div>
+                    </a>
+                    <a class='news-card'>
+                        <div class='news-top'> 
+                            <p>Bankingdive</p>
+                            <span>Nov 9, 2020</span>
+                        </div>
+                        <div class='news-content'>
+                            Ex-SoFi CEO's company Figure seeks national bank charter
+                        </div>
+                    </a>
+                    <a class='news-card'>
+                        <div class='news-top'> 
+                            <p>Bankingdive</p>
+                            <span>Nov 9, 2020</span>
+                        </div>
+                        <div class='news-content'>
+                            Ex-SoFi CEO's company Figure seeks national bank charter
+                        </div>
+                    </a>
+                    <a class='news-card'>
+                        <div class='news-top'> 
+                            <p>Bankingdive</p>
+                            <span>Nov 9, 2020</span>
+                        </div>
+                        <div class='news-content'>
+                            Ex-SoFi CEO's company Figure seeks national bank charter
+                        </div>
+                    </a>
+                    <a class='news-card'>
+                        <div class='news-top'> 
+                            <p>Bankingdive</p>
+                            <span>Nov 9, 2020</span>
+                        </div>
+                        <div class='news-content'>
+                            Ex-SoFi CEO's company Figure seeks national bank charter
+                        </div>
+                    </a>
+                    <a class='news-card'>
+                        <div class='news-top'> 
+                            <p>Bankingdive</p>
+                            <span>Nov 9, 2020</span>
+                        </div>
+                        <div class='news-content'>
+                            Ex-SoFi CEO's company Figure seeks national bank charter
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div  class='page-section section2'>
+        {% include 'component/letstalk/index.nj' %}
+    </div>
+</div>

@@ -1,0 +1,33 @@
+2021-06-24 08:38:36,940 INFO 36783 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/_egg-multipart@2.12.0@egg-multipart/app/schedule/clean_tmpdir.js
+2021-06-24 08:38:36,940 INFO 36783 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-06-24 08:38:36,940 INFO 36783 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-24 08:38:45,221 INFO 36798 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/_egg-multipart@2.12.0@egg-multipart/app/schedule/clean_tmpdir.js
+2021-06-24 08:38:45,221 INFO 36798 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-06-24 08:38:45,221 INFO 36798 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-24 08:39:26,049 INFO 36822 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/_egg-multipart@2.12.0@egg-multipart/app/schedule/clean_tmpdir.js
+2021-06-24 08:39:26,050 INFO 36822 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-06-24 08:39:26,050 INFO 36822 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-24 08:44:03,748 INFO 36842 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/_egg-multipart@2.12.0@egg-multipart/app/schedule/clean_tmpdir.js
+2021-06-24 08:44:03,748 INFO 36842 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-06-24 08:44:03,748 INFO 36842 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-24 08:44:18,255 INFO 36874 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/_egg-multipart@2.12.0@egg-multipart/app/schedule/clean_tmpdir.js
+2021-06-24 08:44:18,255 INFO 36874 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-06-24 08:44:18,255 INFO 36874 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-24 08:44:21,836 INFO 36882 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/_egg-multipart@2.12.0@egg-multipart/app/schedule/clean_tmpdir.js
+2021-06-24 08:44:21,836 INFO 36882 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-06-24 08:44:21,836 INFO 36882 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-24 16:01:29,550 INFO 46274 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/_egg-multipart@2.12.0@egg-multipart/app/schedule/clean_tmpdir.js
+2021-06-24 16:01:29,550 INFO 46274 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-06-24 16:01:29,550 INFO 46274 [egg-schedule]: register schedule /Users/lixiao/Desktop/selfwork/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-06-24 16:01:29,872 INFO 46260 [Timer] /Users/lixiao/Desktop/selfwork/node_modules/_egg-multipart@2.12.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 44910130ms at 2021-06-25 04:30:00.002
+2021-06-24 16:01:29,872 INFO 46260 [Timer] /Users/lixiao/Desktop/selfwork/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 28710128ms at 2021-06-25 00:00:00.000
+2021-06-24 16:01:29,872 INFO 46260 [Timer] /Users/lixiao/Desktop/selfwork/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 28711128ms at 2021-06-25 00:00:01.000
+2021-06-25 07:06:00,553 INFO 46274 [Job#16245759604753343421098992511] /Users/lixiao/Desktop/selfwork/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js executing by app
+2021-06-25 07:06:00,562 INFO 46274 [Job#16245759605283343421492531951] /Users/lixiao/Desktop/selfwork/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2021-06-25 07:06:00,574 INFO 46274 [Job#16245759605313343421518139691] /Users/lixiao/Desktop/selfwork/node_modules/_egg-multipart@2.12.0@egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2021-06-25 07:06:00,585 INFO 46274 [Job#16245759604753343421098992511] /Users/lixiao/Desktop/selfwork/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js execute succeed, used 25ms. 
+2021-06-25 07:06:00,586 INFO 46274 [Job#16245759605313343421518139691] /Users/lixiao/Desktop/selfwork/node_modules/_egg-multipart@2.12.0@egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 12ms. 
+2021-06-25 07:06:00,590 INFO 46274 [Job#16245759605283343421492531951] /Users/lixiao/Desktop/selfwork/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 28ms. 
+2021-06-25 07:06:00,516 INFO 46260 [Timer] /Users/lixiao/Desktop/selfwork/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 60839494ms at 2021-06-26 00:00:00.009
+2021-06-25 07:06:00,530 INFO 46260 [Timer] /Users/lixiao/Desktop/selfwork/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 60840472ms at 2021-06-26 00:00:01.002
+2021-06-25 07:06:00,550 INFO 46260 [Timer] /Users/lixiao/Desktop/selfwork/node_modules/_egg-multipart@2.12.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 77039469ms at 2021-06-26 04:30:00.019

@@ -1,0 +1,172 @@
+@import 'common/style/_base';
+.app-page{
+    .page-content{
+        display: none;
+    }
+    &.step1{
+        .section1{
+            @include step-cur;
+        }
+    }
+
+    &.step2{
+        .section2{
+            @include step-cur;
+            .page-p{
+                margin-bottom: 80px;
+            }
+        }
+    }
+
+    &.step3{
+        background: #E0D3B8;
+        .section3{
+            @include step-cur;
+            .right{
+                height: 320px;
+                align-items: flex-end;
+            }
+        }
+    }
+
+    &.step4{
+        .section4{
+            @include step-cur;
+        }
+
+    }
+    &.step5{
+        .section5{
+            @include step-cur;
+        }
+
+    }
+    .section4{
+        .page-content{
+            position: relative;
+            .black-arrow-wrap{
+                width: 50%;
+                height: 100%;
+                position: absolute;
+                z-index: 1;
+                &.hide{
+                    opacity: 0;
+                    z-index: -1;
+                }
+                &.left{
+                    left:0;
+                    .black-arrow{
+                        position: absolute;
+                        left: 65%;
+                        top:50%;
+                        margin-top: -70px;
+                        opacity: 0;
+                    }
+                    &:hover{
+                        .black-arrow{
+                            opacity: 1;
+                        }
+                    }
+                }
+                &.right{
+                    right: 0;
+                    .black-arrow{
+                        position: absolute;
+                        right: 50%;
+                        top:50%;
+                        margin-top: -70px;
+                        margin-left: -70px;
+                        opacity: 0;
+                    }
+                    &:hover{
+                        .black-arrow{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+    .advisor-card-list-wrap{
+        width: 100%;
+        overflow: hidden;
+    }
+    .advisor-card-list{
+        width: 100%;
+        display: flex;
+        transition: all 1s ease;
+        transform:translateX(-0%);
+        position: relative;
+        
+    }
+    .advisor-card{
+        width: 100%;
+        display: flex;
+        flex-shrink: 0;
+        justify-content: space-between;
+        padding: 0 var(--section-padding);
+        .photo{
+            width: 469px;
+            height: 469px;
+            background: #eeeeee;
+            flex-shrink: 0;
+            position: relative;
+
+        }
+        .advisor-detail{
+            width: 600px;
+            flex-shrink: 0;
+            position: relative;
+            &:hover{
+                .black-arrow{
+                    opacity: 1;
+                }
+            }
+
+            .black-arrow{
+                position: absolute;
+                top:150px;
+                left:50%;
+                margin-left: -70px;
+                opacity: 0;
+            }
+            .advisor-say{
+                
+                margin-bottom: 40px;
+                line-height: 32px;
+                font-size: 18px;
+                max-height: 430px;
+                overflow: scroll;
+            }
+            .sayicon{
+                width: 62px;
+                height: 53px;
+                background: url(../res/say.png) no-repeat center;
+                background-size: 100%;
+                position: absolute;
+                top:-70px;
+                left:-35px;
+            }
+            .name{
+                color: #0E1B3B;
+                font-size: 48px;
+                font-weight: bold;
+                margin-bottom: 16px;
+                padding-top: 40px;
+                border-top: 1px solid #8EA4B9;
+            }
+            .tip{
+                p{
+                    width: 330px;
+                    color: #556277;
+                    height: 24px;
+                    line-height: 24px;
+                    font-size: 18px;
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+
+}

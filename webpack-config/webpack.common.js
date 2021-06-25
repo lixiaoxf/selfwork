@@ -86,6 +86,7 @@ module.exports = {
     resolve:{
         alias:{
             '@':staticPath,
+            '@modules':path.resolve(basePath,'node_modules/')
             // 'rem':path.resolve(staticPath, 'common/js/flexible/rem.js'),
         },
         extensions:[
@@ -123,7 +124,9 @@ module.exports = {
                                 
                                     path.resolve(__dirname,'../static/')
                                   
-                              ]
+                              ],
+                              implementation: require('dart-sass')
+                                
                             }
                         },
                         {
@@ -137,6 +140,10 @@ module.exports = {
                 ]
                 })
             },
+            {
+                test: /\.svg/,
+                use: ['file-loader']
+              },
             { 
                 test:/\.(png|jpg|jpeg|gif)$/,
                 use:[
@@ -162,8 +169,8 @@ module.exports = {
                 test: /\.js$/,
                 exclude: /node_modules/,
                 use: {
-                  loader: 'babel-loader',
-                }  
+                    loader: 'babel-loader'
+                } 
             }
         ]
     },

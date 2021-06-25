@@ -1,47 +1,179 @@
-@import 'common/style/base';
+@import 'common/style/_var.scss';
+@mixin putawayiconActive{
+    span{
+        &:nth-child(1){
+            transform: rotate(-30deg);
+            top:20px;
+            width: 10px;
+        }
+        &:nth-child(2){
+            top:20px;
+        }
+        &:nth-child(3){
+            top:20px;
+            transform: rotate(30deg);
+            width: 10px;
+        }
+    }
+}
 .site-header{
-    padding: rem(10) rem(50) 0 rem(10);
-    box-sizing: border-box;
-    height: 100%;
-    background: url('../res/bk.jpeg') no-repeat;
-    background-size: cover;
-    position: relative;
-    &::before{
-        content:'';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: $headerHeight;
+    position: fixed;
+    z-index: 6;
+    width: 100%;
+    transition: all .5s ease; 
+    &.hide{
+        display: none;
+    }  
+    &.open{
+
+        .putawayicon{
+            display: block;
+            @include putawayiconActive;  
+        }
+        .nav{
+
+            margin-right: 144px;
+            z-index: 6;
+            opacity: 1;
+        }
+        .section-wrap{
+            transform:translateX(0%)
+        }
+    }
+    &.putAway{
+        .nav{
+            margin-right: 144px;
+            z-index: 6;
+            opacity: 1;
+        }
+        .section-wrap{
+            
+            transform:translateX(105%)
+
+        }
+        .putawayicon{
+            display: block;
+        }
+
+    }
+    .putawayicon{
+        display: none;
+        width: 40px;
+        height: 40px;
+        right: 40px;
+        top:15px;
         position: absolute;
-        width: 100%;
-        height: 100%;
-        left:0;
-        top:0;
-        background: #000;
-        opacity: 0.3;
+        margin-left: 60px;
+        cursor: pointer;
+
+        span {
+            height: 2px;
+            width: 100%;
+            background: rgba(14, 27, 59, 1);
+            position: absolute;
+            left:0;
+            top:0;
+            transition: all .5s ease;
+            transform-origin: left center;
+            &:nth-child(1){
+                top:7px;
+            }
+            &:nth-child(2){
+                top:20px;
+            }
+            &:nth-child(3){
+                top:33px;
+            }
+
+        }
     }
-    .header-photo{
-        text-align: right;
-        margin-bottom: rem(30);
-        position: relative;
+
+    &.dark{
+        background: rgba(30, 56, 80, 1);
+        .logo{
+            background: url(../res/logo-white.png) no-repeat center;
+            background-size: contain;
+        }
+        .login{
+            background: url(../res/icon-white.png) no-repeat center;
+        }
+        .putawayicon{
+            span{
+                background: #fff;
+            }
+        }
+        .nav{
+            .section-wrap{
+                .navlist{
+                    li{
+                        a{
+                            color:#8EA4B9;
+                        }
+                        
+                        &.cur{
+                            a{
+                                color:#fff;
+                            }
+                            
+                        }
+                    }
+                }
+            }
+
+        }
+        
     }
-    .photo{
-        width: rem(80);
-        height: rem(80);
-        display: inline-block;
-        border-radius: 100%;
-        background: #000 url('../res/header-photo.jpeg') no-repeat center;
-        background-size:cover;
-        margin: rem(80) auto 0;
+    .logo{
+        display: block;
+        height: 40px;
+        width: 310px;
+        background: url(../res/logo-dark.png) no-repeat center;
+        background-size: contain;
     }
-    .header-name{
-        font-size:rem(30);
-        color:#fff;
-        text-align: right;
-        margin-bottom: rem(10);
-        position: relative;
+
+    .nav{
+        max-width: 60%;
+        overflow: hidden;
+        .section-wrap{
+            display: flex;
+            align-items: center;
+            transition: transform .7s ease;
+        }
+        .navlist{
+            display: flex;
+            height: 18px;
+            align-items: center;
+            margin-right: 23px;
+            li{
+                margin-right: 40px;
+                font-size: 14px;
+                
+                cursor: pointer;
+                a{
+                    color: rgba(14, 27, 59, 0.7);
+                }
+                &.cur{
+                    a{
+                        color: rgba(14, 27, 59, 1);
+                        font-weight: bold;
+                    }
+                    
+                }
+            }
+
+        }
     }
-    .header-msg{
-        font-size:rem(15);
-        color:#ccc;
-        text-align: right;
-        margin-bottom: rem(10);
-        position: relative;
+    .login{
+        width: 18px;
+        height: 18px;
+        background: url('../res/icon-dark.png') no-repeat center;
+        cursor: pointer;
     }
+    
+
 }
