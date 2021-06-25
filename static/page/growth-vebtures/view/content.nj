@@ -42,31 +42,34 @@
         <div class='page-content'>
            <div class='title'>Direct investments</div>
            <div class='msg'>We invest in growth-stage companies with scalable and sustainable business models that are effectively solving the most challenging business problems in enterprise software and fintech.</div>
-           <ul scroll-delay>
-                <li><div></div></li>
-                <li><div></div></li>
-                <li><div></div></li>
-                <li><div></div></li>
-                <li><div></div></li>
-                <li><div></div></li>
-                <li><div></div></li>
-                <li><div></div></li>
-                <li><div></div></li>
-                <li><div></div></li>
-                <li><div></div></li>
-                <li><div></div></li>
-                <li><div></div></li>
-                <li><div></div></li>
-                <li><div></div></li>
-                <li><div></div></li>
-                <li><div></div></li>
-                <li><div></div></li>
-                <li><div></div></li>
-                <li><div></div></li>
-                <li><div></div></li>
-                <li><div></div></li>
-                <li><div></div></li>
-           </ul>
+           <div class='icons-list'>
+                <ul class='scroll-inner' scroll-delay>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                </ul>
+           </div>
+           
 
         </div>
         <div class='yellow-arrow-wrap'>
@@ -74,24 +77,27 @@
         </div>
     </div>
     <div  class='page-section section4'>
-        <div class='page-content' scroll-delay>
-            <div class='title animate__animated animate__rubberBand animate__delay-1s'>See how we support our portfolio</div>
-            <div class='videos'>
-                <div class='video-card'>
-                    <p>Chieh Huang, CEO & Co-founder of Boxed</p>
-                    <div class='video-wrap'>
-                        <div class='play-btn animate__animated animate__rubberBand'></div>
-                        <video></video>
+        <div class='page-content scroll-wrap' >
+            <div class='scroll-inner' scroll-delay>
+                <div class='title animate__animated animate__rubberBand animate__delay-1s'>See how we support our portfolio</div>
+                <div class='videos'>
+                    <div class='video-card'>
+                        <p>Chieh Huang, CEO & Co-founder of Boxed</p>
+                        <div class='video-wrap'>
+                            <div class='play-btn animate__animated animate__rubberBand'></div>
+                            <video></video>
+                        </div>
                     </div>
-                </div>
-                <div class='video-card'>
-                    <p>Talat Imran , Co-founder of InCube Ventures</p>
-                    <div class='video-wrap'>
-                        <div class='play-btn animate__animated animate__rubberBand'></div>
-                        <video></video>
+                    <div class='video-card'>
+                        <p>Talat Imran , Co-founder of InCube Ventures</p>
+                        <div class='video-wrap'>
+                            <div class='play-btn animate__animated animate__rubberBand'></div>
+                            <video></video>
+                        </div>
                     </div>
                 </div>
             </div>
+            
         </div>
         <div class='yellow-arrow-wrap'>
             <div class='yellow-arrow'></div>

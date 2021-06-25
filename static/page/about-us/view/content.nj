@@ -26,32 +26,36 @@
                 <p>Our </p>  
                 <p>Purpose</p>
             </div>
-            <div class='right' scroll-delay>
-                
-                    <div class='page-p'>
-                        <p>Alpha Square Group was founded in 2015</p>
-                        <p>with the goal of investing in visionary</p>
-                        <p>entrepreneurs and their growth to </p>
-                        <p>late-stage companies powered by </p>
-                        <p>disruptive technologies and sustainable</p>
-                        <p>business models.</p>
+            <div class='right' >
+                    <div class='scroll-wrap'>
+                        <div class='scroll-inner' scroll-delay>
+                            <div class='page-p'>
+                                <p>Alpha Square Group was founded in 2015</p>
+                                <p>with the goal of investing in visionary</p>
+                                <p>entrepreneurs and their growth to </p>
+                                <p>late-stage companies powered by </p>
+                                <p>disruptive technologies and sustainable</p>
+                                <p>business models.</p>
+                            </div>
+                            <div class='page-p'>
+                                <p>Alpha Square Group was founded in 2015</p>
+                                <p>with the goal of investing in visionary</p>
+                                <p>entrepreneurs and their growth to </p>
+                                <p>late-stage companies powered by </p>
+                                <p>disruptive technologies and sustainable</p>
+                                <p>business models.</p>
+                            </div>
+                            <div class='page-p'>
+                                <p>Alpha Square Group was founded in 2015</p>
+                                <p>with the goal of investing in visionary</p>
+                                <p>entrepreneurs and their growth to </p>
+                                <p>late-stage companies powered by </p>
+                                <p>disruptive technologies and sustainable</p>
+                                <p>business models.</p>
+                            </div> 
+                        </div>
                     </div>
-                    <div class='page-p'>
-                        <p>Alpha Square Group was founded in 2015</p>
-                        <p>with the goal of investing in visionary</p>
-                        <p>entrepreneurs and their growth to </p>
-                        <p>late-stage companies powered by </p>
-                        <p>disruptive technologies and sustainable</p>
-                        <p>business models.</p>
-                    </div>
-                    <div class='page-p'>
-                        <p>Alpha Square Group was founded in 2015</p>
-                        <p>with the goal of investing in visionary</p>
-                        <p>entrepreneurs and their growth to </p>
-                        <p>late-stage companies powered by </p>
-                        <p>disruptive technologies and sustainable</p>
-                        <p>business models.</p>
-                    </div>              
+                                 
             </div>
         </div>
         <div class='yellow-arrow-wrap'>
@@ -94,6 +98,7 @@
                         <div class='sayicon'></div>
                         <div class='advisor-say'>
                             Andy is the CEO and founder of Cloudwise , the leading Asia - Pacific AlOps provider that offers cloud application performance management ( APM ) and SaaS IT monitoring services trusted by large enterprises such as Xiaomi , Bytedance , TravelSky , Yum Brands , CITIC Group , etc. Previous to Cloudwise , Andy served as Director of Engineering Everbridge , responsible for managing the R & D team in Everbridge China Prior to Everbridge , he held senior technical at Gomez ( later acquired by Dynatrace ) . Andy received his Master in Software Engineering from Tsinghua University .
+                            
                         </div>
                         <div class='name'>Andy Yin</div>
                         <div class='tip'>

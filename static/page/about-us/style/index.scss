@@ -41,6 +41,11 @@
         }
 
     }
+    .section2{
+        .scroll-wrap{
+            width: 580px;
+        }
+    }
     .section4{
         .page-content{
             position: relative;
@@ -136,8 +141,8 @@
                 margin-bottom: 40px;
                 line-height: 32px;
                 font-size: 18px;
-                max-height: 430px;
-                overflow: scroll;
+                max-height: 420px;
+                overflow: hidden;
             }
             .sayicon{
                 width: 62px;
