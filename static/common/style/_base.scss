@@ -35,6 +35,11 @@ html,html body,.app-page {
         --section-padding:16px;
     }
 }
+@media (max-height:700px){ 
+    .page-content{
+        transform: scale(.8);
+    }
+}
 .section2{
     top:100%;
 }
