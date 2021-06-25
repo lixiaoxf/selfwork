@@ -6,6 +6,7 @@ html,html body,.app-page {
     height:100%;
     overflow: hidden;
 }
+
 .page-wrap{
     overflow: hidden;
 }
@@ -20,22 +21,26 @@ html,html body,.app-page {
     }
 }
 :root {
+
     --site-maxwidth: 1440px;
     --site-minwidth: 1200px;
 }
+
 @media (min-width: $siteMaxWidth) {
+
     :root {
         --site-width: var(--site-maxwidth);
         --section-padding:96px;
     }
 }
 @media (max-width: $siteMaxWidth) {
+    
     :root {
         --site-width: var(--site-minwidth);
         --section-padding:16px;
     }
 }
-@media (max-height:700px){ 
+@media screen and (max-height: 740px) {
     .page-content{
         transform: scale(.8);
     }
