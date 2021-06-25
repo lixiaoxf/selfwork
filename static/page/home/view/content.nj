@@ -49,28 +49,33 @@
                 <p>in</p>
             </div>
             <div class='right'>
-                <div class='article-wrap' scroll-delay>
-                    <a class='article' href='/aboutus'>
-                        <div class='h'>Growth Ventures</div>
-                        <div class='msg'>We invest in growth and late-stage ventures in enterprise software and fintech sectors. As a strategic investor, ASG enables unprecedented investing access for investors with global interest, and provides differentiated value-add to brilliant entrepreneurs with global expansion visions</div>
-                        <p>Growth to Late-Stage</p>
-                        <p>Enterprise & Fintech</p>
-                        <p>Proven Business Model</p>
-                        <p>Great Growth Potential</p>
-                        <p>Ambition for Expansion</p>
-                        <div class='black-arrow rt'></div>
-                    </a>
-                    <a class='article' href='/aboutus'>
-                        <div class='h'>Hedge Funds</div>
-                        <div class='msg'>We have been actively investing in managers that offer superior risk-adjusted returns and healthy liquidity. Our strategic asset allocation strategy seeks to capitalize on global opportunities through portfolio management across a broad range of asset classes, geographies, currencies, and risk themes.</div>   
-                        <p>Equity Long/Short</p>
-                        <p>Equity Long Only</p>
-                        <p>Multi-Strategy</p>
-                        <p>Credit</p>
-                        <p>Quant</p>
-                        <p>Trading/Macro</p>
-                        <div class='black-arrow rt'></div>
-                    </a>
+                <div class='article-wrap' >
+                    <div class='scroll-wrap'>
+                        <div class='scroll-inner' scroll-delay>
+                            <a class='article' href='/aboutus'>
+                                <div class='h'>Growth Ventures</div>
+                                <div class='msg'>We invest in growth and late-stage ventures in enterprise software and fintech sectors. As a strategic investor, ASG enables unprecedented investing access for investors with global interest, and provides differentiated value-add to brilliant entrepreneurs with global expansion visions</div>
+                                <p>Growth to Late-Stage</p>
+                                <p>Enterprise & Fintech</p>
+                                <p>Proven Business Model</p>
+                                <p>Great Growth Potential</p>
+                                <p>Ambition for Expansion</p>
+                                <div class='black-arrow rt'></div>
+                            </a>
+                            <a class='article' href='/aboutus'>
+                                <div class='h'>Hedge Funds</div>
+                                <div class='msg'>We have been actively investing in managers that offer superior risk-adjusted returns and healthy liquidity. Our strategic asset allocation strategy seeks to capitalize on global opportunities through portfolio management across a broad range of asset classes, geographies, currencies, and risk themes.</div>   
+                                <p>Equity Long/Short</p>
+                                <p>Equity Long Only</p>
+                                <p>Multi-Strategy</p>
+                                <p>Credit</p>
+                                <p>Quant</p>
+                                <p>Trading/Macro</p>
+                                <div class='black-arrow rt'></div>
+                            </a>
+                        </div>
+                    </div>
+                    
                 </div>
                 
                 <div class='yellow-arrow-wrap'>

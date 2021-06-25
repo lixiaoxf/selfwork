@@ -1,83 +1,4 @@
-.letstalk div.page-content {
-  display: none;
-}
-.letstalk .right {
-  height: auto;
-}
-.letstalk .right .page-p {
-  width: 500px;
-}
-.letstalk .marginb {
-  margin-bottom: 20px;
-}
-.letstalk .bottom-section {
-  color: #556277;
-  font-size: 14px;
-  height: auto;
-  margin-top: 140px;
-  position: absolute;
-  bottom: 60px;
-}
-.letstalk .in-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  border-bottom: 1px solid #8EA4B9;
-  padding-bottom: 56px;
-}
-.letstalk .msg-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 48px;
-  width: 100%;
-}
-.letstalk .msg-section .left {
-  height: auto;
-}
-.letstalk .msg-section .page-p span {
-  font-size: 12px;
-  line-height: 28px;
-  color: rgba(14, 27, 59, 0.7);
-}
-.letstalk .msg-section .page-p p {
-  font-size: 18px;
-  line-height: 28px;
-}
-.letstalk .page-content {
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -ms-flex-line-pack: center;
-  align-content: center;
-}
-.letstalk .btn {
-  width: 380px;
-  margin-top: 60px;
-  height: 93px;
-  background: #E0D3B8;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0 64px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  font-size: 28px;
-  font-weight: bold;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  margin-right: 120px;
-  cursor: pointer;
-}
-.letstalk .btn:after {
-  content: "";
-  height: 18px;
-  width: 42px;
-  display: inline-block;
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAQCAYAAACP4IauAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADiSURBVHgB1ZaxCsIwFEVfEiuCWrppFaH9A0EHQYTgXKF+hZ/nHxRHR0ed2sHBUbFDKbYxb9CpqR2fZ0tyhzPcvEQAEVw3AGYPQt4dZa/0eq/KcCCAOwsgbT22jJX7thBRZ7jwqnIkZHebOQghDqBUope+SZgBEaSUcDpnfsl5BIx5eivOi2Kd3Y7JJ0NGFvklTEoWqRMmJ4uYhJk9Xir4D2IS06ARimBnkW8NhK4BME+LxnmpawDEMImSu2B1onhO71EwiCIkZJuIIiSmweXZg8KypnWipMCfV3+yCh1HOqbMG4jElV+nDuUtAAAAAElFTkSuQmCC) no-repeat center;
-  background-size: 100%;
-}:root {
+:root {
   --animate-delay: 0.5s !important;
 }
 
@@ -360,6 +281,85 @@
   height: 18px;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEuSURBVHgBrZOxS8NAGMXfu7QBiSm6JCAi2FmcxYKLe/4FF3f/C3d39+7uXYvOzeKSDp2a1QbRNvd5qRYkyclVfdPxuO+X78J7hEW78XnEDm8I9gEJBJjISu4W83Hedt+zQrq8JWAg8CvPnGPl8WxvZ39UFPNlfUa10hUTCqK6L8Z79XpJ20wrSCscwyKhnDiDzDsiWGT+WeAMUoIpbBtBcmeQFqSwbSR66gwSTzJYpEtOnEGL2TitcoPGNshNjlJn0OdaeGp41EPbdStISnmse2+rMtsa5HXQyIvfVdZYtFYkPBgkoLrCVz2+fffCD4+K95fZc32Gm0Mcnwbr+BNJVVL8IBK51nionr8pMdeAbu/aFOkSvxE50ks9ZHg4uG8r6JawTP0ZUkmkr/BP+gAZ0mKAcfZWGwAAAABJRU5ErkJggg==) no-repeat center;
   cursor: pointer;
+}.letstalk div.page-content {
+  display: none;
+}
+.letstalk .right {
+  height: auto;
+}
+.letstalk .right .page-p {
+  width: 500px;
+}
+.letstalk .marginb {
+  margin-bottom: 20px;
+}
+.letstalk .bottom-section {
+  color: #556277;
+  font-size: 14px;
+  height: auto;
+  margin-top: 140px;
+  position: absolute;
+  bottom: 60px;
+}
+.letstalk .in-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #8EA4B9;
+  padding-bottom: 56px;
+}
+.letstalk .msg-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 48px;
+  width: 100%;
+}
+.letstalk .msg-section .left {
+  height: auto;
+}
+.letstalk .msg-section .page-p span {
+  font-size: 12px;
+  line-height: 28px;
+  color: rgba(14, 27, 59, 0.7);
+}
+.letstalk .msg-section .page-p p {
+  font-size: 18px;
+  line-height: 28px;
+}
+.letstalk .page-content {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+.letstalk .btn {
+  width: 380px;
+  margin-top: 60px;
+  height: 93px;
+  background: #E0D3B8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 64px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 28px;
+  font-weight: bold;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-right: 120px;
+  cursor: pointer;
+}
+.letstalk .btn:after {
+  content: "";
+  height: 18px;
+  width: 42px;
+  display: inline-block;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAQCAYAAACP4IauAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADiSURBVHgB1ZaxCsIwFEVfEiuCWrppFaH9A0EHQYTgXKF+hZ/nHxRHR0ed2sHBUbFDKbYxb9CpqR2fZ0tyhzPcvEQAEVw3AGYPQt4dZa/0eq/KcCCAOwsgbT22jJX7thBRZ7jwqnIkZHebOQghDqBUope+SZgBEaSUcDpnfsl5BIx5eivOi2Kd3Y7JJ0NGFvklTEoWqRMmJ4uYhJk9Xir4D2IS06ARimBnkW8NhK4BME+LxnmpawDEMImSu2B1onhO71EwiCIkZJuIIiSmweXZg8KypnWipMCfV3+yCh1HOqbMG4jElV+nDuUtAAAAAElFTkSuQmCC) no-repeat center;
+  background-size: 100%;
 }@charset "UTF-8";
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -516,6 +516,21 @@ html, html body, .app-page {
   overflow: hidden;
   display: none;
 }
+.page-section .scroll-wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.page-section .scroll-inner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: -17px;
+  bottom: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
 .page-section .page-scroll {
   overflow: scroll;
   padding-top: 72px;
@@ -554,7 +569,6 @@ html, html body, .app-page {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  overflow: scroll;
 }
 .page-section .page-p p {
   font-size: 28px;
@@ -718,15 +732,6 @@ html, html body, .app-page {
 .page-wrap .section3 .article-wrap {
   width: 100%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  overflow: scroll;
   padding-bottom: 20px;
 }
 .page-wrap .section3 .article {
@@ -739,6 +744,7 @@ html, html body, .app-page {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   cursor: pointer;
+  display: block;
 }
 .page-wrap .section3 .article .black-arrow {
   position: absolute;
