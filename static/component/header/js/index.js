@@ -1,6 +1,7 @@
 import $ from 'jquery'
 const StyleMap = {
     default:'default',
+    white:'white',
     dark:'dark'
 }
 class SiteHeader {

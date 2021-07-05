@@ -4,6 +4,7 @@ let mousemove = context.mousemove;
 mousemove.setInnerDom($('<div class="movedom"><div class="inner"></div></div>'))
 
 header.show()
+header.changeStyle('white')
 var advisorlist = {
     'init':function(){
         this.listdom = $('.advisor-card-list')
@@ -75,13 +76,14 @@ let app = {
             mousemove.removeClass('big')
         })
         scrollstep.leave(0,function(){
-            header.changeStyle('default')
+            header.changeStyle('white')
             $('.section2 .page-p').map(function(index){
                 $(this).addClass('font-move delay-'+index)
             })
         })
         scrollstep.enter(0,function(){
             header.open()
+            header.changeStyle('white')
         })
         scrollstep.enter(1,function(){
             header.putAway()
@@ -93,7 +95,7 @@ let app = {
             header.putAway()
         })
         scrollstep.leave(1,function(){
-            header.changeStyle('default')
+            header.changeStyle('white')
         })
         let moved = false
         scrollstep.move(0,function(item,scrolltop){
@@ -103,14 +105,18 @@ let app = {
                 bottom:'unset'
             })
             if(!moved){
-                if(scrolltop>item.top+item.bottom/2){
-                    $('.section2 .page-p').eq(0).addClass('font-move')
-                }else if(scrolltop>item.top+item.bottom*2/3){
-                    $('.section2 .page-p').eq(1).addClass('font-move')
-                }else if(scrolltop>item.bottom){
-                    $('.section2 .page-p').eq(2).addClass('font-move')
-                    let moved = true;
-                }
+                $('.section2 .page-p').eq(0).addClass('font-move')
+                $('.section2 .page-p').eq(1).addClass('font-move delay-1')
+                $('.section2 .page-p').eq(2).addClass('font-move delay-2')
+                moved = true;
+                // if(scrolltop>item.top+item.bottom/2){
+                //     $('.section2 .page-p').eq(0).addClass('font-move')
+                // }else if(scrolltop>item.top+item.bottom*2/3){
+                //     $('.section2 .page-p').eq(1).addClass('font-move ')
+                // }else if(scrolltop>item.bottom){
+                //     $('.section2 .page-p').eq(2).addClass('font-move')
+                //     let moved = true;
+                // }
             }
 
         })

@@ -96,7 +96,9 @@
 
         }
     }
-
+    &.white{
+        background: #fff;
+    }
     &.dark{
         background: rgba(30, 56, 80, 1);
         .logo{
