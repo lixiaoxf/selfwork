@@ -26,19 +26,7 @@
     overflow-x: hidden;
     overflow-y: scroll;
 }
-.page-title{
-    font-size: rem(122);
-    font-weight: bold;
-    align-items: center;
-    justify-content: center;
-    color:#0E1B3B;
-    p{
-        width: 100%;
-    }
-    &.top{
-        align-items: flex-start;
-    }
-}
+
 .page-p {
     p {
         font-size: rem(28);
@@ -54,6 +42,33 @@
     font-weight: normal;
     line-height: rem(32);
 }
+.page-content{
+    width: rem(1440);
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    padding: 0 rem(96);
+    position: relative;
+    .left{
+        width: rem(600);
+        margin-right: rem(56);
+        display: flex;
+        flex-wrap: wrap;
+        flex-shrink: 0;
+        align-items: center;
+        align-content: center;
+        justify-content: flex-start;
+    }
+    .right{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+    }
+}
 .page-wrap{
 
     height: 100%;
@@ -64,32 +79,19 @@
         height: 100%;
         position: relative;
     }
-    .page-content{
-        width: rem(1440);
-        margin: 0 auto;
-        height: 100%;
-        display: flex;
-        padding: 0 rem(96);
-        position: relative;
-        .left{
-            width: rem(600);
-            margin-right: rem(56);
-            display: flex;
-            flex-wrap: wrap;
-            flex-shrink: 0;
-            align-items: center;
-            align-content: center;
-            justify-content: flex-start;
-        }
-        .right{
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            align-content: center;
-            justify-content: center;
-            position: relative;
-            width: 100%;
-        }
+    
+}
+.page-title{
+    font-size: rem(122);
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    color:#0E1B3B;
+    p{
+        width: 100%;
+    }
+    &.top{
+        align-items: flex-start;
     }
 }
 .font-move{

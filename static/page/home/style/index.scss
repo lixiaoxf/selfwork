@@ -68,7 +68,7 @@
             }
         }
     }
-    .section2{
+    div.section2{
         background: #1E3850;
         height: auto;
         .titlefix{
@@ -78,6 +78,9 @@
             flex-wrap: wrap;
             align-content: center;
             top:0;
+        }
+        .page-content{
+            height: auto;
         }
         .page-title{
             color:#FEFEFF;

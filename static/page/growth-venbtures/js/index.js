@@ -14,11 +14,11 @@ function sectionScroll(option){
         var sectionHeight =thisdom.offsetHeight
         var sectionTop = thisdom.offsetTop
         var height = thisvideo[0].offsetHeight ,width =  thisvideo[0].offsetWidth;
-        var tx = (windowWidth/width),ty = (windowHeight/height),targetfrom = 1; 
+        var tx = (windowWidth/width),ty = (windowHeight/height);
         scrollWrap.on('scroll',function(e){
             var scrollCur = e.target.scrollTop
             if(scrollCur >= sectionTop && scrollCur-sectionTop <= sectionHeight ){
-                var precet = (scrollCur-sectionTop)/sectionHeight *  1
+                var precet = (scrollCur-sectionTop)/(sectionHeight) *  1.4
                 precet < 0 ? precet = 0: '';
                 var X = precet +1 >= tx ? tx : precet +1
                 var Y=  precet +1 >= ty ? ty : precet +1
