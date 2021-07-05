@@ -8,7 +8,7 @@ module.exports = app => {
   router.redirect('/', '/index');
   router.get('/index', controller.page.home.index);
   router.get('/aboutus', controller.page.home.aboutUs);
-  router.get('/growthvebtures', controller.page.home.growthVebtures);
+  router.get('/growthvenbtures', controller.page.home.growthVenbtures);
   router.get('/hedgefunds', controller.page.home.hedgeFunds);
   router.get('/news', controller.page.home.news);
   // router.get('/add',controller.page.home.addBlog)

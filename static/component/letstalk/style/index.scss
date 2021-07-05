@@ -1,32 +1,30 @@
+@import 'common/style/_var';
 .letstalk{
-    div.page-content{
-        display: none;
-    }
     .right{
         height: auto;
         .page-p{
-            width: 500px;
+            width: rem(500);
         }
     }
     .marginb{
-        margin-bottom: 20px;
+        margin-bottom: rem(20);
     }
     .bottom-section{
         color:#556277;
-        font-size: 14px;
+        font-size: rem(14);
         height: auto;
-        margin-top: 140px;
+        margin-top: rem(140);
         position: absolute;
-        bottom: 60px;
+        bottom: rem(60);
     }
     .in-section{
         display: flex;
         border-bottom: 1px solid #8EA4B9;
-        padding-bottom: 56px;
+        padding-bottom: rem(56);
     }
     .msg-section{
         display: flex;
-        padding-top: 48px;
+        padding-top: rem(48);
         width: 100%;
         .left{
             height: auto;  
@@ -34,13 +32,13 @@
         .page-p{
             
             span{
-                font-size: 12px;
-                line-height: 28px;
+                font-size: rem(12);
+                line-height: rem(28);
                 color: rgba(14, 27, 59, 0.7);
             }
             p{
-                font-size: 18px;
-                line-height: 28px;
+                font-size: rem(18);
+                line-height: rem(28);
             }
             
         }
@@ -50,22 +48,22 @@
         align-content: center;
     }
     .btn{
-        width: 380px;
-        margin-top: 60px;
-        height: 93px;
+        width: rem(380);
+        margin-top: rem(60);
+        height: rem(93);
         background: #E0D3B8;
         display: flex;
-        padding: 0 64px;
+        padding: 0 rem(64);
         align-items: center;
-        font-size: 28px;
+        font-size: rem(28);
         font-weight: bold;
         justify-content: space-between;
-        margin-right: 120px;
+        margin-right: rem(120);
         cursor: pointer;
         &:after{
             content: '';
-            height: 18px;
-            width: 42px;
+            height: rem(18);
+            width: rem(42);
             display: inline-block;
             background: url(../res/arrow.png) no-repeat center;
             background-size: 100%;

@@ -1,14 +1,14 @@
-<div class='page-wrap'>
-    <div class='page-section section1'>
+<div class='page-wrap scroll-inner' scroll-wrap>
+    <div class='page-section section1' scroll-step>
         <div class='page-content'>
             <div class='left page-title'>
-                <p class='animate__animated animate__flipInX'>Stay </p>  
-                <p class='animate__animated animate__flipInX animate__delay-1s'>Tuned</p>
-                <p class='animate__animated animate__flipInX animate__delay-2s'>For</p>
-                <p class='animate__animated animate__flipInX animate__delay-3s'>Updates</p>
+                <p>Stay </p>  
+                <p >Tuned</p>
+                <p>For</p>
+                <p>Updates</p>
             </div>
             <div class='right'>
-                <div class='title animate__animated animate__fadeInRight'>news</div>
+                <div class='title'>news</div>
                 <div class='search'>
                     <input type='text' placeholder='Search'>
                     <div class='search-icon'></div>
@@ -70,14 +70,9 @@
                             </div>
                         </a>
                     </div>
-                    
                 </div>
             </div>
         </div>
     </div>
-    
-    
-    <div  class='page-section section2'>
-        {% include 'component/letstalk/index.nj' %}
-    </div>
+   
 </div>

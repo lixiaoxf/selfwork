@@ -1,4 +1,7 @@
-$baseFontSize: 24px;
-$headerHeight: 72px;
-$siteMaxWidth: 1440px;
-$siteMinWidth: 1200px
+$base: 24;
+$headerHeight: 72;
+$siteMaxWidth: 1440;
+$siteMinWidth: 1200;
+@function rem($num){
+    @return ($num/$base)+rem;
+} 

@@ -1,1 +1,1 @@
-import './style/_base.scss';
+import './style/_icons'

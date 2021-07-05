@@ -20,11 +20,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 40px;
+    padding: 0 rem(40);
     height: $headerHeight;
     position: fixed;
     z-index: 6;
     width: 100%;
+    height: rem(72);
     transition: all .5s ease; 
     &.hide{
         display: none;
@@ -32,7 +33,7 @@
     &.open{
 
         .putawayicon{
-            display: block;
+            width: rem(40);
             @include putawayiconActive;  
         }
         .nav{
@@ -44,6 +45,7 @@
         .section-wrap{
             transform:translateX(0%)
         }
+
     }
     &.putAway{
         .nav{
@@ -57,22 +59,24 @@
 
         }
         .putawayicon{
-            display: block;
+            width: rem(40);
         }
 
     }
+
     .putawayicon{
-        display: none;
-        width: 40px;
-        height: 40px;
-        right: 40px;
-        top:15px;
+
+        width: 0;
+        height: rem(40);
+        right: rem(40);
+        top:rem(15);
         position: absolute;
-        margin-left: 60px;
+        margin-left: rem(60);
         cursor: pointer;
+        transition: all .5s ease;
 
         span {
-            height: 2px;
+            height: rem(2);
             width: 100%;
             background: rgba(14, 27, 59, 1);
             position: absolute;
@@ -81,13 +85,13 @@
             transition: all .5s ease;
             transform-origin: left center;
             &:nth-child(1){
-                top:7px;
+                top:rem(7);
             }
             &:nth-child(2){
-                top:20px;
+                top:rem(20);
             }
             &:nth-child(3){
-                top:33px;
+                top:rem(33);
             }
 
         }
@@ -96,7 +100,7 @@
     &.dark{
         background: rgba(30, 56, 80, 1);
         .logo{
-            background: url(../res/logo-white.png) no-repeat center;
+            background: url(../res/logo-white.svg) no-repeat center;
             background-size: contain;
         }
         .login{
@@ -130,9 +134,9 @@
     }
     .logo{
         display: block;
-        height: 40px;
-        width: 310px;
-        background: url(../res/logo-dark.png) no-repeat center;
+        height: rem(40);
+        width: rem(310);
+        background: url(../res/logo-dark.svg) no-repeat center;
         background-size: contain;
     }
 
@@ -146,12 +150,12 @@
         }
         .navlist{
             display: flex;
-            height: 18px;
+            height: rem(18);
             align-items: center;
-            margin-right: 23px;
+            margin-right: rem(23);
             li{
-                margin-right: 40px;
-                font-size: 14px;
+                margin-right: rem(40);
+                font-size: rem(14);
                 
                 cursor: pointer;
                 a{
@@ -169,8 +173,8 @@
         }
     }
     .login{
-        width: 18px;
-        height: 18px;
+        width: rem(18);
+        height: rem(18);
         background: url('../res/icon-dark.png') no-repeat center;
         cursor: pointer;
     }

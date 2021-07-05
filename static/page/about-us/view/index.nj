@@ -4,7 +4,7 @@
        {% include 'common/base.nj' %}
     </head>
     <body>
-        <div class='app-page step1 '>
+        <div class='app-page'>
             {% include 'component/header/index.nj' %}
             {% include 'page/about-us/content.nj' %}
         </div>

@@ -10,10 +10,10 @@ class HomeController extends Controller {
     
     await this.ctx.render('page/about-us/index.nj');
   }
-  async growthVebtures() {
+  async growthVenbtures() {
 
     
-    await this.ctx.render('page/growth-vebtures/index.nj');
+    await this.ctx.render('page/growth-venbtures/index.nj');
   }
   async hedgeFunds() {
 

@@ -1,25 +1,21 @@
-<div class='page-wrap'>
-    <div class='page-section section1'>
+<div class='page-wrap scroll-inner' scroll-wrap>
+    <div class='page-section section1' scroll-step>
         <div class='page-content'>
-            <div class='left page-title'>
-                <p class='animate__animated animate__flipInX'>Our </p>  
-                <p class='animate__animated animate__flipInX animate__delay-1s'>Portfolio</p>
+            <div class='left page-title font-move '>
+                <p>OUR</p>  
+                <p>Portfolio</p>
             </div>
             <div class='right'>
-                <div class='page-p animate__animated animate__bounce'>
-                 
+                <div class='page-p font-move delay-1'>
                     <p>If this sounds like your business</p> 
                     <p>we’d love to hear from you.</p> 
                 </div>
             </div>
         </div>
-        <div class='yellow-arrow-wrap'>
-            <div class='yellow-arrow'></div>
-        </div>
     </div>
-    <div class='page-section section2 '>
+    <div class='page-section section2' scroll-step>
         <div class='page-content'>
-           <div class='title animate__animated animate__bounceInLeft animate__delay-1s'>Investment Criteria</div>
+            <div class='title'>Investment Criteria</div>
            <ul>
                 <li>
                     <div class='item'>We invest in Series B to Pre-IPO companies with check sizes from $3-15M, and often invest in multiple follow-on rounds as the businesses grow</div>
@@ -34,16 +30,25 @@
                 </li>
            </ul>
         </div>
-        <div class='yellow-arrow-wrap'>
-            <div class='yellow-arrow'></div>
-        </div>
     </div>
-    <div  class='page-section section3'>
+    <div class='page-section section3' scroll-step>
         <div class='page-content'>
-           <div class='title'>Direct investments</div>
+            <div class='title'>Direct investments</div>
            <div class='msg'>We invest in growth-stage companies with scalable and sustainable business models that are effectively solving the most challenging business problems in enterprise software and fintech.</div>
            <div class='icons-list'>
-                <ul class='scroll-inner' scroll-delay>
+                <ul>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
                     <li><div></div></li>
                     <li><div></div></li>
                     <li><div></div></li>
@@ -69,41 +74,40 @@
                     <li><div></div></li>
                 </ul>
            </div>
-           
-
-        </div>
-        <div class='yellow-arrow-wrap'>
-            <div class='yellow-arrow'></div>
         </div>
     </div>
-    <div  class='page-section section4'>
-        <div class='page-content scroll-wrap' >
-            <div class='scroll-inner' scroll-delay>
-                <div class='title animate__animated animate__rubberBand animate__delay-1s'>See how we support our portfolio</div>
-                <div class='videos'>
-                    <div class='video-card'>
-                        <p>Chieh Huang, CEO & Co-founder of Boxed</p>
-                        <div class='video-wrap'>
-                            <div class='play-btn animate__animated animate__rubberBand'></div>
-                            <video></video>
-                        </div>
-                    </div>
-                    <div class='video-card'>
-                        <p>Talat Imran , Co-founder of InCube Ventures</p>
-                        <div class='video-wrap'>
-                            <div class='play-btn animate__animated animate__rubberBand'></div>
-                            <video></video>
-                        </div>
+    <div class='page-content section-title'><div class='title'>See how we support our portfolio</div></div>
+    <div class='page-section section4' scroll-step section-scalc>
+        <div class='scrollvideo'>  
+            <div class='videos'>
+                <div class='video-card'>
+                    <p>Chieh Huang, CEO & Co-founder of Boxed</p>
+                    <div class='video-wrap'>
+                        <video></video>
                     </div>
                 </div>
             </div>
-            
-        </div>
-        <div class='yellow-arrow-wrap'>
-            <div class='yellow-arrow'></div>
+            <div class='scrinner'></div>
         </div>
     </div>
-    <div  class='page-section section5'>
-        {% include 'component/letstalk/index.nj' %}
+    <div class='page-section section4' scroll-step section-scalc>
+        <div class='scrollvideo'>  
+            <div class='videos'>
+                <div class='video-card'>
+                    <p>Chieh Huang, CEO & Co-founder of Boxed</p>
+                    <div class='video-wrap'>
+                        <video></video>
+                    </div>
+                </div>
+            </div>
+            <div class='scrinner'></div>
+        </div>
     </div>
+
+
+
+
+ 
+
+    {% include 'component/letstalk/index.nj' %}    
 </div>

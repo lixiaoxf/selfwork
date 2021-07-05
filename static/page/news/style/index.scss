@@ -1,108 +1,100 @@
 @import 'common/style/_base';
-.app-page{
-    &.step1{
-        .section1{
-            @include step-cur;
+@import 'common/style/_var';
+.movedom{
+    display: none;;
+}
+.page-wrap{
+    .page-content{
+        align-items: flex-start;
+        padding-top: 9%;
+        .page-title{
+            font-size: rem(96);
         }
-    }
-
-    &.step2{
-        .section2{
-            @include step-cur;
-        }
-    }
-    .section1{
-        .page-content{
-            align-items: flex-start;
-            padding-top: 9%;
-            .right{
-                margin-top: -3%;
-                overflow: hidden;
-                display: block;
-                .title{
-                    font-size: 48px;
-                    font-weight: bold;
-                    width: 600px;
-                    margin: 0 auto 40px;
-                }
-                .search{
-                    width: 600px;
-                    height: 40px;
-                    margin: 0 auto 50px;
-                    line-height: 40px;
-                    font-size: 16px;
-                    position: relative;
-                    input{
-                        width: 100%;
-                        height: 100%;
-                        border:1px solid #CBCBCB;
-                        box-sizing: border-box;
-                        padding: 8px 30px;
-                        padding-right: 80px;
-                        color: rgba(14, 27, 59, 1);
-                        &::placeholder{
-                            color:rgba(14, 27, 59, 0.5);
-                        }
-                        &:focus-visible{
-                            outline-color:rgba(14, 27, 59, 1);
-                        }
-                    }
-                    .search-icon{
-                        width: 24px;
-                        height: 24px;
-                        background: url(../res/search.svg) no-repeat;
-                        background-size: 100%;
-                        position:absolute;
-                        top:10px;
-                        right: 24px;
-                        cursor: pointer;
-                    }
-                }
-                .newswrap{
-                    width: 600px;
-                    margin: 0 auto;
-                    height: calc(100% - 190px);
-                }
-                .news-card{
+        .right{
+            margin-top: -3%;
+            overflow: hidden;
+            display: block;
+            height: 100%;
+            .scroll-inner{
+                left:0;
+            }
+            .title{
+                font-size: rem(48);
+                font-weight: bold;
+                margin: 0 auto rem(40);
+            }
+            .search{
+                height: rem(40);
+                margin: 0 auto rem(50);
+                line-height: rem(40);
+                font-size: rem(16);
+                position: relative;
+                input{
                     width: 100%;
-                    display: block;
-                    padding-bottom: 24px;
-                    padding-top: 24px;
-                    border-bottom: 1px solid #8EA4B9;
-                    cursor: pointer;
-                    &:last-child{
-                        border-bottom: none;
+                    height: 100%;
+                    border:1px solid #CBCBCB;
+                    box-sizing: border-box;
+                    padding: rem(8) rem(30);
+                    padding-right: rem(80);
+                    color: rgba(14, 27, 59, 1);
+                    &::placeholder{
+                        color:rgba(14, 27, 59, 0.5);
                     }
-                    .news-top{
-                        font-size: 18px;
-                        line-height: 24px;
-                        display: flex;
-                        margin-bottom: 8px;
-                        p{
-                            color: #566076;
-                        }
-                        span{
-                            display: flex;
-                            align-items: center;
-                            color:#868d9d;
-                            &::before{
-                                content:'|';
-                                margin: 0 12px;
-
-                            }
-                        }
-                    }   
-                    .news-content{
-                        font-size: 24px;
-                        line-height: 28px;
-                        color: #000;
-                    } 
+                    &:focus-visible{
+                        outline-color:rgba(14, 27, 59, 1);
+                    }
+                }
+                .search-icon{
+                    width: rem(24);
+                    height: rem(24);
+                    background: url(../res/search.svg) no-repeat;
+                    background-size: 100%;
+                    position:absolute;
+                    top:rem(10);
+                    right: rem(24);
+                    cursor: pointer;
                 }
             }
-           
-        }
-    }
-   
-    
+            .newswrap{
+                margin: 0 auto;
+                height: calc(100% - 190px);
+            }
+            .news-card{
+                width: 100%;
+                display: block;
+                padding-bottom: rem(24);
+                padding-top: rem(24);
+                border-bottom: 1px solid #8EA4B9;
+                cursor: pointer;
+                &:last-child{
+                    border-bottom: none;
+                }
+                .news-top{
+                    font-size: rem(18);
+                    line-height: rem(24);
+                    display: flex;
+                    margin-bottom: rem(8);
+                    p{
+                        color: #566076;
+                    }
+                    span{
+                        display: flex;
+                        align-items: center;
+                        color:#868d9d;
+                        &::before{
+                            content:'|';
+                            margin: 0 rem(12);
 
+                        }
+                    }
+                }   
+                .news-content{
+                    font-size: rem(24);
+                    line-height: rem(28);
+                    color: #000;
+                } 
+            }
+        }
+       
+    }
 }
