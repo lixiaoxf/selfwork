@@ -28,6 +28,12 @@
         .left{
             transform:translateX(0);
         }
+        .yellow-arrow{
+            top:unset;
+            bottom: rem(80);
+            display: none;
+            animation-delay: 1s;
+        }
         .right{
             opacity: 1;
             .page-p{

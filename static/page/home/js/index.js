@@ -4,6 +4,7 @@ let mousemove = context.mousemove;
 mousemove.setInnerDom($('<div class="movedom"><div class="black-arrow-rt"></div></div>'))
 setTimeout(function(){
     $('.section1').removeClass('firstenter')
+    $('.yellow-arrow').show()
     header.show()
 },400)
 
@@ -29,6 +30,10 @@ let app = {
     },
     initEvt(){
         var _this = this;
+        $('.yellow-arrow').on('click',function(){
+            let top = $('.section2')[0].offsetTop;
+            $('[scroll-wrap]').animate({scrollTop:top},800)
+        })
         this.wrap.on('mouseenter','.article',function(){
             mousemove.addClass('big')
         })
