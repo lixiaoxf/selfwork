@@ -108,7 +108,18 @@ module.exports = {
             // },
             {
                 test: /\.css$/,
-                use: ['style-loader','css-loader']
+                use: [
+                    'style-loader',
+                    'css-loader',
+                    {
+                        loader:"postcss-loader",
+                        options: {
+                            plugins: [
+                                require("autoprefixer") ,
+                            ]
+                        }
+                    }
+                ]
             },
             {
                 test: /\.scss$/,
@@ -133,10 +144,12 @@ module.exports = {
                             loader:"postcss-loader",
                             options: {
                                 plugins: [
-                                    require("autoprefixer") 
+                                    require("autoprefixer"),
+
                                 ]
                             }
-                        }
+                        },
+
                 ]
                 })
             },
