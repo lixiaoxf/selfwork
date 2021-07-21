@@ -1,0 +1,96 @@
+@import 'mobile/common/style/_base';
+@import 'mobile/common/style/_var';
+
+.app-page{
+    &.sitedark{
+        .section2 .item{
+            &::before{
+                background: url(../res/ic.svg) no-repeat center;
+                background-size: contain;
+            }
+        }
+        .section3 .item{
+            &::before{
+                background: #fff;
+
+            }
+        }
+    }
+    div.page-section{
+        padding-left:vw(96);
+        padding-right:vw(96);
+    }
+    .section2{
+        height: auto;
+        .page-title{
+            font-size: rem(48);
+            line-height: rem(64);
+            text-align: left;
+        }
+        .item{
+            font-size: rem(28);
+            line-height: rem(32);
+            margin-bottom: rem(21);
+            display: flex;
+
+            &::before{
+                content:'';
+                width: rem(26);
+                height: rem(26);
+                background: url(../res/ic-dark.svg) no-repeat center;
+                background-size: contain;
+                margin-right: vw(42);
+                flex-shrink: 0;
+            }
+            &.btm{
+                margin-bottom: rem(100);
+            }
+        }
+        .item-card{
+            width: vw(630);
+            min-height: rem(220);
+            padding: rem(40) vw(60);
+            margin-left: vw(-30);
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            border: rem(2) solid #8EA4B9;
+            margin-bottom: rem(86);
+            &:last-child{
+                margin-bottom: 0;
+            }
+            p{
+                font-size: rem(48);
+                line-height: rem(48);
+                margin-bottom: rem(30);
+                width: 100%;
+            }
+            span{
+                font-size: rem(28);
+                line-height: rem(36);
+                width: 100%;
+            }
+        }
+    }
+    .section3{
+        .item{
+            font-size: rem(28);
+            line-height: rem(32);
+            margin-bottom: rem(21);
+            display: flex;
+            align-items: center;
+            &::before{
+                content:'';
+                width: rem(16);
+                height: rem(16);
+                border-radius: 100%;
+                background: rgba(14, 27, 59, 1);
+                margin-right: vw(32);
+                flex-shrink: 0;
+            }
+            &.btm{
+                margin-bottom: rem(100);
+            }        
+        }   
+    }
+}

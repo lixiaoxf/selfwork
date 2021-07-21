@@ -1,0 +1,5 @@
+{% macro seomix(title, keywords , description) %}
+    <title>Alpha Square Group</title>
+    <meta name="description" content={{description}} />
+    <meta name="keywords" content={{keywords}} />
+{% endmacro %}

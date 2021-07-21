@@ -1,0 +1,185 @@
+@import 'pc/common/style/_var.scss';
+@mixin putawayiconActive{
+    span{
+        &:nth-child(1){
+            transform: rotate(-30deg);
+            top:20px;
+            width: 10px;
+        }
+        &:nth-child(2){
+            top:20px;
+        }
+        &:nth-child(3){
+            top:20px;
+            transform: rotate(30deg);
+            width: 10px;
+        }
+    }
+}
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 rem(40);
+    height: $headerHeight;
+    position: fixed;
+    z-index: 6;
+    width: 100%;
+    height: rem(72);
+    transition: all .5s ease; 
+    &.hide{
+        display: none;
+    }  
+    &.open{
+
+        .putawayicon{
+            width: rem(40);
+            @include putawayiconActive;  
+        }
+        .nav{
+
+            margin-right: 6%;
+            z-index: 6;
+            opacity: 1;
+        }
+        .section-wrap{
+            transform:translateX(0%)
+        }
+
+    }
+    &.putAway{
+        .nav{
+            margin-right: 6%;
+            z-index: 6;
+            opacity: 1;
+        }
+        .section-wrap{
+            
+            transform:translateX(105%)
+
+        }
+        .putawayicon{
+            width: rem(40);
+        }
+
+    }
+
+    .putawayicon{
+
+        width: 0;
+        height: rem(40);
+        right: rem(40);
+        top:rem(15);
+        position: absolute;
+        margin-left: rem(60);
+        cursor: pointer;
+        transition: all .5s ease;
+
+        span {
+            height: rem(2);
+            width: 100%;
+            background: rgba(14, 27, 59, 1);
+            position: absolute;
+            left:0;
+            top:0;
+            transition: all .5s ease;
+            transform-origin: left center;
+            &:nth-child(1){
+                top:rem(7);
+            }
+            &:nth-child(2){
+                top:rem(20);
+            }
+            &:nth-child(3){
+                top:rem(33);
+            }
+
+        }
+    }
+    &.white{
+        background: #fff;
+    }
+    &.dark{
+        background: rgba(30, 56, 80, 1);
+        .logo{
+            background: url(../res/logo-white.svg) no-repeat center;
+            background-size: contain;
+        }
+        .login{
+            background: url(../res/icon-white.png) no-repeat center;
+        }
+        .putawayicon{
+            span{
+                background: #fff;
+            }
+        }
+        .nav{
+            .section-wrap{
+                .navlist{
+                    li{
+                        a{
+                            color:#8EA4B9;
+                        }
+                        
+                        &.cur{
+                            a{
+                                color:#fff;
+                            }
+                            
+                        }
+                    }
+                }
+            }
+
+        }
+        
+    }
+    .logo{
+        display: block;
+        height: rem(40);
+        width: rem(310);
+        background: url(../res/logo-dark.svg) no-repeat center;
+        background-size: contain;
+    }
+
+    .nav{
+        max-width: 60%;
+        overflow: hidden;
+        .section-wrap{
+            display: flex;
+            align-items: center;
+            transition: transform .7s ease;
+        }
+        .navlist{
+            display: flex;
+            height: rem(18);
+            align-items: center;
+            margin-right: rem(23);
+            li{
+                margin-right: rem(40);
+                font-size: rem(14);
+                
+                cursor: pointer;
+                a{
+                    color: rgba(14, 27, 59, 0.7);
+                }
+                &.cur{
+                    a{
+                        color: rgba(14, 27, 59, 1);
+                        font-weight: bold;
+                    }
+                    
+                }
+            }
+
+        }
+    }
+    .login{
+        width: rem(18);
+        height: rem(18);
+        background: url('../res/icon-dark.png') no-repeat center;
+        cursor: pointer;
+    }
+    
+
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% import "pc/common/fun.nj" as fun %}
+<html>
+    <head>
+       {% include 'mobile/common/base.nj' %}
+       {{ fun.seomix('Home','ASG','ASG HOME') }}
+    </head>
+    <body>
+        <div class='start-icon'>
+           <p></p>
+        </div>
+        <div class='app-page' scroll-wrap>
+            {% include 'mobile/component/header/index.nj' %}   
+            {% include 'mobile/page/home/content.nj' %}
+        </div>
+    </body>
+</html>

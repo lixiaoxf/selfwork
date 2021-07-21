@@ -1,0 +1,106 @@
+<div class='news'>
+
+    <div class='news-title'>News</div>
+    <div class='search'>
+        <input type='text' placeholder='Search'>
+        <div class='search-icon'></div>
+    </div>
+    <div class='newswrap'>
+       
+            <a class='news-card'>
+                <div class='news-top'> 
+                    <p>Bankingdive</p>
+                    <span>Nov 9, 2020</span>
+                </div>
+                <div class='news-content'>
+                    Ex-SoFi CEO's company Figure seeks national bank charter
+                </div>
+            </a>
+            <a class='news-card'>
+                <div class='news-top'> 
+                    <p>Bankingdive</p>
+                    <span>Nov 9, 2020</span>
+                </div>
+                <div class='news-content'>
+                    Ex-SoFi CEO's company Figure seeks national bank charter
+                </div>
+            </a>
+
+            <a class='news-card'>
+                <div class='news-top'> 
+                    <p>Bankingdive</p>
+                    <span>Nov 9, 2020</span>
+                </div>
+                <div class='news-content'>
+                    Ex-SoFi CEO's company Figure seeks national bank charter
+                </div>
+            </a>
+
+            <a class='news-card'>
+                <div class='news-top'> 
+                    <p>Bankingdive</p>
+                    <span>Nov 9, 2020</span>
+                </div>
+                <div class='news-content'>
+                    Ex-SoFi CEO's company Figure seeks national bank charter
+                </div>
+            </a>
+
+            <a class='news-card'>
+                <div class='news-top'> 
+                    <p>Bankingdive</p>
+                    <span>Nov 9, 2020</span>
+                </div>
+                <div class='news-content'>
+                    Ex-SoFi CEO's company Figure seeks national bank charter
+                </div>
+            </a>
+
+            <a class='news-card'>
+                <div class='news-top'> 
+                    <p>Bankingdive</p>
+                    <span>Nov 9, 2020</span>
+                </div>
+                <div class='news-content'>
+                    Ex-SoFi CEO's company Figure seeks national bank charter
+                </div>
+            </a>
+            <a class='news-card'>
+                <div class='news-top'> 
+                    <p>Bankingdive</p>
+                    <span>Nov 9, 2020</span>
+                </div>
+                <div class='news-content'>
+                    Ex-SoFi CEO's company Figure seeks national bank charter
+                </div>
+            </a>
+            <a class='news-card'>
+                <div class='news-top'> 
+                    <p>Bankingdive</p>
+                    <span>Nov 9, 2020</span>
+                </div>
+                <div class='news-content'>
+                    Ex-SoFi CEO's company Figure seeks national bank charter
+                </div>
+            </a>
+            <a class='news-card'>
+                <div class='news-top'> 
+                    <p>Bankingdive</p>
+                    <span>Nov 9, 2020</span>
+                </div>
+                <div class='news-content'>
+                    Ex-SoFi CEO's company Figure seeks national bank charter
+                </div>
+            </a>
+            <a class='news-card'>
+                <div class='news-top'> 
+                    <p>Bankingdive</p>
+                    <span>Nov 9, 2020</span>
+                </div>
+                <div class='news-content'>
+                    Ex-SoFi CEO's company Figure seeks national bank charter
+                </div>
+            </a>
+        
+    </div>
+</div>

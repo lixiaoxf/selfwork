@@ -1,0 +1,24 @@
+<div class='page-section letstalk' scroll-step>
+    <div class='page-title'>
+        Let's Talk
+    </div>
+   
+    <a class='btn' href="mailto:info@alphasquaregroup.com">Contact Us</a>
+    <div class='line'></div>
+    <div class='msg-card'>
+        <span>TEL</span>
+        <p>+1 (646) - 503 - 6625 </p>
+    </div>
+    <div class='msg-card mbt'>
+        <span>E-MAIL</span>
+        <p>info@alphasquaregroup.com</p>
+    </div>
+    
+    <div class='msg-card'>
+        <span>OFFICE</span>
+        <p>350 Fifth Avenue, Suite </p>
+        <p>3910, New York, NY 10118</p>
+    </div> 
+    <div class='b-msg'>© 2021, Alpha Square Group. All Rights Reserved.</div>
+      
+</div>

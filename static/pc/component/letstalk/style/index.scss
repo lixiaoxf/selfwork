@@ -1,0 +1,73 @@
+@import 'pc/common/style/_var';
+.letstalk{
+    .right{
+        height: auto;
+        .page-p{
+            width: rem(500);
+        }
+    }
+    .marginb{
+        margin-bottom: rem(20);
+    }
+    .bottom-section{
+        color:#556277;
+        font-size: rem(14);
+        height: auto;
+        margin-top: rem(140);
+        position: absolute;
+        bottom: rem(60);
+    }
+    .in-section{
+        display: flex;
+        border-bottom: 1px solid #8EA4B9;
+        padding-bottom: rem(56);
+    }
+    .msg-section{
+        display: flex;
+        padding-top: rem(48);
+        width: 100%;
+        .left{
+            height: auto;  
+        }
+        .page-p{
+            
+            span{
+                font-size: rem(12);
+                line-height: rem(28);
+                color: rgba(14, 27, 59, 0.7);
+            }
+            p{
+                font-size: rem(18);
+                line-height: rem(28);
+            }
+            
+        }
+    }
+    .page-content{
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .btn{
+        width: rem(380);
+        margin-top: rem(30);
+        height: rem(93);
+        background: #E0D3B8;
+        display: flex;
+        padding: 0 rem(64);
+        align-items: center;
+        font-size: rem(28);
+        font-weight: bold;
+        justify-content: space-between;
+        margin-right: rem(120);
+        cursor: pointer;
+        color: #0E1B3B;
+        &:after{
+            content: '';
+            height: rem(18);
+            width: rem(42);
+            display: inline-block;
+            background: url(../res/arrow.png) no-repeat center;
+            background-size: 100%;
+        }
+    }
+}

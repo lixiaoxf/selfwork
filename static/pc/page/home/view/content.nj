@@ -1,0 +1,62 @@
+<div class='page-wrap scroll-inner' scroll-wrap>
+    <div class='page-section section1 firstenter' scroll-step>
+        <div class='page-content'>
+            <div class='left page-title'>
+                <p>Keep</p>  
+                <p>Growing</p>
+                <p>Together</p>
+            </div>
+            <div class='right'>
+                <div class='page-p'>
+                    <p>We are a boutique New York City firm with origins as Asian Family Office, registered with the U.S. Securities and Exchange Commission as an investment advisor. ASG offers attractive domestic and cross-border investment opportunities</p> 
+                    
+                </div>
+                <div class='page-span'>
+                    <p>Collaborating with pioneering companies and their innovative technological solutions, we dedicate ourselves to providing ASG’s global network, capital, and resources to help such companies scale up and grow</p>
+                    
+                </div>
+            </div>
+            <div class='yellow-arrow'></div>
+        </div>
+        
+    </div>
+    <div class='page-section section2' scroll-step>
+        <div class='page-content'>
+            <div class='left page-title'>
+                <div class='titlefix'>
+                    <p>We</p>  
+                    <p>invest</p>
+                    <p>in</p>
+                </div>
+            </div>
+            <div class='right'>
+                <a class='article' href='/growthvenbtures'>
+                    <div class='h'>Growth Ventures</div>
+                    <div class='msg'>
+                        We invest in growth-to-late-stage ventures in enterprise software and fintech sectors.<br>
+                        ASG provides unique value-added to entrepreneurs who seek global expansion. We focus on companies:
+                    </div>
+                    <p>Growth to Late-Stage</p>
+                    <p>Enterprise Software & Fintech</p>
+                    <p>Proven Business Model</p>
+                    <p>Desire for Expansion</p>
+                    <p>Aspiration to be an industry leader</p>
+                </a>
+                <a class='article' href='/hedgefunds'>
+                    <div class='h'>Hedge Funds</div>
+                    <div class='msg'>
+                        We invest in fund managers that offer superior risk-adjusted returns and adequate liquidity.<br>
+                        Currently, we hold investments in private funds employing the following strategies: 
+                    </div>   
+                    <p>Equity Long/Short</p>
+                    <p>Equity Long Only</p>
+                    <p>Multi-Strategy</p>
+                    <p>Credit strategies</p>
+                    <p>Quantitative strategies</p>
+                    <p>Trading/Macro</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    {% include 'pc/component/letstalk/index.nj' %}    
+</div>

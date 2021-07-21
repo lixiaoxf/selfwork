@@ -1,0 +1,45 @@
+<div class='page-section section1' scroll-step>
+    <div class='page-title'>
+        Hedge Funds
+    </div>
+    <div class='page-p'>
+        We invest in fund managers that offer superior risk-adjusted returns and adequate liquidity.
+        By diversifying across asset classes, geographies, currencies, and risk themes, our allocation strategy seeks to capitalize on global opportunities.
+   </div>
+</div>
+<div class='page-section section2' scroll-step>
+    <div class='page-title'>
+        Our hedge funds portfolio encompasses various major investment styles and rigorous approaches
+    </div>
+    <div class='item'>Best-in-class managers</div>
+    <div class='item'>Diversified & specialized funds</div>
+    <div class='item btm'>A range of return and volatility profiles</div>
+    <div class='item-card'>
+        <p>2000+</p>
+        <span>EXCLUSIVE DATABASE HOUSES 2000+ HEDGE FUNDS</span>
+    </div>
+    <div class='item-card'>
+        <p>400+</p>
+        <span>
+            RESEARCH AND ANALYSIS PERFORMED FOR 400+ HEDGE FUNDSRESEARCH AND ANALYSIS PERFORMED FOR 400+ HEDGE FUNDS</span>
+        </span>
+    </div>
+    <div class='item-card'>
+        <p>$300M+</p>
+        <span>PROPRIETARY INVESTMENT: $300MM+ IN PUBLIC MARKET</span>
+    </div>
+</div>
+
+<div class='page-section section3' scroll-step>
+    <div class='page-title'>
+        Major investment strategies
+    </div>
+    <div class='item'>Equity Long/Short</div>
+    <div class='item'>Equity Long Only</div>
+    <div class='item btm'>Multi-Strategy</div>
+    <div class='item'>Credit</div>
+    <div class='item'>Quant</div>
+    <div class='item'>Trading/Macro</div>
+         
+</div>
+{% include 'mobile/component/letstalk/index.nj' %}   

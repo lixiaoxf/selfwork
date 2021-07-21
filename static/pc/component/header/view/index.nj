@@ -1,0 +1,22 @@
+<header id='site-header' class='site-header hide animate__animated animate__fadeIn'>
+
+  <a class='logo'></a>
+  <div class='nav'>
+    <div class='section-wrap'>
+      <ul class='navlist'>
+        <li><a href='/'>HOME</a></li>
+        <li><a href='/aboutus'>ABOUT US</a></li>
+        <li><a href='/growthventures'>GROWTH VENTURES</a></li>
+        <li><a href='/hedgefunds'>HEDGE FUNDS</a></li>
+        <li><a href='/news'>NEWS</a></li>
+      </ul>
+      <a class='login'>
+      </a>
+    </div>
+  </div>
+  <div class='putawayicon'>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</header>

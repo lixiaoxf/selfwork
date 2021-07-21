@@ -1,0 +1,123 @@
+<div class='page-wrap scroll-inner' scroll-wrap>
+    <div class='page-section section1' scroll-step>
+        <div class='page-content'>
+            <div class='left page-title'>
+            </div>
+            <div class='right'>
+                <div class='page-p font-move delay-1'>
+                    <p>With access to global resources, network and capital, ASG will stay on constant lookout for new opportunities, empower portfolio company founders to scale, grow and drive best business results for investors. </p> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class='page-section section2' scroll-step>
+        <div class='page-content'>
+            <div class='left page-title'>
+                <div class='titlefix font-move'>
+                    <p>Our</p>  
+                    <p>Vision</p>
+                </div>
+            </div>
+            <div class='right'>
+                
+                <div class='page-p'>
+                    <p>Since 2015, we have been focusing on nurturing our global network. As our reputation has caught up with our hard work, and our investors are highly satisfied, we are now focused on presenting to more outside investors. </p>
+                    
+                </div>
+                    
+                <div class='page-p'>
+                    <p>Our global presence and business relationships enable us to connect with entrepreneurs, investors, and executives across North America and Asia, and fuel the growth and expansion of our portfolio companies. Our senior advisors are industry experts with decades of hands-on experience and deep expertise in finance, healthcare, and technology.</p>
+                </div>
+                        
+              
+                
+            </div>
+        </div>
+    </div>
+      
+    <div class='page-section section3' scroll-step>
+        <div class='page-content'>
+            <div class='left page-title'>
+                <p>Meet</p>  
+                <p>Our</p>
+                <p>Advisors</p>
+            </div>
+            <div class='right'>
+                
+                <div class='page-p'>
+                    <p>Home is behind, the world ahead and </p> 
+                    <p>there are many paths to tread </p> 
+                    <p>through shadows to the edge.</p> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div  class='page-section section4'>
+        <div class='page-content'>
+            <div class='advisor-card-list-wrap'>
+                <a class='black-arrow-wrap l' blackArrow='left'></a>
+                <a class='black-arrow-wrap r' blackArrow='right'></a>
+                <div class='advisor-card-list'>
+                    <div class='advisor-card'>
+                        <div class='photo'></div>
+                        <div class='advisor-detail'>
+                            <div class='sayicon'></div>
+                            <div class='advisor-say'>
+                                Andy is the CEO and founder of Cloudwise , the leading Asia - Pacific AlOps provider that offers cloud application performance management ( APM ) and SaaS IT monitoring services trusted by large enterprises such as Xiaomi , Bytedance , TravelSky , Yum Brands , CITIC Group , etc. Previous to Cloudwise , Andy served as Director of Engineering Everbridge , responsible for managing the R & D team in Everbridge China Prior to Everbridge , he held senior technical at Gomez ( later acquired by Dynatrace ) . Andy received his Master in Software Engineering from Tsinghua University .
+                                
+                            </div>
+                            <div class='name'>Andy Yin</div>
+                            <div class='tip'>
+                                <p>CEO and Founder of Cloudwise</p>
+                                <div class='links'>
+                                
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+
+                    <div class='advisor-card'>
+                        <div class='photo'></div>
+                        <div class='advisor-detail'>
+                            <div class='sayicon'></div>
+                            <div class='advisor-say'>
+                                Andy is the CEO and founder of Cloudwise , the leading Asia - Pacific AlOps provider that offers cloud application performance management ( APM ) and SaaS IT monitoring services trusted by large enterprises such as Xiaomi , Bytedance , TravelSky , Yum Brands , CITIC Group , etc. Previous to Cloudwise , Andy served as Director of Engineering Everbridge , responsible for managing the R & D team in Everbridge China Prior to Everbridge , he held senior technical at Gomez ( later acquired by Dynatrace ) . Andy received his Master in Software Engineering from Tsinghua University .
+                                
+                            </div>
+                            <div class='name'>Andy Yin</div>
+                            <div class='tip'>
+                                <p>CEO and Founder of Cloudwise</p>
+                                <div class='links'>
+                                
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+
+                    <div class='advisor-card'>
+                        <div class='photo'></div>
+                        <div class='advisor-detail'>
+                            <div class='sayicon'></div>
+                            <div class='advisor-say'>
+                                Andy is the CEO and founder of Cloudwise , the leading Asia - Pacific AlOps provider that offers cloud application performance management ( APM ) and SaaS IT monitoring services trusted by large enterprises such as Xiaomi , Bytedance , TravelSky , Yum Brands , CITIC Group , etc. Previous to Cloudwise , Andy served as Director of Engineering Everbridge , responsible for managing the R & D team in Everbridge China Prior to Everbridge , he held senior technical at Gomez ( later acquired by Dynatrace ) . Andy received his Master in Software Engineering from Tsinghua University .
+                                
+                            </div>
+                            <div class='name'>Andy Yin</div>
+                            <div class='tip'>
+                                <p>CEO and Founder of Cloudwise</p>
+                                <div class='links'>
+                                
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    {% include 'pc/component/letstalk/index.nj' %}    
+</div>

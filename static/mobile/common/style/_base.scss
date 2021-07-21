@@ -1,0 +1,34 @@
+@import "./reset";
+@import "./var";
+
+:root {
+
+}
+html,html body {
+    width: 100%;
+    height:100%;
+    font-size: 10vh;
+    font-family: 'Azo Sans',"Helvetica Neue",Helvetica,Tahoma,Arial,"PingFang SC","苹方","Hiragino Sans GB", "冬青黑体","Heiti SC", "黑体-简",STXihei, "华文细黑","Microsoft YaHei", "微软雅黑",SimHei,"黑体","WenQuanYi Micro Hei", "文泉驿微米黑",sans-serif ,"无衬线体";  
+}
+
+@media screen and (orientation: landscape) {
+    html{
+        font-size:10vw;
+    }
+  }
+  
+@media screen and (orientation: portrait) {
+    html{
+        font-size:10vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+

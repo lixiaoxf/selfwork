@@ -1,0 +1,48 @@
+
+<div class='page-section' scroll-step>
+    <div class='page-title'>
+        Keep 
+        Growing 
+        Together
+    </div>
+    <div class='page-p'>We are a boutique New York City firm with origins as Asian Family Office, registered with the U.S. Securities and Exchange Commission as an investment advisor. ASG offers attractive domestic and cross-border investment opportunities</div>
+    <div class='page-span'>Collaborating with pioneering companies and their innovative technological solutions, we dedicate ourselves to providing ASG’s global network, capital, and resources to help such companies scale up and grow
+    </div>
+</div>
+<div class='page-section section2' scroll-step>
+    <div class='page-title'>
+        We <br>
+        invest in
+    </div>
+    <a class='ins-card'>
+        <div class='card-title'>Growth Ventures</div>
+        <div class='card-msg'>
+            We invest in growth-to-late-stage ventures in enterprise software and fintech sectors.
+            ASG provides unique value-added to entrepreneurs who seek global expansion. We focus on companies: 
+        </div>
+        <div class='item'>Growth to Late-Stage</div>
+        <div class='item'>Enterprise Software & Fintech</div>
+        <div class='item'>Proven Business Model</div>
+        <div class='item'>Desire for Expansion</div>
+        <div class='item'>Aspiration to be an industry leader</div>
+    </a>
+
+    <a class='ins-card'>
+        <div class='card-title'>Hedge Funds</div>
+        <div class='card-msg'>
+            We invest in fund managers that offer superior risk-adjusted returns and adequate liquidity.
+            Currently, we hold investments in private funds employing the following strategies: 
+        </div>
+        <div class='item'>Equity Long/Short</div>
+        <div class='item'>Equity Long Only</div>
+        <div class='item'>Multi-Strategy</div>
+        <div class='item'>Credit strategies</div>
+        <div class='item'>Quantitative strategies</div>
+        <div class='item'>Trading/Macro</div>
+    </a>
+</div>
+{% include 'mobile/component/letstalk/index.nj' %}   
+
+
+
+   

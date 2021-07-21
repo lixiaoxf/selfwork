@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% import "pc/common/fun.nj" as fun %}
+<html>
+    <head>
+       {% include 'pc/common/base.nj' %}
+       {{ fun.seomix('GrowthVentures','ASG','ASG GrowthVentures') }}
+       <link href="//vjs.zencdn.net/7.10.2/video-js.min.css" rel="stylesheet">
+        <script src="//vjs.zencdn.net/7.10.2/video.min.js"></script>    
+    </head>
+    <body>
+        <div class='app-page'>
+            {% include 'pc/component/header/index.nj' %}
+            {% include 'pc/page/growth-ventures/content.nj' %}
+        </div>
+    </body>
+</html>

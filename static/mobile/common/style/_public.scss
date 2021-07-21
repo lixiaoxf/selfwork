@@ -1,0 +1,121 @@
+
+@import "./reset";
+@import './base';
+@import "./var";
+
+.app-page{
+    width: vw(750);
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    transition: all .4s ease;
+    .page-title{
+        font-size: rem(100);
+        line-height: rem(120);
+        width: vw(551);
+        color: rgba(14, 27, 59, 1);
+        margin-bottom: rem(48);
+        font-weight: bold;
+        transition: all .2s ease;
+        &.center{
+            width: 100%;
+            text-align: center;
+        }
+    }
+    .page-p{
+        color: rgba(14, 27, 59, 1);
+        font-size: rem(40);
+        line-height: rem(50);
+        margin-bottom: rem(56);
+        transition: all .4s ease;
+        font-weight: 700;
+    }
+    .page-span{
+        color: rgba(14, 27, 59, 1);
+        font-size: rem(32);
+        line-height: rem(40);
+        transition: all .4s ease;
+
+        &.center{
+            width: vw(560);
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+    .page-section{
+        width: vw(750);
+        height: 100%;
+        color:rgba(14, 27, 59, 1);
+        padding: rem(180) vw(40) rem(248);
+
+    }
+}
+.app-page.sitedark{
+    background-color: rgba(30, 56, 80, 1);
+    color:rgba(255, 255, 255, 1) ;
+    .page-title,.page-span,.page-p{
+        color:rgba(255, 255, 255, 1) ;
+    }
+    .page-section{
+        color: #fff;
+    }
+    .page-section.letstalk .msg-card{
+        span,p{
+            color: #fff;
+        }
+    }
+    
+}
+.app-page.yellowdark{
+    background-color: #E0D3B8;
+    color:rgba(14, 27, 59, 1) ;
+    .page-title,.page-span,.page-p{
+        color:rgba(14, 27, 59, 1) ;
+    }
+    .page-section.letstalk {
+        .btn{
+            background: rgba(14, 27, 59, 1);
+            color: #fff;
+        }
+        .msg-card{
+        
+            span,p{
+                color: rgba(14, 27, 59, 1);
+            }
+        }
+    }
+    
+}
+.yellow-arrow-m{
+    width: vw(140);
+    height: vw(140);
+    background: url('../res/yellow-arrow.svg') no-repeat center;
+    background-size: 37px 28px;
+    position: absolute;
+    left:50%;
+    margin-left: vw(-70);
+    border-radius: 100%;
+    border:3px solid #EADBBE;
+    animation:yellow-arrow-ani 4s infinite;
+    bottom:0;
+    transform-origin: center;
+    opacity: 0;
+    cursor: pointer;
+}
+@keyframes yellow-arrow-ani
+{
+    0% {
+
+        transform:scale(1);
+        opacity: 1;
+    }
+    50%{
+        transform:scale(1.4);
+        opacity: 1;
+    }
+    to {
+        transform:scale(1);
+        opacity: 1;
+
+    }
+}

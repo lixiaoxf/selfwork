@@ -1,0 +1,155 @@
+<div class='page-section section1' scroll-step>
+    <div class='page-title'>
+        Our Portfolio
+    </div>
+    <div class='page-p'>
+        <p>We invest in growth-to-late-stage ventures in enterprise software and fintech sectors.</p>
+    </div>
+</div>
+
+<div class='page-section section2' scroll-step>
+    <div class='page-title'>
+        ASG offers its clients strategic investing access with a global mindset, and provides unique value-added to entrepreneurs who seek global expansion. We focus on companies: 
+    </div>
+    <div class='item'>
+        <p>
+            Growth to Late-Stage
+        </p>
+    </div>
+    <div class='item'>
+        <p>
+            Enterprise Software & Fintech
+        </p>
+    </div>
+    <div class='item'>
+        <p>
+            Proven Business Model
+        </p>
+    </div>
+    <div class='item'>
+        <p>
+            Desire for Expansion
+        </p>
+    </div>
+    <div class='item'>
+        <p>
+            Aspiration to be an industry leader
+        </p>
+    </div>
+</div>
+
+
+<div class='page-section section3' scroll-step>
+    <div class='page-title center'>
+        Investment Criteria
+    </div>
+    <div class='page-span center'>We invest in growth-stage companies with scalable and sustainable business models that are effectively solving the most challenging business problems in enterprise software and fintech.</div>
+    <div class='iconlist mbt'>
+        <a class='item'>
+            <div></div>
+        </a>
+        <a class='item'>
+            <div></div>
+        </a>
+        <a class='item'>
+            <div></div>
+        </a>
+        <a class='item'>
+            <div></div>
+        </a>
+
+        <a class='item'>
+            <div></div>
+        </a>
+
+        <a class='item'>
+            <div></div>
+        </a>
+
+        <a class='item'>
+            <div></div>
+        </a>
+
+        <a class='item'>
+            <div></div>
+        </a>
+
+        <a class='item'>
+            <div></div>
+        </a>
+
+        <a class='item'>
+            <div></div>
+        </a>
+
+        <a class='item'>
+            <div></div>
+        </a>
+        <a class='item'>
+            <div></div>
+        </a>
+    </div>
+    <div class='page-title center'>
+        Venture Funds
+    </div>
+    <div class='iconlist'>
+        <a class='item'>
+            <div></div>
+        </a>
+        <a class='item'>
+            <div></div>
+        </a>
+        <a class='item'>
+            <div></div>
+        </a>
+        <a class='item'>
+            <div></div>
+        </a>
+
+        <a class='item'>
+            <div></div>
+        </a>
+
+        <a class='item'>
+            <div></div>
+        </a>
+
+    </div>
+</div>
+
+<div class='page-section section4' scroll-step>
+    <div class='page-title center'>
+        See how we support our portfolio
+    </div>
+    <div class='video-msg-card'>
+        <div class='v-title'>Chieh Huang, CEO & Co-founder of Boxed</div>
+        <div class='v-video-wrap'>
+            <video
+                class="video-js video-style"
+                controls
+                preload="auto"
+                poster="//vjs.zencdn.net/v/oceans.png"
+                data-setup='{}'>
+                <source src="//vjs.zencdn.net/v/oceans.mp4" type="video/mp4"></source>
+
+            </video>
+        </div>
+    </div>
+
+    <div class='video-msg-card'>
+        <div class='v-title'>Chieh Huang, CEO & Co-founder of Boxed</div>
+        <div class='v-video-wrap'>
+                <video
+                    class="video-js video-style"
+                    controls
+                    preload="auto"
+                    poster="//vjs.zencdn.net/v/oceans.png"
+                    data-setup='{}'>
+                    <source src="//vjs.zencdn.net/v/oceans.mp4" type="video/mp4"></source>
+
+                </video>
+        </div>
+    </div>
+</div>
+{% include 'mobile/component/letstalk/index.nj' %}   
+    

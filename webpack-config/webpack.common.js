@@ -16,7 +16,7 @@ let conf = {
         this.initPages();
     },
     initEnters(){
-        var files = glob.sync('static/!(common|component)/**/!(js)/index.js')
+        var files = glob.sync('static/*/!(common|component)/**/!(js)/index.js')
         let map = {};
         files.forEach(item => {
             var key = /static\/(.*).js$/g.exec(item)[1]
@@ -48,6 +48,7 @@ let conf = {
     }
 }
 conf.init();
+console.log(conf.enters)
 module.exports = {
     entry: conf.enters,
     context: staticPath,
@@ -57,35 +58,36 @@ module.exports = {
         publicPath:'/',
         chunkFilename: '[name].[chunkhash:7].js'
     },
-    optimization: {
-        splitChunks: {
-          chunks: 'all',
-          minSize: 30000,
-          maxSize: 0,
-          minChunks: 1,
-          maxAsyncRequests: 5,
-          maxInitialRequests: 3,
-          name: 'common/index',
-          cacheGroups: {
-            default: {
-                minChunks: 2,
-                priority: -20,
-                name: "common/default",
-                chunks: "all",
-                reuseExistingChunk: true,
-            },
-            vendors: {
-                name: "common/vendors",
-                chunks: "all",
-                test: /[\\/]node_modules[\\/]/,
-                priority: -10
-            }
-          }
-        }
-    },
+    // optimization: {
+    //     splitChunks: {
+    //       chunks: 'all',
+    //       minSize: 30000,
+    //       maxSize: 0,
+    //       minChunks: 2,
+    //       maxAsyncRequests: 5,
+    //       maxInitialRequests: 3,
+    //       name: 'common/index',
+    //       cacheGroups: {
+    //         default: {
+    //             minChunks: 2,
+    //             priority: -20,
+    //             name: "common/default",
+    //             chunks: "all",
+    //             reuseExistingChunk: true,
+    //         },
+    //         vendors: {
+    //             name: "common/vendors",
+    //             chunks: "all",
+    //             test: /[\\/]node_modules[\\/]/,
+    //             priority: -10
+    //         }
+    //       }
+    //     }
+    // },
     resolve:{
         alias:{
-            '@':staticPath,
+            '@': path.resolve(staticPath,'pc/'),
+            '@mobile': path.resolve(staticPath,'mobile/'),
             '@modules':path.resolve(basePath,'node_modules/')
             // 'rem':path.resolve(staticPath, 'common/js/flexible/rem.js'),
         },
@@ -199,7 +201,15 @@ module.exports = {
         }),
         new CopyWebpackPlugin([
             {
-              from: path.resolve(staticPath, 'component/**/view/*.nj'),
+                from: path.resolve(staticPath, 'public/*'),
+                to: path.resolve(__dirname, '../app/public/'),
+                transformPath(targetPath, absolutePath) {
+                   
+                    return  targetPath.replace('public','')
+                  },
+            },
+            {
+              from: path.resolve(staticPath, '**/component/**/view/*.nj'),
               to: path.resolve(__dirname, '../app/view/'),
               transformPath(targetPath, absolutePath) {
                 var reg = /view\/([a-zA-Z0-9_-]+\.nj)$/  
@@ -207,7 +217,7 @@ module.exports = {
               },
             },
             {
-                from: path.resolve(staticPath, 'common/**/view/*.nj'),
+                from: path.resolve(staticPath, '**/common/**/view/*.nj'),
                 to: path.resolve(__dirname, '../app/view/'),
                 transformPath(targetPath, absolutePath) {
                   var reg = /view\/([a-zA-Z0-9_-]+\.nj)$/  

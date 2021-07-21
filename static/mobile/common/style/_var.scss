@@ -1,0 +1,11 @@
+$base: 75;
+$baseVh: 133.4;
+@function rem($num){
+    @return ($num/$baseVh)+rem; 
+} 
+@function vw($num){
+    @return (100/($base*10))*$num+vw;
+}
+@function vh($num){
+    @return (100/($baseVh*10))*$num+vh;
+}

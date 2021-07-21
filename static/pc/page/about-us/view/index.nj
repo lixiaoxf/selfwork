@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+{% import "pc/common/fun.nj" as fun %}
+<html>
+    <head>
+       {% include 'pc/common/base.nj' %}
+       {{ fun.seomix('AboutUs','ASG','ASG AboutUs') }}
+    </head>
+    <body>
+        <div class='app-page'>
+            {% include 'pc/component/header/index.nj' %}
+            {% include 'pc/page/about-us/content.nj' %}
+        </div>
+    </body>
+</html>

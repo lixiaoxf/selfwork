@@ -1,0 +1,135 @@
+<div class='page-wrap scroll-inner' scroll-wrap>
+    <div class='page-section section1' scroll-step>
+        <div class='page-content'>
+            <div class='left page-title font-move '>
+                <p>OUR</p>  
+                <p>Portfolio</p>
+            </div>
+            <div class='right'>
+                <div class='page-p font-move delay-1'>
+                    <p>We invest in growth-to-late-stage ventures in enterprise software and fintech sectors.</p> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class='page-section section2' scroll-step>
+        <div class='page-content'>
+            <div class='leftmsg'>ASG offers its clients strategic investing access with a global mindset, and provides unique value-added to entrepreneurs who seek global expansion. We focus on companies: </div>
+            <div class='right-list'>
+                <div class='right-item'>Growth to Late-Stage</div>
+                <div class='right-item'>Enterprise Software & Fintech</div>
+                <div class='right-item'>Proven Business Model</div>
+                <div class='right-item'>Desire for Expansion</div>
+                <div class='right-item'>Aspiration to be an industry leader</div>
+            </div>
+
+        </div>
+    </div>
+    <div class='page-section section3' scroll-step>
+        <div class='page-content'>
+           <div class='title'>Direct investments</div>
+           <div class='msg'>We invest in growth-stage companies with scalable and sustainable business models that are effectively solving the most challenging business problems in enterprise software and fintech.</div>
+           <div class='icons-list mbt'>
+                <ul>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                </ul>
+           </div>
+           <div class='title'>Venture Funds</div>
+           <div class='icons-list '>
+                <ul>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                </ul>
+           </div>
+        </div>
+    </div>
+    <div class='page-content section-title'><div class='title'>See how we support our portfolio</div></div>
+    <div class='page-section section4' scroll-step section-scalc>
+        <div class='video-card'>
+            <p>Chieh Huang, CEO & Co-founder of Boxed</p>
+            <div class='video-wrap'>
+                <video
+                    class="video-js video-style"
+                    controls
+                    preload="auto"
+                    poster="//vjs.zencdn.net/v/oceans.png"
+                    data-setup='{}'>
+                    <source src="//vjs.zencdn.net/v/oceans.mp4" type="video/mp4"></source>
+
+                </video>
+
+            </div>
+        </div>
+        <div class='video-card'>
+            <p>Chieh Huang, CEO & Co-founder of Boxed</p>
+            <div class='video-wrap'>
+                
+                <video
+                    class="video-js video-style"
+                    controls
+                    preload="auto"
+                    poster="//vjs.zencdn.net/v/oceans.png"
+                    data-setup='{}'>
+                    <source src="//vjs.zencdn.net/v/oceans.mp4" type="video/mp4"></source>
+
+                </video>
+            </div>
+        </div>
+    </div>
+    {# <div class='page-section section4' scroll-step section-scalc>
+        <div class='scrollvideo'>  
+            <div class='videos'>
+
+            </div>
+            <div class='scrinner'></div>
+        </div>
+    </div> #}
+
+
+
+
+ 
+
+    {% include 'pc/component/letstalk/index.nj' %}    
+</div>

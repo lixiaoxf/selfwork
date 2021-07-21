@@ -1,0 +1,186 @@
+@import 'pc/common/style/_base';
+@import 'pc/common/style/_var';
+.movedom{
+    transform: scale(0);
+    transform-origin: center;
+    border-radius: 100%;
+    opacity: 0;
+    position: relative;
+    transition: all .3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left:rem(-70);
+    top: rem(-70);
+    &.big{
+        transform: scale(1);
+        transform-origin: center;
+        opacity: 1;
+    }
+    .noclick{
+        opacity: 0;
+    }
+}
+.titlefix{
+    position: fixed;
+    height: 100%;
+    top:0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.section1{
+    z-index: 3;
+}
+.page-wrap{
+    .section1{
+    
+        .page-p{
+            margin-bottom: rem(40);
+        }
+        
+    }
+    div.section2{
+        background: #fff;
+        height: auto;
+
+        
+        .right,.left{
+            align-content: flex-start;
+        }
+        .left{
+            padding-top: rem(252);
+            position: relative;
+        }
+        .right{
+            padding-top: rem(147);
+        }
+        
+
+        .right{
+            .page-p{
+                margin-bottom: rem(80);
+                width: rem(600);
+                opacity: 0;
+                &:last-child{
+                    margin-bottom: rem(123);
+                }
+            }
+        }
+    }
+    .section3{
+        background: #E0D3B8;
+        .page-p{
+            position: relative;
+            bottom: rem(-100);
+        }
+    }
+    .section4{
+        .page-content{
+            position: relative;
+            padding: 0;
+        }
+        
+    }
+    .advisor-card-list-wrap{
+        width: calc(100% + #{rem(96)});
+        overflow: hidden;
+        align-items: center;
+        display: flex;
+        box-sizing: content-box;
+    }
+    a.black-arrow-wrap{
+        width: 50%;
+        position: absolute;
+        margin: 0;
+        height: 100%;
+        z-index: 3;
+        &.l{
+            left:0;
+        }
+        &.r{
+            right:0;
+        }
+        &.noclick{
+            pointer-events: none;
+        }
+    }
+    .advisor-card-list{
+        width: 100%;
+        display: flex;
+        transition: all 1s ease;
+        transform:translateX(-0%);
+        position: relative;
+        
+    }
+    .advisor-card{
+        width: 100%;
+        display: flex;
+        flex-shrink: 0;
+        justify-content: space-between;
+        padding: 0 rem(96);
+        .photo{
+            width: rem(469);
+            height: rem(469);
+            background: #eeeeee;
+            flex-shrink: 0;
+            position: relative;
+
+        }
+        .advisor-detail{
+            width: 600px;
+            flex-shrink: 0;
+            position: relative;
+            &:hover{
+                .black-arrow{
+                    opacity: 1;
+                }
+            }
+
+            .black-arrow{
+                position: absolute;
+                top:150px;
+                left:50%;
+                margin-left: -70px;
+                opacity: 0;
+            }
+            .advisor-say{
+                
+                margin-bottom: rem(40);
+                line-height: rem(32);
+                font-size: rem(18);
+                max-height: rem(420);
+                overflow: hidden;
+            }
+            .sayicon{
+                width: rem(62);
+                height: rem(53);
+                background: url(../res/say.png) no-repeat center;
+                background-size: 100%;
+                position: absolute;
+                top:rem(-70);
+                left:rem(-35);
+            }
+            .name{
+                color: #0E1B3B;
+                font-size: rem(48);
+                font-weight: bold;
+                margin-bottom: rem(16);
+                padding-top: rem(40);
+                border-top: 1px solid #8EA4B9;
+            }
+            .tip{
+                p{
+                    width: rem(330);
+                    color: #556277;
+                    height: rem(24);
+                    line-height: rem(24);
+                    font-size: rem(18);
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+}

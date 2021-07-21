@@ -1,0 +1,64 @@
+
+@import "./var";
+@mixin black-arrow{
+    cursor: pointer;
+    width: rem(140);
+    height: rem(140);
+    background: rgba(224, 211, 184, 1) url('../res/black-arrow.svg') no-repeat center;
+    background-size: rem(64) rem(49);
+    border-radius: 100%;
+    transform:rotate(-90deg);
+    transition:all .3s ease;
+}
+.black-arrow-r{
+    @include black-arrow;
+    transform:rotate(360deg);
+}
+.black-arrow-l{
+    @include black-arrow;
+    transform:rotate(180deg);
+}
+.black-arrow-rt{
+    @include black-arrow;
+    transform:rotate(-45deg);
+}
+.black-arrow-b{
+    @include black-arrow;
+    transform:rotate(90deg);
+}
+.yellow-arrow{
+    width: 80px;
+    height: 80px;
+    background: url('../res/yellow-arrow.svg') no-repeat center;
+    background-size: 37px 28px;
+    position: absolute;
+    top:0;
+    left:50%;
+    margin-left: -70px;
+    border-radius: 100%;
+    border:3px solid #EADBBE;
+    animation:yellow-arrow-ani 4s infinite;
+    
+    transform-origin: center;
+    opacity: 0;
+    cursor: pointer;
+}
+@keyframes yellow-arrow-ani
+{
+    0% {
+
+        transform:scale(1);
+        opacity: 1;
+    }
+    50%{
+        transform:scale(1.4);
+        opacity: 1;
+    }
+    to {
+        transform:scale(1);
+        opacity: 1;
+
+    }
+}
+
+
